@@ -69,6 +69,23 @@ header header-output .inherit-menu {
 header .header-in {
   position: relative;
 }
+.PageAbout{
+    
+    position: fixed;
+    z-index: 100;
+    width: 100% 
+}
+.ColorAbout{
+ /*   position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;*/
+    background-color: #177AB7;
+}
+.LogoPageAbout{
+        max-width: 77%
+}
+   
 header ul.nav-menu {
   padding: 0;
   margin: 0;
@@ -91,7 +108,7 @@ header ul.nav-menu > li {
   display: inline-block;
 }
 header ul.nav-menu > li > a {
-  color: #000;
+  color: white;
   z-index: 3;
   opacity: 1;
   font-family: "Poppins";
@@ -1301,6 +1318,8 @@ header#sidebar-header ul.nav-menu .mega-links-4columns ul.sub-menu-columns > li 
 }
 
 .testimonials.layout-1 {
+     width: 349px;
+  height: 410px;
   background-color: #fff;
   padding: 50px;
   text-align: center;
@@ -1365,7 +1384,7 @@ header#sidebar-header ul.nav-menu .mega-links-4columns ul.sub-menu-columns > li 
 }
 
 a.nile-bottom {
-  background-color: #e53935;
+  background-color: #177AB7;
   color: #fff;
   border-radius: 35px;
   display: inline-block;
@@ -2314,7 +2333,7 @@ video {
 ======================================================================= */
 /*--- Global Background ---*/
 .background-main-color {
-  background-color: #e53935;
+  background-color: #177AB7;
 }
 
 .background-main-color-2 {
@@ -2549,7 +2568,7 @@ video {
 
 /*--- Text Color ---*/
 .text-main-color {
-  color: #e53935;
+  color: #177AB7;
 }
 
 .text-second-color {
