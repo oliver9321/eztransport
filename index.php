@@ -446,7 +446,7 @@
                 <!-- SLIDE  -->
                 <li data-index="rs-3" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="assets/rslider/assets/5ec5e-slider-1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    <img src="assets/img/NuevaCarpeta/Slider1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 1 -->
@@ -459,7 +459,19 @@
                 <!-- SLIDE  -->
                 <li data-index="rs-4" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="assets/rslider/assets/c92f5-slider-2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    <img src="assets/img/NuevaCarpeta/Slider2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption   tp-resizeme" id="slide-4-layer-1" data-x="['left','left','left','center']" data-hoffset="['0','41','45','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-111','-143','-186','-36']" data-width="461" data-height="173" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1140,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; min-width: 461px; max-width: 461px; max-width: 173px; max-width: 173px; white-space: nowrap; font-size: 50px; line-height: 59px; font-weight: 400; color: #ffffff; letter-spacing: -4px;font-family:Poppins;">Making<br> Transportation
+                        <br> Fast & Savw </div>
+
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption rev-btn " id="slide-4-layer-2" data-x="['left','left','left','center']" data-hoffset="['0','41','45','0']" data-y="['top','top','top','top']" data-voffset="['453','372','435','471']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":640,"speed":1120,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:transparent;bc:rgb(255,255,255);"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 6; white-space: nowrap; font-size: 14px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Poppins;background-color:#177AB7;border-color:#177AB7;border-style:solid;border-width:2px 2px 2px 2px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Contact Us </div>
+                </li>
+                       <li data-index="rs-4" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <!-- MAIN IMAGE -->
+                    <img src="assets/img/NuevaCarpeta/Slider3.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 3 -->
@@ -526,7 +538,7 @@
                         <div class="icon"><img src="assets/icons/Contacts%20favourites.png" alt=""></div>
                         <a href="#" class="title h2">Fully Licensed
                             and ensured  </a> 
-                        </br>
+                        <br/>
                              <a class="title h5">*FMCSA*</a>
                         <div class="des">Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus lorem leo ultricies et vitae enim.</div>
                     </div>
@@ -629,7 +641,7 @@
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="./assets/img/carousel/carousel5.jpg" alt="Los Angeles" style="width:100%;">
+        <img src="./assets/img/CarouselHome/carousel5.jpg" alt="Los Angeles" style="width:100%;">
         <div class="carousel-caption">
           <h3>
 Open transport</h3>
@@ -638,14 +650,14 @@ Open transport</h3>
       </div>
         
         <div class="item ">
-        <img src="./assets/img/carousel/carousel7.jpg" alt="Los Angele" style="width:100%;">
+        <img src="./assets/img/CarouselHome/carousel7.jpg" alt="Los Angele" style="width:100%;">
         <div class="carousel-caption">
           <h3>Open transport</h3>
         </div>
       </div>
 
       <div class="item">
-        <img src="./assets/img/carousel/carousel3.jpg" alt="Chicago" style="width:100%;">
+        <img src="./assets/img/CarouselHome/carousel3.jpg" alt="Chicago" style="width:100%;">
         <div class="carousel-caption">
           <h3>
 Closed transport</h3>
@@ -653,7 +665,7 @@ Closed transport</h3>
       </div>
     
       <div class="item">
-        <img src="./assets/img/carousel/carousel8.jpg" alt="New York" style="width:100%;">
+        <img src="./assets/img/CarouselHome/carousel8.jpg" alt="New York" style="width:100%;">
         <div class="carousel-caption">
           <h3>Closed transport</h3>
         </div>
@@ -661,27 +673,27 @@ Closed transport</h3>
       </div>
         
         <div class="item">
-        <img src="./assets/img/carousel/carousel12.jpg" alt="Chicago" style="width:100%;">
+        <img src="./assets/img/CarouselHome/carousel12.jpg" alt="Chicago" style="width:100%;">
         <div class="carousel-caption">
           <h3>Transport exotic cars</h3>
         </div>
       </div>
     
       <div class="item">
-        <img src="./assets/img/carousel/carousel1.jpg" alt="New York" style="width:100%;">
+        <img src="./assets/img/CarouselHome/carousel1.jpg" alt="New York" style="width:100%;">
         <div class="carousel-caption">
           <h3>Transport exotic cars</h3>
         </div>
       </div>
         
          <div class="item">
-        <img src="./assets/img/carousel/carousel13.jpg" alt="Chicago" style="width:100%;">
+        <img src="./assets/img/CarouselHome/carousel13.jpg" alt="Chicago" style="width:100%;">
         <div class="carousel-caption">
        </div>
       </div>
     
       <div class="item">
-        <img src="./assets/img/carousel/carousel14.jpg" alt="New York" style="width:100%;">
+        <img src="./assets/img/CarouselHome/carousel14.jpg" alt="New York" style="width:100%;">
         <div class="carousel-caption">
           <h3>
 Motor transport</h3>
@@ -689,7 +701,7 @@ Motor transport</h3>
       </div>
         
         <div class="item">
-        <img src="./assets/img/carousel/carousel15.jpg" alt="New York" style="width:100%;">
+        <img src="./assets/img/CarouselHome/carousel15.jpg" alt="New York" style="width:100%;">
         <div class="carousel-caption">
           <h3>
 Motor transport</h3>
