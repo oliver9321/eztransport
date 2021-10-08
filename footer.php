@@ -19,15 +19,146 @@
 			</div>
 		</div>
 	</footer>
-	<script src="assets/js/YouTubePopUp.jquery.js"></script>
-	<script src="assets/js/owl.carousel.min.js"></script>
-	<script src="assets/js/imagesloaded.min.js"></script>
-	<script src="assets/js/custom.js"></script>
-	<script src="assets/js/popper.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
+    <!-- jquery library  -->
+
+    
+    <!-- <script src="assets/js/bootstrap1.min.js"></script>-->
+     <script src="assets/js/jquery-2.2.4.min.js"></script>
+   
+    
+      <script src="assets/js/jquery.bootstrap.js"></script>
+       <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/material-bootstrap-wizard.js"></script>
+     <script src="assets/js/jquery.validate.min.js"></script>
+    
+        
+
+    
+   <script src="assets/js/nile-slider.js"></script>
+   <!--<script src="assets/js/jquery-3.2.1.min.js"></script>-->
+     <!-- <script src="assets/js/jquery-2.2.4.min.js"></script>-->
+    <!-- REVOLUTION JS FILES -->
+    <script src="assets/rslider/js/jquery.themepunch.tools.min.js"></script>
+    <script src="assets/rslider/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
+    <script src="assets/rslider/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="assets/rslider/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="assets/rslider/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="assets/rslider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="assets/rslider/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="assets/rslider/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="assets/rslider/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="assets/rslider/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="assets/rslider/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="assets/js/YouTubePopUp.jquery.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/imagesloaded.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+   
+    <script src="assets/js/popper.min.js"></script>
 
 </body>
 
 
 <!-- Mirrored from nilethemes.com/html/nile-logistics/blog-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Sep 2021 20:22:05 GMT -->
 </html>
+<script>
+    
+$(document).ready(function(){
+    
+      $("#next").prop('disabled', true); 
+     $( ".BloquiarClick" ).prop('disabled', true);
+    
+      
+});
+ 
+    
+    $( "#PickUpLocation" ).keyup(function() {      
+        
+        if($("#PickUpLocation").val() != "" & $("#DeliveryLocation").val() != "") {
+              $("#next").prop('disabled', false);
+        }
+          if($("#exampleI").val() == ""){
+              $("#next").prop('disabled', true); 
+        }       
+});
+    
+        $("#DeliveryLocation" ).keyup(function() {      
+        
+        if($("#PickUpLocation").val() != "" & $("#DeliveryLocation").val() != "" ){
+              $("#next").prop('disabled', false);
+        }
+          if($("#DeliveryLocation").val() == ""){
+              $("#next").prop('disabled', true); 
+        }       
+});
+    
+    
+ 
+    
+
+    $("#DivRadioAuto").click(function(){        
+              $("#next").prop('disabled', false);                 
+           });
+     $("#DivRadioMotorcycle").click(function(){        
+              $("#next").prop('disabled', false);                 
+           });
+
+
+      $("#previous").click(function(){        
+              $("#next").prop('disabled', false);                 
+           });
+    
+    
+      $("#next").click(function(){
+          
+          if( $("#exapleI").val() == "" ) {   
+              
+           alert("llene los campos");
+                  
+         } 
+         else
+             {
+         if( $("#RadioAuto").prop('checked') || $("#RadioMotorcycle").prop('checked') ) {   
+             
+              $("#next").prop('disabled', true); 
+         }; 
+             }
+           });
+    
+    $("#DivRadioAuto").click(function(){
+             $( "#TypeV" ).empty();
+            $( "#TypeV" ).append( 
+            
+                                        '<div class="col-sm-10 col-sm-offset-1 "> '     +                             
+		                                    	 '<div class="form-group label-floating"> '+
+		                                        	 '<input type="text" class="form-control" id="TypeVehicle" name="TypeVehicle"  value="Auto" > '+
+		                                    	 '</div> '+
+		                                	 '</div> '
+            
+            );
+      
+          $("#TypeV").hide();
+            });
+      $("#DivRadioMotorcycle").click(function(){
+           $( "#TypeV" ).empty();
+          $("#TypeV").show();
+              $( "#TypeV" ).append( 
+            
+                                         
+		                                     '  <div class="form-group label-floating">' +
+		                                        ' 	<label class="control-label">Select Vehicle*</label>' +
+		                                        ' 	<select class="form-control" id="TypeVehicle" name="TypeVehicle" required="required">' +
+		                                         '    	<option disabled="" selected=""></option>' +
+		                                         '    	<option>Motorcycle</option>' +
+		                                          '   	<option>ATV/UTV </option>' +
+                                                  '       <option>Other </option>' +
+		                                        ' 	</select>' +
+		                                    	' </div>' 
+		                                                       
+            
+            );
+        
+            });
+
+</script>

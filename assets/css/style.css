@@ -83,7 +83,7 @@ header .header-in {
     background-color: #177AB7;
 }
 .LogoPageAbout{
-        max-width: 77%
+        max-width: 93%
 }
    
 header ul.nav-menu {
@@ -1374,7 +1374,7 @@ header#sidebar-header ul.nav-menu .mega-links-4columns ul.sub-menu-columns > li 
 .section-title-right .icon {
   float: left;
   margin-right: 20px;
-  margin-top: -10px;
+  margin-top: 1px;
 }
 
 .nile-about-section {
@@ -2082,7 +2082,7 @@ img {
   max-width: 100%;
 }
 .logoa{
-  max-width: 86%;
+  max-width: 93%;
 }
 
 a {
@@ -7028,8 +7028,8 @@ video {
 }
 
 .padding-tb-120px {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 
 .padding-tb-121px {
@@ -14740,8 +14740,8 @@ video {
 }
 
 .margin-tb-15px {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 8px;
+/*  margin-bottom: 15px;*/
 }
 
 .margin-tb-16px {

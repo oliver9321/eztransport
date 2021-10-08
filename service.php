@@ -18,13 +18,20 @@ include("header.php");
     
 	<div class="padding-tb-50px">
 		<div class="container">
+                <div class="section-title-right text-main-color clearfix">
+                        <div class="icon"><img src="assets/icons/title-icon-1.png" alt=""></div>
+                        <h3 class="title-text">
+Experts in delivering a better car shipping experience.</h3>
+                    </div>
+            
+             <br/>
 			<div class="row">
 
 				<div class="col-md-9">
 
 					<div class="post-standard">
 						<div class="thum-img">
-							<a href="#"><img src="assets/img/blog-1.jpg" alt=""></a>
+							<a href="#"><img src="assets/img/blog-7.jpg" alt=""></a>
 						</div>
                         
 						 <div class="section-title-right text-main-color clearfix">
@@ -151,22 +158,22 @@ la ruta, la entrega fue más rápida de lo esperado. </p>
 						</div>
 						<div class="last-post">
 							<div class="item">
-								<div class="img"><a href="#"><img style="  max-width:58%;" src="assets/img/descarga.jpg" alt=""></a></div>
+								<div class="img"><a href="#"><img style="  max-width:58%;" src="assets/img/OpenTransport.jpg" alt=""></a></div>
 								<a class="title" style="font-size:13px" >Open transport</a>
 							
 							</div>
 							<div class="item">
-								<div class="img"><a href="#"><img style="  max-width:58%" src="assets/img/descarga2.jpg" alt=""></a></div>
+								<div class="img"><a href="#"><img style="  max-width:58%" src="assets/img/transportClose.jpg" alt=""></a></div>
 								<a class="title"  style="font-size:13px" >Closed transport</a>
 								
 							</div>
 							<div class="item">
-								<div class="img"><a href="#"><img  style="  max-width:58%" src="assets/img/descarga3.jpg" alt=""></a></div>
+								<div class="img"><a href="#"><img  style="  max-width:58%" src="assets/img/transportExotic.jpg" alt=""></a></div>
 								<a class="title"  style="font-size:13px" >Transport exotic cars</a>
 							
 							</div>
 							<div class="item">
-								<div class="img"><a href="#"><img  style="  max-width:58%" src="assets/img/descarga5.jpg" alt=""></a></div>
+								<div class="img"><a href="#"><img  style="  max-width:58%" src="assets/img/MotorTransport.jpg" alt=""></a></div>
 								<a class="title"  style="font-size:13px" > Motor transport</a>
 							
 							</div>
@@ -180,10 +187,10 @@ la ruta, la entrega fue más rápida de lo esperado. </p>
 						<div class="sidebar-title">
 							<h2>Instagram Feed</h2>
 							<div class="row">
-								<div class="col-6 margin-bottom-20px"><a href="#"><img src="assets/img/instagram-4.jpg" alt=""></a></div>
-								<div class="col-6 margin-bottom-20px"><a href="#"><img src="assets/img/instagram-3.jpg" alt=""></a></div>
-								<div class="col-6 margin-bottom-20px"><a href="#"><img src="assets/img/instagram-1.jpg" alt=""></a></div>
-								<div class="col-6 margin-bottom-20px"><a href="#"><img src="assets/img/instagram-2.jpg" alt=""></a></div>
+								<div class="col-6 margin-bottom-20px"><a href="#"><img src="assets/img/IntagramFeed/Insta6.jpg" alt=""></a></div>
+								<div class="col-6 margin-bottom-20px"><a href="#"><img src="assets/img/IntagramFeed/Insta1.jpg" alt=""></a></div>
+								<div class="col-6 margin-bottom-20px"><a href="#"><img src="assets/img/IntagramFeed/insta2.jpg" alt=""></a></div>
+								<div class="col-6 margin-bottom-20px"><a href="#"><img src="assets/img/IntagramFeed/Insta5.jpg" alt=""></a></div>
 							</div>
 						</div>
 					</div>

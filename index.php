@@ -144,18 +144,7 @@
                                                 <h6 class="mt-0 font-2">1 X 250$</h6>
                                             </div>
                                         </div>
-
-
-                                        <div class="media">
-                                            <a href="#">
-										<img class="d-flex align-self-start mr-3 width-50px" src="assets/img/cart-3.jpg" alt="Generic placeholder image">
-									  </a>
-                                            <div class="media-body">
-                                                <a href="#" class="close"><i class="fa fa-window-close"></i></a>
-                                                <h5 class="mt-0"><a href="#">Packaging & Storage</a></h5>
-                                                <h6 class="mt-0 font-2">1 X 250$</h6>
-                                            </div>
-                                        </div>
+s                                 
 
                                         <div class="padding-0px">
                                             <div class="cart-total background-main-color padding-lr-30px padding-tb-10px text-white">
@@ -216,15 +205,15 @@
 			                <form action="" method="">
 			                <!--        You can switch " data-color="rose" "  with one of the next bright colors: "blue", "green", "orange", "purple"        -->
 
-		                    	<div class="wizard-header">
+		                    	<div class="wizard-header"  >
 		                        	<h3 class="wizard-title">
 		                        		REQUEST A QUICK QUOTE
 		                        	</h3>
 									<h5>¡Get a quote from our experts today! Fill out the form right now.</h5>
 		                    	</div>
-								<div class="wizard-navigation">
-									<ul>
-			                            <li><a href="#location" class="BloquiarClick" data-toggle="tab">Location</a></li>
+								<div  class="wizard-navigation">
+									<ul >
+			                            <li ><a  href="#location" class="BloquiarClick" data-toggle="tab"  >Location</a></li>
 			                            <li><a href="#type" class="BloquiarClick" data-toggle="tab">Quote Type</a></li>
 			                            <li><a href="#facilities" class="BloquiarClick" data-toggle="tab">Vehicle Information</a></li>
 			                            <li><a href="#description" class="BloquiarClick" data-toggle="tab">Date and contact</a></li>
@@ -279,7 +268,7 @@
 		                                                <h6>Motorcycle Shipping Quote</h6>
 		                                            </div>
 		                                        </div>
-		                                    </div>
+		                                    </div> 
 		                                </div>
 		                            </div>
                                     
@@ -287,12 +276,14 @@
 		                            <div class="tab-pane" id="facilities">
                                         
 		                                <div class="row">
-                                            <div id="TypeV">
-                                            
-                                                </div>
+                                                                                      
+                                                  <div id="TypeV" class="col-sm-10 col-sm-offset-1">
+		                                      
+		                                     </div>    
+                                                 
 		                                    <div class="col-sm-5 col-sm-offset-1">
 		                                      <div class="form-group label-floating">
-		                                        	<label class="control-label">Freight Type*</label>
+		                                        	<label class="control-label ">Freight Type*</label>
 		                                        	<select class="form-control" id="FreightType" name="FreightType" required="required">
 		                                            	<option disabled="" selected=""></option>
 		                                            	<option>Open</option>
@@ -302,7 +293,7 @@
 		                                    </div>
 		                                    <div class="col-sm-5">
 		                                    	<div class="form-group label-floating">
-		                                        	<label class="control-label">Type*</label>
+		                                        	<label class="control-label ">Type*</label>
 		                                        	<select class="form-control" id="Type" name="Type" required="required">
 		                                            	<option disabled="" selected=""></option>
 		                                            	<option>Running</option>
@@ -310,26 +301,20 @@
 		                                        	</select>
 		                                    	</div>
 		                                    </div>
-		                                    <div class="col-sm-5 col-sm-offset-1">
+		                                  
+                                              <div class="col-sm-5 col-sm-offset-1">
 		                                    	<div class="form-group label-floating">
-		                                        	<label class="control-label">Year*</label>
-		                                        	<select class="form-control" id="Year" name="Year" required="required">
+		                                        	<label class="control-label ">Brands*</label>
+		                                        	<select class="form-control" id="Brands" name="Brands" required="required">
 		                                    			<option disabled="" selected=""></option>
-		                                            	<option>2021</option>
-		                                            	<option>2020 </option>
+		                                            	<option>Honda</option>
+		                                            	<option>Toyota</option>
 		                                        	</select>
 		                                    	</div>
 		                                    </div>
-                                            	<div class="col-sm-5">
-                                               
+                                              <div class="col-sm-5  ">
 		                                    	<div class="form-group label-floating">
-		                                        	<label class="control-label">Make*</label>
-		                                        	<input type="text" class="form-control" id="Make" name="Make" required="required">
-		                                    	</div>
-		                                	</div>
-                                             <div class="col-sm-5 col-sm-offset-1">
-		                                    	<div class="form-group label-floating">
-		                                        	<label class="control-label">Model*</label>
+		                                        	<label class="control-label ">Model*</label>
 		                                        	<select class="form-control" id="Model" name="Model" required="required">
 		                                    			<option disabled="" selected=""></option>
 		                                            	<option>Honda</option>
@@ -337,13 +322,25 @@
 		                                        	</select>
 		                                    	</div>
 		                                    </div>
-                                           	<div class="col-sm-5">
-                                               
+                                              <div class="col-sm-5 col-sm-offset-1 ">
 		                                    	<div class="form-group label-floating">
+		                                        	<label class="control-label ">Year*</label>
+		                                        	<select class="form-control" id="Year" name="Year" required="required">
+		                                    			<option disabled="" selected=""></option>
+		                                            	<option>2021</option>
+		                                            	<option>2020 </option>
+		                                        	</select>
+		                                    	</div>
+		                                    </div>
+                                            	<div class="col-sm-5 ">
+                                               
+		                                    	<div class="form-group  label-floating">
 		                                        	<label class="control-label">Vehicles Quantity*</label>
 		                                        	<input type="number" class="form-control" id="VehiclesQuantity" name="VehiclesQuantity" required="required">
 		                                    	</div>
 		                                	</div>
+                                           
+                                           
                                               	<div class="col-sm-10 col-sm-offset-1">
                                                
 		                                    	<div class="form-group label-floating">
@@ -641,7 +638,7 @@
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="./assets/img/CarouselHome/carousel5.jpg" alt="Los Angeles" style="width:100%;">
+        <img src="./assets/img/CarouselHome/carousel5-.jpg" alt="Los Angeles" style="width:100%;">
         <div class="carousel-caption">
           <h3>
 Open transport</h3>
@@ -650,14 +647,14 @@ Open transport</h3>
       </div>
         
         <div class="item ">
-        <img src="./assets/img/CarouselHome/carousel7.jpg" alt="Los Angele" style="width:100%;">
+        <img src="./assets/img/CarouselHome/carousel7-.jpg" alt="Los Angele" style="width:100%;">
         <div class="carousel-caption">
           <h3>Open transport</h3>
         </div>
       </div>
 
       <div class="item">
-        <img src="./assets/img/CarouselHome/carousel3.jpg" alt="Chicago" style="width:100%;">
+        <img src="./assets/img/CarouselHome/carousel3-.jpg" alt="Chicago" style="width:100%;">
         <div class="carousel-caption">
           <h3>
 Closed transport</h3>
@@ -665,7 +662,7 @@ Closed transport</h3>
       </div>
     
       <div class="item">
-        <img src="./assets/img/CarouselHome/carousel8.jpg" alt="New York" style="width:100%;">
+        <img src="./assets/img/CarouselHome/carousel8-.jpg" alt="New York" style="width:100%;">
         <div class="carousel-caption">
           <h3>Closed transport</h3>
         </div>
@@ -673,27 +670,27 @@ Closed transport</h3>
       </div>
         
         <div class="item">
-        <img src="./assets/img/CarouselHome/carousel12.jpg" alt="Chicago" style="width:100%;">
+        <img src="./assets/img/CarouselHome/carousel12-.jpg" alt="Chicago" style="width:100%;">
         <div class="carousel-caption">
           <h3>Transport exotic cars</h3>
         </div>
       </div>
     
       <div class="item">
-        <img src="./assets/img/CarouselHome/carousel1.jpg" alt="New York" style="width:100%;">
+        <img src="./assets/img/CarouselHome/carousel1-.jpg" alt="New York" style="width:100%;">
         <div class="carousel-caption">
           <h3>Transport exotic cars</h3>
         </div>
       </div>
         
          <div class="item">
-        <img src="./assets/img/CarouselHome/carousel13.jpg" alt="Chicago" style="width:100%;">
+        <img src="./assets/img/CarouselHome/carousel13-.jpg" alt="Chicago" style="width:100%;">
         <div class="carousel-caption">
        </div>
       </div>
     
       <div class="item">
-        <img src="./assets/img/CarouselHome/carousel14.jpg" alt="New York" style="width:100%;">
+        <img src="./assets/img/CarouselHome/carousel14-.jpg" alt="New York" style="width:100%;">
         <div class="carousel-caption">
           <h3>
 Motor transport</h3>
@@ -701,7 +698,7 @@ Motor transport</h3>
       </div>
         
         <div class="item">
-        <img src="./assets/img/CarouselHome/carousel15.jpg" alt="New York" style="width:100%;">
+        <img src="./assets/img/CarouselHome/carousel15-.jpg" alt="New York" style="width:100%;">
         <div class="carousel-caption">
           <h3>
 Motor transport</h3>
@@ -853,11 +850,8 @@ the route, Delivery was quicker than expected</div>
                         <!--  Social -->
                         <ul class="social-media list-inline text-lg-right text-center margin-0px text-dark">
                             <li class="list-inline-item"><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li class="list-inline-item"><a class="youtube" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                            <li class="list-inline-item"><a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li class="list-inline-item"><a class="instagram" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                             <li class="list-inline-item"><a class="google" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                            <li class="list-inline-item"><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li class="list-inline-item"><a class="rss" href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
                         </ul>
                         <!-- // Social -->
                     </div>
@@ -988,11 +982,11 @@ $(document).ready(function(){
           $("#TypeV").hide();
             });
       $("#DivRadioMotorcycle").click(function(){
-          $( "#TypeV" ).empty();
-           $("#TypeV").show();
+           $( "#TypeV" ).empty();
+          $("#TypeV").show();
               $( "#TypeV" ).append( 
             
-                                          '  <div class="col-sm-10 col-sm-offset-1">' +
+                                         
 		                                     '  <div class="form-group label-floating">' +
 		                                        ' 	<label class="control-label">Select Vehicle*</label>' +
 		                                        ' 	<select class="form-control" id="TypeVehicle" name="TypeVehicle" required="required">' +
@@ -1001,8 +995,8 @@ $(document).ready(function(){
 		                                          '   	<option>ATV/UTV </option>' +
                                                   '       <option>Other </option>' +
 		                                        ' 	</select>' +
-		                                    	' </div>' +
-		                                    ' </div>  '                    
+		                                    	' </div>' 
+		                                                       
             
             );
         

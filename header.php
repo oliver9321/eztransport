@@ -15,25 +15,35 @@
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800%7CPoppins:300i,300,400,500,600,700,400i,500%7CDancing+Script:700%7CDancing+Script:700%7CGreat+Vibes:400%7CPoppins:400%7CDosis:800%7CRaleway:400,700,800&amp;subset=latin-ext" rel="stylesheet">
     <!-- animate -->
+      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
     <!-- owl Carousel assets -->
     <link href="assets/css/owl.carousel.css" rel="stylesheet">
     <link href="assets/css/owl.theme.css" rel="stylesheet">
     <!-- bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  
+
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/material-bootstrap-wizard.css">
+
+    
     <!-- hover anmation -->
     <link rel="stylesheet" href="assets/css/hover-min.css">
     <!-- flag icon -->
     <link rel="stylesheet" href="assets/css/flag-icon.min.css">
     <!-- main style -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/colors/color-2.css">
     <!-- elegant icon -->
     <link rel="stylesheet" href="assets/css/elegant_icon.css">
-
-    <!-- jquery library  -->
-    <script src="assets/js/jquery-3.2.1.min.js"></script>
     <!-- fontawesome  -->
     <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+    <!-- REVOLUTION STYLE SHEETS -->
+    <link rel="stylesheet" type="text/css" href="assets/rslider/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" type="text/css" href="assets/rslider/fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="assets/rslider/css/settings.css">
 
 </head>
 
@@ -100,17 +110,6 @@
                                             </div>
 
 
-                                            <div class="media">
-                                                <a href="#">
-										<img class="d-flex align-self-start mr-3 width-50px" src="assets/img/cart-3.jpg" alt="Generic placeholder image">
-									  </a>
-                                                <div class="media-body">
-                                                    <a href="#" class="close"><i class="fa fa-window-close"></i></a>
-                                                    <h5 class="mt-0"><a href="#">Packaging & Storage</a></h5>
-                                                    <h6 class="mt-0 font-2">1 X 250$</h6>
-                                                </div>
-                                            </div>
-
                                             <div class="padding-0px">
                                                 <div class="cart-total background-main-color padding-lr-30px padding-tb-10px text-white">
                                                     <div class="desc">Subtotal:</div>
@@ -129,11 +128,11 @@
                                     </div>
 
                                 </div>
-                                <div class="col-lg-2 col-md-12  d-none d-lg-block">
-                                    <a data-toggle="modal" data-target=".bd-example-modal-lg" href="#" class="btn btn-sm border-radius-30 margin-tb-20px text-white  background-main-color  box-shadow float-right padding-lr-20px margin-left-30px d-block">
+                                 <div class="col-lg-2 col-md-12  d-none d-lg-block">
+                                <a data-toggle="modal" data-target="#myModal" href="#" class="btn btn-sm border-radius-30 margin-tb-20px text-white  background-main-color  box-shadow float-right padding-lr-20px margin-left-30px d-block">
                           <i class="fa fa-envelope-o margin-right-10px"></i>  Get A Quote
                         </a>
-                                </div>
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -154,41 +153,236 @@
     <!-- // Search  -->
 
     <!-- Get A Quote  -->
-    <div class="modal contact-modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content margin-top-150px background-main-color">
-                <div class="row no-gutters">
-                    <div class="col-lg-5">
-                        <img src="assets/img/contact-img.jpg" alt="">
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="padding-30px">
-                            <h3 class="padding-bottom-15px">Get A Free Quote</h3>
-                            <form>
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <label>Full Name</label>
-                                        <input type="text" class="form-control" id="inputName4" placeholder="Name">
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <label>Email</label>
-                                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>Address</label>
-                                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                                </div>
-                                <div class="form-group">
-                                    <label>Message</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                </div>
-                                <a href="#" class="btn-sm btn-lg btn-block background-dark text-white text-center  text-uppercase rounded-0 padding-15px">SEND MESSAGE</a>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- // Get A Quote  -->
+    
+ <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+       
+           
+		                      <!--      Wizard container        -->
+		           
+		                <div class="card wizard-card" data-color="purple" id="wizard">
+			                <form action="" method="">
+			                <!--        You can switch " data-color="rose" "  with one of the next bright colors: "blue", "green", "orange", "purple"   -->
+
+		                    	<div class="wizard-header"  >
+		                        	<h3 class="wizard-title">
+		                        		REQUEST A QUICK QUOTE
+		                        	</h3>
+									<h5>¡Get a quote from our experts today! Fill out the form right now.</h5>
+		                    	</div>
+								<div  class="wizard-navigation">
+									<ul >
+			                            <li ><a  href="#location" class="BloquiarClick" data-toggle="tab"  >Location</a></li>
+			                            <li><a href="#type" class="BloquiarClick" data-toggle="tab">Quote Type</a></li>
+			                            <li><a href="#facilities" class="BloquiarClick" data-toggle="tab">Vehicle Information</a></li>
+			                            <li><a href="#description" class="BloquiarClick" data-toggle="tab">Date and contact</a></li>
+			                        </ul>
+								</div>
+
+		                        <div class="tab-content">
+		                            <div class="tab-pane" id="location">
+		                            	<div class="row">
+		                                	<div class="col-sm-12">
+		                                    	<h4 class="info-text"> shipping details</h4>
+		                                	</div>
+                                        
+		                                	<div class="col-sm-8 col-sm-offset-1">
+                                                <label class="">PICK UP LOCATION*</label>
+		                                    	<div class="form-group label-floating">
+		                                        	<label class="control-label">State, City &amp; Zip code</label>
+		                                        	<input type="text" class="form-control" name="PickUpLocation" id="PickUpLocation">
+		                                    	</div>
+		                                	</div>
+                                            	<div class="col-sm-8 col-sm-offset-1">
+                                                <label class="">DELIVERY LOCATION*</label>
+		                                    	<div class="form-group label-floating">
+		                                        	<label class="control-label">State, City &amp; Zip code</label>
+		                                        	<input type="text" class="form-control" name="DeliveryLocation" id="DeliveryLocation" >
+		                                    	</div>
+		                                	</div>
+		                                
+		                                	
+		                                
+		                            	</div>
+		                            </div>
+		                            <div class="tab-pane" id="type"  >
+		                                <h4 class="info-text">What type of vehicle do you have? </h4>
+		                                <div class="row" >
+		                                    <div class="col-sm-10 col-sm-offset-1">
+		                                        <div class="col-sm-4 col-sm-offset-2" id="DivRadioAuto" >
+		                                            <div class="choice"  data-toggle="wizard-radio" rel="tooltip" title="Select this option if you have auto.">
+		                                                <input type="radio"  id="RadioAuto" name="nameRadio"  value="Auto" checked="">
+		                                                <div class="icon">
+		                                                    <i class="material-icons">drive_eta</i>
+		                                                </div>
+		                                                <h6>Auto Shipping Quote</h6>
+		                                            </div>
+		                                        </div>
+		                                        <div class="col-sm-4 " id="DivRadioMotorcycle">
+		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this option if you have Motorcycle.">
+		                                                <input type="radio" id="RadioMotorcycle" name="nameRadio" value="Motocycle" checked="" >
+		                                                <div class="icon">
+		                                                    <i class="material-icons">two_wheeler</i>
+		                                                </div>
+		                                                <h6>Motorcycle Shipping Quote</h6>
+		                                            </div>
+		                                        </div>
+		                                    </div> 
+		                                </div>
+		                            </div>
+                                    
+                                    
+		                            <div class="tab-pane" id="facilities">
+                                        
+		                                <div class="row">
+                                                                                      
+                                                  <div id="TypeV" class="col-sm-10 col-sm-offset-1">
+		                                      
+		                                     </div>    
+                                                 
+		                                    <div class="col-sm-5 col-sm-offset-1">
+		                                      <div class="form-group label-floating">
+		                                        	<label class="control-label ">Freight Type*</label>
+		                                        	<select class="form-control" id="FreightType" name="FreightType" required="required">
+		                                            	<option disabled="" selected=""></option>
+		                                            	<option>Open</option>
+		                                            	<option>Enclosed </option>
+		                                        	</select>
+		                                    	</div>
+		                                    </div>
+		                                    <div class="col-sm-5">
+		                                    	<div class="form-group label-floating">
+		                                        	<label class="control-label ">Type*</label>
+		                                        	<select class="form-control" id="Type" name="Type" required="required">
+		                                            	<option disabled="" selected=""></option>
+		                                            	<option>Running</option>
+		                                            	<option>No Running</option>
+		                                        	</select>
+		                                    	</div>
+		                                    </div>
+		                                  
+                                              <div class="col-sm-5 col-sm-offset-1">
+		                                    	<div class="form-group label-floating">
+		                                        	<label class="control-label ">Brands*</label>
+		                                        	<select class="form-control" id="Brands" name="Brands" required="required">
+		                                    			<option disabled="" selected=""></option>
+		                                            	<option>Honda</option>
+		                                            	<option>Toyota</option>
+		                                        	</select>
+		                                    	</div>
+		                                    </div>
+                                              <div class="col-sm-5  ">
+		                                    	<div class="form-group label-floating">
+		                                        	<label class="control-label ">Model*</label>
+		                                        	<select class="form-control" id="Model" name="Model" required="required">
+		                                    			<option disabled="" selected=""></option>
+		                                            	<option>Honda</option>
+		                                            	<option>Toyota </option>
+		                                        	</select>
+		                                    	</div>
+		                                    </div>
+                                              <div class="col-sm-5 col-sm-offset-1 ">
+		                                    	<div class="form-group label-floating">
+		                                        	<label class="control-label ">Year*</label>
+		                                        	<select class="form-control" id="Year" name="Year" required="required">
+		                                    			<option disabled="" selected=""></option>
+		                                            	<option>2021</option>
+		                                            	<option>2020 </option>
+		                                        	</select>
+		                                    	</div>
+		                                    </div>
+                                            	<div class="col-sm-5 ">
+                                               
+		                                    	<div class="form-group  label-floating">
+		                                        	<label class="control-label">Vehicles Quantity*</label>
+		                                        	<input type="number" class="form-control" id="VehiclesQuantity" name="VehiclesQuantity" required="required">
+		                                    	</div>
+		                                	</div>
+                                           
+                                           
+                                              	<div class="col-sm-10 col-sm-offset-1">
+                                               
+		                                    	<div class="form-group label-floating">
+		                                        	<label class="control-label">Stock or Modifications*</label>
+		                                        	<input type="text" class="form-control" id="StockModifications" name="StockModifications" required="required">
+		                                    	</div>
+		                                	</div>
+                                              	<div class="col-sm-10 col-sm-offset-1">
+                                               
+		                                    	<div class="form-group label-floating">
+		                                        	<label class="control-label">Comments</label>	
+                                                    <textarea class="form-control" id="comments" name="comments" ></textarea>
+		                                    	</div>
+		                                	</div>
+		                                    
+		                                </div>
+		                            </div>
+                                    
+                                    
+		                            <div class="tab-pane" id="description">
+		                                <div class="row">
+                                            
+                                            <div class="col-sm-10 col-sm-offset-1">
+                                               
+		                                    	<div class="form-group">
+		                                        	<label class="control-label">SHIPPING DATE</label>
+		                                        	<input type="date" class="form-control" id="ShippingDate" name="ShippingDate" placeholder="00/00/0000" required="required">
+		                                    	</div>
+		                                	</div>
+                                            
+		                                 	<div class="col-sm-4 col-sm-offset-1">
+                                               
+		                                    	<div class="form-group label-floating">
+		                                        	<label class="control-label">First Name</label>
+		                                        	<input type="text" class="form-control" id="FirstName" name="FirstName" required="required">
+		                                    	</div>
+		                                	</div>
+                                            	<div class="col-sm-5 col-sm-offset-1">
+                                               
+		                                    	<div class="form-group label-floating">
+		                                        	<label class="control-label">Last Name</label>
+		                                        	<input type="text" class="form-control" id="LastName" name="LastName" required="required">
+		                                    	</div>
+		                                	</div>
+                                            
+                                            <div class="col-sm-4 col-sm-offset-1">
+                                               
+		                                    	<div class="form-group label-floating">
+		                                        	<label class="control-label">Phone</label>
+		                                        	<input type="text" class="form-control" id="Phone" name="Phone" required="required">
+		                                    	</div>
+		                                	</div>
+                                            	<div class="col-sm-5 col-sm-offset-1">
+                                               
+		                                    	<div class="form-group label-floating">
+		                                        	<label class="control-label">Email</label>
+		                                        	<input type="text" class="form-control" id="Email" name="Email" required="required">
+		                                    	</div>
+		                                	</div>
+   
+                                            
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="wizard-footer">
+	                            	<div class="pull-right">
+	                                    <input type='button' class='btn btn-next btn-fill btn-primary btn-wd' id="next" name='next' value='Next' />
+	                                    <input type='button' class='btn btn-finish btn-fill btn-primary btn-wd'  name='finish' value='Finish' />
+	                                </div>
+	                                <div class="pull-left">
+	                                    <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' id="previous" name='previous' value='Previous' />
+	                                </div>
+		                            <div class="clearfix"></div>
+		                        </div>
+			                </form>
+		                </div>
+                        
+		            </div> <!-- wizard container -->
+		        </div>
+	        </div> <!-- row -->
+    
+     <!-- Get A Quote  -->
+    

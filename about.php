@@ -31,11 +31,11 @@ include("header.php");
 				<div class="col-lg-9">
 					<div class="service-slider-img margin-bottom-30px">
 						<ul class="slider-1">
-							<li><img src="assets/img/CarouselAbout/about1.jpg" alt=""></li>
-							<li><img src="assets/img/CarouselAbout/about2.jpg" alt=""></li>
-							<li><img src="assets/img/CarouselAbout/about5.jpg" alt=""></li>
-                            <li><img src="assets/img/CarouselAbout/about1.jpg" alt=""></li>
-							<li><img src="assets/img/CarouselAbout/about5.jpg" alt=""></li>
+							<li><img src="assets/img/CarouselAbout/about1-.jpg" alt=""></li>
+							<li><img src="assets/img/CarouselAbout/about2-.jpg" alt=""></li>
+							<li><img src="assets/img/CarouselAbout/about3-.jpg" alt=""></li>
+                            <li><img src="assets/img/CarouselAbout/about4-.jpg" alt=""></li>
+							<li><img src="assets/img/CarouselAbout/about5-.jpg" alt=""></li>
 						</ul>
 					</div>
                     
