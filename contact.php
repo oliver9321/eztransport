@@ -44,16 +44,16 @@ communicate with us or you can email.</p>
                                 <form>
                                     <div class="form-row">
                                         <div class="form-group col-md-6">
-                                            <label>Full Name</label>
+                                            <label style="color:white">Full Name</label>
                                             <input type="text" class="form-control" id="inputName44" placeholder="Name">
                                         </div>
                                         <div class="form-group col-md-6">
-                                            <label>Email</label>
+                                            <label style="color:white">Email</label>
                                             <input type="email" class="form-control" id="inputEmail44" placeholder="Email">
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label>Message</label>
+                                        <label style="color:white">Message</label>
                                         <textarea class="form-control" id="exampleFormControlTextarea11" rows="3"></textarea>
                                     </div>
                                     <a href="#" class="btn-sm btn-lg btn-block background-dark text-white text-center  text-uppercase rounded-0 padding-15px">SEND MESSAGE</a>

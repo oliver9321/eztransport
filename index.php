@@ -196,14 +196,12 @@ s
       <!-- Modal content-->
       <div class="modal-content">
        
-      
-          
-	     
-		            <!--      Wizard container        -->
+           
+		                      <!--      Wizard container        -->
 		           
 		                <div class="card wizard-card" data-color="purple" id="wizard">
 			                <form action="" method="">
-			                <!--        You can switch " data-color="rose" "  with one of the next bright colors: "blue", "green", "orange", "purple"        -->
+			                <!--        You can switch " data-color="rose" "  with one of the next bright colors: "blue", "green", "orange", "purple"   -->
 
 		                    	<div class="wizard-header"  >
 		                        	<h3 class="wizard-title">
@@ -302,43 +300,49 @@ s
 		                                    	</div>
 		                                    </div>
 		                                  
-                                              <div class="col-sm-5 col-sm-offset-1">
-		                                    	<div class="form-group label-floating">
-		                                        	<label class="control-label ">Brands*</label>
-		                                        	<select class="form-control" id="Brands" name="Brands" required="required">
-		                                    			<option disabled="" selected=""></option>
-		                                            	<option>Honda</option>
-		                                            	<option>Toyota</option>
-		                                        	</select>
-		                                    	</div>
-		                                    </div>
-                                              <div class="col-sm-5  ">
-		                                    	<div class="form-group label-floating">
-		                                        	<label class="control-label ">Model*</label>
-		                                        	<select class="form-control" id="Model" name="Model" required="required">
-		                                    			<option disabled="" selected=""></option>
-		                                            	<option>Honda</option>
-		                                            	<option>Toyota </option>
-		                                        	</select>
-		                                    	</div>
-		                                    </div>
-                                              <div class="col-sm-5 col-sm-offset-1 ">
-		                                    	<div class="form-group label-floating">
-		                                        	<label class="control-label ">Year*</label>
-		                                        	<select class="form-control" id="Year" name="Year" required="required">
-		                                    			<option disabled="" selected=""></option>
-		                                            	<option>2021</option>
-		                                            	<option>2020 </option>
-		                                        	</select>
-		                                    	</div>
-		                                    </div>
-                                            	<div class="col-sm-5 ">
+                                            
+                                            <div class="col-sm-11">
+                                            <div class="container-lg">
+    <div class="table-responsive">
+        <div class="table-wrapper">
+            <div class="table-title">
+                <div class="row">
+                    <div class="col-sm-8"><h5>Vehicle <b style="color:#177AB7" >Details*</b></h5></div>
+                    <div class="col-sm-4" style="text-align: right; ">
+                        <button type="button" class="btn btn-success " id="add-new" style="font-size: 8px;" ><i style="font-size: 15px;
+    margin-top: -3px; position: relative; top: 1px;" class="fa fa-plus"></i> <h7><b>Add New</b> </h7> </button>
+                    </div>
+                </div>
+            </div>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Brands</th>
+                        <th>Model</th>
+                        <th>Year</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                       
+                    </tr>
+                      
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>  
+                                               </div> 
+                                                                                  
+                                            	<div class="col-sm-10 col-sm-offset-1 ">
                                                
 		                                    	<div class="form-group  label-floating">
 		                                        	<label class="control-label">Vehicles Quantity*</label>
 		                                        	<input type="number" class="form-control" id="VehiclesQuantity" name="VehiclesQuantity" required="required">
 		                                    	</div>
 		                                	</div>
+                                           
                                            
                                            
                                               	<div class="col-sm-10 col-sm-offset-1">
@@ -910,6 +914,29 @@ $(document).ready(function(){
       $("#next").prop('disabled', true); 
      $( ".BloquiarClick" ).prop('disabled', true);
     
+    $("#add-new").click(function(){
+	  
+    //Add row
+    row = '';
+    row += '<tr><td><select class="cssbordertable" required="required"><option disabled="" selected=""></option>'+
+		                                            	'<option>Open</option>'+
+		                                            	'<option>Enclosed </option>'+
+                                                        '</select></td>'+                                    
+            '<td><select class="cssbordertable" required="required"><option disabled="" selected=""></option>'+
+		                                            	'<option>Open</option>'+
+		                                            	'<option>Enclosed </option></select></td>'+
+                                                        '<td><input type="number" class="cssbordertable"style="text-align: center;" ></td>';
+    
+    row += '<td style="text-align: center;"><a class="delete" title="Delete" data-toggle="tooltip"><i class="fa fa-trash fa-2x" aria-hidden="true"></i></a></td></tr>';
+        
+    $("tbody").append(row);
+        
+    });
+	// Delete row on delete button click
+	$(document).on("click", ".delete", function(){
+        $(this).parents("tr").remove();
+		$(".add-new").removeAttr("disabled");
+    });
       
 });
  

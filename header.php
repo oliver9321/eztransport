@@ -25,7 +25,7 @@
   
 
   <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+           <link rel="stylesheet" href="assets/css/maxcdn.bootstrapcdn.css">
       <link rel="stylesheet" href="assets/css/material-bootstrap-wizard.css">
 
     
@@ -263,38 +263,42 @@
 		                                        	</select>
 		                                    	</div>
 		                                    </div>
-		                                  
-                                              <div class="col-sm-5 col-sm-offset-1">
-		                                    	<div class="form-group label-floating">
-		                                        	<label class="control-label ">Brands*</label>
-		                                        	<select class="form-control" id="Brands" name="Brands" required="required">
-		                                    			<option disabled="" selected=""></option>
-		                                            	<option>Honda</option>
-		                                            	<option>Toyota</option>
-		                                        	</select>
-		                                    	</div>
-		                                    </div>
-                                              <div class="col-sm-5  ">
-		                                    	<div class="form-group label-floating">
-		                                        	<label class="control-label ">Model*</label>
-		                                        	<select class="form-control" id="Model" name="Model" required="required">
-		                                    			<option disabled="" selected=""></option>
-		                                            	<option>Honda</option>
-		                                            	<option>Toyota </option>
-		                                        	</select>
-		                                    	</div>
-		                                    </div>
-                                              <div class="col-sm-5 col-sm-offset-1 ">
-		                                    	<div class="form-group label-floating">
-		                                        	<label class="control-label ">Year*</label>
-		                                        	<select class="form-control" id="Year" name="Year" required="required">
-		                                    			<option disabled="" selected=""></option>
-		                                            	<option>2021</option>
-		                                            	<option>2020 </option>
-		                                        	</select>
-		                                    	</div>
-		                                    </div>
-                                            	<div class="col-sm-5 ">
+                                            
+		                                   <div class="col-sm-11">
+                                            <div class="container-lg">
+    <div class="table-responsive">
+        <div class="table-wrapper">
+            <div class="table-title">
+                <div class="row">
+                    <div class="col-sm-8"><h5>Vehicle <b style="color:#177AB7" >Details*</b></h5></div>
+                    <div class="col-sm-4" style="text-align: right; ">
+                        <button type="button" class="btn btn-success " id="add-new" style="font-size: 8px;" ><i style="font-size: 15px;
+    margin-top: -3px; position: relative; top: 1px;" class="fa fa-plus"></i> <h7><b>Add New</b> </h7> </button>
+                    </div>
+                </div>
+            </div>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Brands</th>
+                        <th>Model</th>
+                        <th>Year</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                       
+                    </tr>
+                      
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>  
+                                               </div> 
+                                                                                  
+                                            	<div class="col-sm-10 col-sm-offset-1 ">
                                                
 		                                    	<div class="form-group  label-floating">
 		                                        	<label class="control-label">Vehicles Quantity*</label>

@@ -69,6 +69,30 @@ $(document).ready(function(){
       $("#next").prop('disabled', true); 
      $( ".BloquiarClick" ).prop('disabled', true);
     
+    
+    $("#add-new").click(function(){
+	  
+    //Add row
+    row = '';
+    row += '<tr><td><select class="cssbordertable" required="required"><option disabled="" selected=""></option>'+
+		                                            	'<option>Open</option>'+
+		                                            	'<option>Enclosed </option>'+
+                                                        '</select></td>'+                                    
+            '<td><select class="cssbordertable" required="required"><option disabled="" selected=""></option>'+
+		                                            	'<option>Open</option>'+
+		                                            	'<option>Enclosed </option></select></td>'+
+                                                        '<td><input type="number" class="cssbordertable"style="text-align: center;" ></td>';
+    
+    row += '<td style="text-align: center;"><a class="delete" title="Delete" data-toggle="tooltip"><i class="fa fa-trash fa-2x" aria-hidden="true"></i></a></td></tr>';
+        
+    $("tbody").append(row);
+        
+    });
+	// Delete row on delete button click
+	$(document).on("click", ".delete", function(){
+        $(this).parents("tr").remove();
+		$(".add-new").removeAttr("disabled");
+    });
       
 });
  
