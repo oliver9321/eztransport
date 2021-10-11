@@ -1090,7 +1090,7 @@ header#sidebar-header ul.nav-menu .mega-links-4columns ul.sub-menu-columns > li 
   opacity: 0;
 }
 #search form {
-  top: 50%;
+  top: 25%;
   max-width: 750px;
   margin: auto;
   position: absolute;
