@@ -4,7 +4,7 @@
 
 <!-- Mirrored from nilethemes.com/html/nile-logistics/home-5.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Sep 2021 20:21:23 GMT -->
 <head>
-    <title>Nile - Transportation and Logistics Responsive HTML5 Template</title>
+    <title>EZ AUTO-TRANSPORTATION</title>
     <meta name="author" content="Nile-Theme">
     <meta name="robots" content="index follow">
     <meta name="googlebot" content="index follow">
@@ -17,7 +17,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800%7CPoppins:300i,300,400,500,600,700,400i,500%7CDancing+Script:700%7CDancing+Script:700%7CGreat+Vibes:400%7CPoppins:400%7CDosis:800%7CRaleway:400,700,800&amp;subset=latin-ext" rel="stylesheet">
     <!-- animate -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+	   <link rel="stylesheet" href="assets/css/Maxfontawesome.css">
     <link rel="stylesheet" href="assets/css/animate.css" />
     <!-- owl Carousel assets -->
     <link href="assets/css/owl.carousel.css" rel="stylesheet">
@@ -26,7 +26,7 @@
   
 
   <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+       <link rel="stylesheet" href="assets/css/maxcdn.bootstrapcdn.css">
       <link rel="stylesheet" href="assets/css/material-bootstrap-wizard.css">
 
     
@@ -46,7 +46,8 @@
     <link rel="stylesheet" type="text/css" href="assets/rslider/fonts/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="assets/rslider/css/settings.css">
      
-    
+        <link href="https://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
  
 
 
@@ -94,7 +95,7 @@
                     <div class="position-relative">
                         <div class="row">
                             <div class="col-lg-3 col-md-12">
-                                <a id="logo" href="index.php" class="d-inline-block margin-tb-15px"><img src="assets/img/Imagen6.png" class="logoa" alt=""></a>
+                                <a id="logo" href="index.php" class="d-inline-block margin-tb-15px"><img src="assets/img/Logo_Oficial.png" class="logoa" alt=""></a>
                                 <a class="mobile-toggle padding-15px background-second-color border-radius-3" href="#"><i class="fa fa-bars"></i></a>
                             </div>
                             <div class="col-lg-7 col-md-12 position-inherit">
@@ -183,10 +184,61 @@ s
     <!-- Search  -->
     <div id="search">
         <button type="button" class="close">×</button>
+        
         <form class="clearfix d-block">
+            
+              <div class="section-title-center text-main-color clearfix" style="text-align: center;" >
+                        <div class="loader">Loading...</div>
+                        <h2 class="title-text">check here your transport request.</h2>
+                    </div>
+            
             <input type="search" value="" placeholder="Search for . . . ." />
             <button type="submit" class="btn btn-primary">Search</button>
+            
+
+            
         </form>
+
+<div class="row" style="text-align: center; margin-top: 180px; margin-left: 65px;">
+   <div style="display:inline-block;width:100%;">
+					<ul class="timeline timeline-horizontal">
+						
+						<li class="timeline-item">
+				<div class="timeline-badge primary">
+                    <b> <i class="fa fa-road" aria-hidden="true"></i> </b>
+                     <p><img src="assets/icons/validate3.png"></p>
+                     </div>            
+                    <p><span id="lower-text">COLLECTION <br>PROCESS </span>
+						</li>
+                        
+						<li class="timeline-item">
+				<div class="timeline-badge primary">
+                        <b><i class="fa fa-truck" aria-hidden="true"></i></b>
+                     <p><img src="assets/icons/validate3.png"> </p>
+                     </div>
+							   <p><span id="lower-text">VEHICLE <br>PICKED UP</span></p>
+						</li>
+                        
+                        	<li class="timeline-item">
+				<div class="timeline-badge primary">
+                        <b><i class="fa fa-handshake-o" aria-hidden="true"></i></b>
+                     <p><img src="assets/icons/validate3.png"> </p>
+                     </div>
+							   <p><span id="lower-text">DELIVERED AT<br>DESTINATION</span></p>
+						</li>
+                        
+                        	<li class="timeline-item">
+				<div class="timeline-badge primary">
+                        <b><i class="fa fa-cog fa-spin fa-1x fa-fw"></i></b>
+                     <p><img src="assets/icons/validate3.png"></p>
+                     </div>
+				       <p><span id="lower-text">FINISHED OR<br>CANCELED</span></p>
+						</li>					
+					
+					</ul>
+				</div>
+   </div>
+
     </div>
     <!-- // Search  -->
 
@@ -455,7 +507,7 @@ s
                         <br> TRANSPORTATION </div>
 
                     <!-- LAYER NR. 2 -->
-                    <div class="tp-caption rev-btn " id="slide-3-layer-2" data-x="['left','left','left','center']" data-hoffset="['0','41','45','0']" data-y="['top','top','top','top']" data-voffset="['453','372','435','471']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":640,"speed":1120,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:transparent;bc:rgb(255,255,255);"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 6; white-space: nowrap; font-size: 14px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Poppins;background-color:#177AB7;border-color:#177AB7;border-style:solid;border-width:2px 2px 2px 2px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Contact Us </div>
+                    <div class="tp-caption rev-btn " id="slide-3-layer-2" data-x="['left','left','left','center']" data-hoffset="['0','41','45','0']" data-y="['top','top','top','top']" data-voffset="['453','372','435','471']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":640,"speed":1120,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:transparent;bc:rgb(255,255,255);"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 6; white-space: nowrap; font-size: 14px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Poppins;background-color:rgb(13 14 14 / 95%);border-color:rgb(114 125 133);border-style:solid;border-width:2px 2px 2px 2px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Contact Us </div>
                 </li>
                 <!-- SLIDE  -->
                 <li data-index="rs-4" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
@@ -465,10 +517,10 @@ s
 
                     <!-- LAYER NR. 3 -->
                     <div class="tp-caption   tp-resizeme" id="slide-4-layer-1" data-x="['left','left','left','center']" data-hoffset="['0','41','45','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-111','-143','-186','-36']" data-width="461" data-height="173" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1140,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; min-width: 461px; max-width: 461px; max-width: 173px; max-width: 173px; white-space: nowrap; font-size: 50px; line-height: 59px; font-weight: 400; color: #ffffff; letter-spacing: -4px;font-family:Poppins;">Making<br> Transportation
-                        <br> Fast & Savw </div>
+                        <br> Fast & Sasw </div>
 
                     <!-- LAYER NR. 4 -->
-                    <div class="tp-caption rev-btn " id="slide-4-layer-2" data-x="['left','left','left','center']" data-hoffset="['0','41','45','0']" data-y="['top','top','top','top']" data-voffset="['453','372','435','471']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":640,"speed":1120,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:transparent;bc:rgb(255,255,255);"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 6; white-space: nowrap; font-size: 14px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Poppins;background-color:#177AB7;border-color:#177AB7;border-style:solid;border-width:2px 2px 2px 2px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Contact Us </div>
+                    <div class="tp-caption rev-btn " id="slide-4-layer-2" data-x="['left','left','left','center']" data-hoffset="['0','41','45','0']" data-y="['top','top','top','top']" data-voffset="['453','372','435','471']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":640,"speed":1120,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:transparent;bc:rgb(255,255,255);"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 6; white-space: nowrap; font-size: 14px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Poppins;background-color:rgb(13 14 14 / 95%);border-color:rgb(114 125 133);border-style:solid;border-width:2px 2px 2px 2px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Contact Us </div>
                 </li>
                        <li data-index="rs-4" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
@@ -480,7 +532,7 @@ s
                         <br> Fast & Savw </div>
 
                     <!-- LAYER NR. 4 -->
-                    <div class="tp-caption rev-btn " id="slide-4-layer-2" data-x="['left','left','left','center']" data-hoffset="['0','41','45','0']" data-y="['top','top','top','top']" data-voffset="['453','372','435','471']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":640,"speed":1120,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:transparent;bc:rgb(255,255,255);"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 6; white-space: nowrap; font-size: 14px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Poppins;background-color:#177AB7;border-color:#177AB7;border-style:solid;border-width:2px 2px 2px 2px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Contact Us </div>
+                    <div class="tp-caption rev-btn " id="slide-4-layer-2" data-x="['left','left','left','center']" data-hoffset="['0','41','45','0']" data-y="['top','top','top','top']" data-voffset="['453','372','435','471']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":640,"speed":1120,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:transparent;bc:rgb(255,255,255);"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 6; white-space: nowrap; font-size: 14px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Poppins;background-color:rgb(13 14 14 / 95%);border-color:rgb(114 125 133);border-style:solid;border-width:2px 2px 2px 2px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Contact Us </div>
                 </li>
             </ul>
             <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
@@ -826,7 +878,7 @@ the route, Delivery was quicker than expected</div>
                             </div>
                             <hr>
                             <div class="call_center margin-top-30px">
-                                <h2 class="title">Call Center</h2>
+                                <h2 class="title">Main Office</h2>
                                 <div class="contact-info opacity-9">
                                     <div class="icon  margin-top-5px"><span class="icon_phone"></span></div>
                                     <div class="text">

@@ -4,7 +4,7 @@
 
 <!-- Mirrored from nilethemes.com/html/nile-logistics/page-contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Sep 2021 20:21:45 GMT -->
 <head>
-    <title>Nile - Transportation and Logistics Responsive HTML5 Template</title>
+    <title>EZ AUTO-TRANSPORTATION</title>
     <meta name="author" content="Nile-Theme">
     <meta name="robots" content="index follow">
     <meta name="googlebot" content="index follow">
@@ -58,7 +58,7 @@
                         <div class="position-relative">
                             <div class="row">
                                 <div class="col-lg-3 col-md-12">
-                                    <a id="logo" href="index.php" class="d-inline-block margin-tb-15px"><img  class="LogoPageAbout" src="assets/img/Imagen6.png" ></a>
+                                    <a id="logo" href="index.php" class="d-inline-block margin-tb-15px"><img  class="LogoPageAbout" src="assets/img/Logo_Oficial.png" ></a>
                                     <a class="mobile-toggle padding-15px background-second-color border-radius-3" href="#"><i class="fa fa-bars"></i></a>
                                 </div>
                                 <div class="col-lg-7 col-md-12 position-inherit">
@@ -255,8 +255,8 @@
 		                                    </div>
 		                                    <div class="col-sm-5">
 		                                    	<div class="form-group label-floating">
-		                                        	<label class="control-label ">Type*</label>
-		                                        	<select class="form-control" id="Type" name="Type" required="required">
+		                                        	<label class="control-label ">Vehicle Condition*</label>
+		                                        	<select class="form-control" id="VehicleCondition" name="VehicleCondition" required="required">
 		                                            	<option disabled="" selected=""></option>
 		                                            	<option>Running</option>
 		                                            	<option>No Running</option>

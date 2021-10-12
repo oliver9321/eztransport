@@ -38,7 +38,7 @@ communicate with us or you can email.</p>
 
                 <div class="col-lg-6">
                     <div class="contact-modal">
-                        <div class="background-main-color">
+                        <div style= "background-color:#3e3d3de0;">
                             <div class="padding-30px">
                                 <h3 class="padding-bottom-15px">Email us and get quick responses.</h3>
                                 <form>
