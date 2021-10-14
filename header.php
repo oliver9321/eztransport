@@ -129,7 +129,7 @@
 
                                 </div>
                                  <div class="col-lg-2 col-md-12  d-none d-lg-block">
-                                <a data-toggle="modal" data-target="#myModal" href="#" class="btn btn-sm border-radius-30 margin-tb-20px text-white  background-main-color  box-shadow float-right padding-lr-20px margin-left-30px d-block">
+                                <a data-toggle="modal" data-target="#myModal" href="#" style="background-color:#177AB7; margin-top: 32px;" class="btn btn-sm border-radius-30 margin-tb-20px text-white  box-shadow float-right padding-lr-20px margin-left-30px d-block">
                           <i class="fa fa-envelope-o margin-right-10px"></i>  Get A Quote
                         </a>
                             </div>

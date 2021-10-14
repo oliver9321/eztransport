@@ -175,7 +175,7 @@ header .header-in {
     background-color:#1a1919;
 }
 .LogoPageAbout{
-        max-width: 93%
+        max-width: 100%
 }
    
 header ul.nav-menu {
@@ -1090,7 +1090,7 @@ header#sidebar-header ul.nav-menu .mega-links-4columns ul.sub-menu-columns > li 
   opacity: 0;
 }
 #search form {
-  top: 3%;
+  top: 17%;
   max-width: 750px;
   margin: auto;
   position: absolute;
@@ -2404,7 +2404,7 @@ img {
   max-width: 100%;
 }
 .logoa{
-  max-width: 93%;
+  max-width: 102%;
 }
 
 a {
@@ -3059,7 +3059,7 @@ video {
 /*-- Position Transform --*/
 .position-inherit {
   position: inherit;
-  padding-top: 10px;
+  padding-top: 19px;
 }
 
 .position-absolute {

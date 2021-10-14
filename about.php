@@ -71,7 +71,7 @@ As EZ Auto Transportation, we will work hard and give the extra mile to keep out
 									<div class="form-row">
 										<div class="about-us sm-mb-45px">
                         <div class="logo-footer margin-bottom-42px">
-                            <a href="#"><img src="assets/img/Imagen6.png" alt=""></a>
+                            <a href="#"><img src="assets/img/Logo_Oficial.png" alt=""></a>
                         </div>
                         <div class="text margin-bottom-35px">
                           <p>•With an enclosed transport, you have added security from weather conditions and any
@@ -104,7 +104,7 @@ As EZ Auto Transportation, we will work hard and give the extra mile to keep out
 									</div>
 								</div>
 								<div class="call_center">
-									<h2 class="title">Call Center</h2>
+									<h2 class="title">MAIN OFFICE</h2>
 									<div class="contact-info opacity-9">
 										<div class="icon  margin-top-5px"><span class="icon_phone"></span></div>
 										<div class="text">

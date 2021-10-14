@@ -95,7 +95,7 @@
                     <div class="position-relative">
                         <div class="row">
                             <div class="col-lg-3 col-md-12">
-                                <a id="logo" href="index.php" class="d-inline-block margin-tb-15px"><img src="assets/img/Logo_Oficial.png" class="logoa" alt=""></a>
+                                <a id="logo" href="index.php" class="d-inline-block margin-tb-15px"><img src="assets/img/Logo_Oficial.png" class="logoa"  alt=""></a>
                                 <a class="mobile-toggle padding-15px background-second-color border-radius-3" href="#"><i class="fa fa-bars"></i></a>
                             </div>
                             <div class="col-lg-7 col-md-12 position-inherit">
@@ -145,7 +145,7 @@
                                                 <h6 class="mt-0 font-2">1 X 250$</h6>
                                             </div>
                                         </div>
-s                                 
+                              
 
                                         <div class="padding-0px">
                                             <div class="cart-total background-main-color padding-lr-30px padding-tb-10px text-white">
@@ -166,7 +166,7 @@ s
   
                             </div>
                             <div class="col-lg-2 col-md-12  d-none d-lg-block">
-                                <a data-toggle="modal" data-target="#myModal" href="#" class="btn btn-sm border-radius-30 margin-tb-20px text-white  background-main-color  box-shadow float-right padding-lr-20px margin-left-30px d-block">
+                                <a data-toggle="modal" data-target="#myModal" href="#" style="background-color:#177AB7;  margin-top: 35px;" class="btn btn-sm border-radius-30 margin-tb-20px text-white  box-shadow float-right padding-lr-20px margin-left-30px d-block">
                           <i class="fa fa-envelope-o margin-right-10px"></i>  Get A Quote
                         </a>
                             </div>
@@ -185,28 +185,28 @@ s
     <div id="search">
         <button type="button" class="close">×</button>
         
-        <form class="clearfix d-block">
-            
-              <div class="section-title-center text-main-color clearfix" style="text-align: center;" >
+           <div class="section-title-center text-main-color clearfix" style="text-align: center; margin-top: 13px;" >
                         <div class="loader">Loading...</div>
                         <h2 class="title-text">check here your transport request.</h2>
                     </div>
+        
+        <form class="clearfix d-block">
             
-            <input type="search" value="" placeholder="Search for . . . ." />
-            <button type="submit" class="btn btn-primary">Search</button>
+            <input type="search" value="" id="buscar" name="buscar" placeholder="Search for . . . ." />
+            <button id="search1" type="submit" class="btn btn-primary ">Search</button>
             
 
             
         </form>
-
+klk
 <div class="row" style="text-align: center; margin-top: 180px; margin-left: 65px;">
-   <div style="display:inline-block;width:100%;">
+   <div style="display:inline-block;width:100%; margin-top: -150px;">
 					<ul class="timeline timeline-horizontal">
 						
 						<li class="timeline-item">
 				<div class="timeline-badge primary">
                     <b> <i class="fa fa-road" aria-hidden="true"></i> </b>
-                     <p><img src="assets/icons/validate3.png"></p>
+                     <p id="pendiente"></p>
                      </div>            
                     <p><span id="lower-text">COLLECTION <br>PROCESS </span>
 						</li>
@@ -214,7 +214,7 @@ s
 						<li class="timeline-item">
 				<div class="timeline-badge primary">
                         <b><i class="fa fa-truck" aria-hidden="true"></i></b>
-                     <p><img src="assets/icons/validate3.png"> </p>
+                     <p id="recojido"> </p>
                      </div>
 							   <p><span id="lower-text">VEHICLE <br>PICKED UP</span></p>
 						</li>
@@ -222,7 +222,7 @@ s
                         	<li class="timeline-item">
 				<div class="timeline-badge primary">
                         <b><i class="fa fa-handshake-o" aria-hidden="true"></i></b>
-                     <p><img src="assets/icons/validate3.png"> </p>
+                     <p id="entregado"> </p>
                      </div>
 							   <p><span id="lower-text">DELIVERED AT<br>DESTINATION</span></p>
 						</li>
@@ -230,7 +230,7 @@ s
                         	<li class="timeline-item">
 				<div class="timeline-badge primary">
                         <b><i class="fa fa-cog fa-spin fa-1x fa-fw"></i></b>
-                     <p><img src="assets/icons/validate3.png"></p>
+                     <p id="estado1"><img src="assets/icons/validate3.png"></p>
                      </div>
 				       <p><span id="lower-text">FINISHED OR<br>CANCELED</span></p>
 						</li>					
@@ -517,7 +517,7 @@ s
 
                     <!-- LAYER NR. 3 -->
                     <div class="tp-caption   tp-resizeme" id="slide-4-layer-1" data-x="['left','left','left','center']" data-hoffset="['0','41','45','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-111','-143','-186','-36']" data-width="461" data-height="173" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1140,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; min-width: 461px; max-width: 461px; max-width: 173px; max-width: 173px; white-space: nowrap; font-size: 50px; line-height: 59px; font-weight: 400; color: #ffffff; letter-spacing: -4px;font-family:Poppins;">Making<br> Transportation
-                        <br> Fast & Sasw </div>
+                        <br> Fast & Save </div>
 
                     <!-- LAYER NR. 4 -->
                     <div class="tp-caption rev-btn " id="slide-4-layer-2" data-x="['left','left','left','center']" data-hoffset="['0','41','45','0']" data-y="['top','top','top','top']" data-voffset="['453','372','435','471']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":640,"speed":1120,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:transparent;bc:rgb(255,255,255);"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 6; white-space: nowrap; font-size: 14px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Poppins;background-color:rgb(13 14 14 / 95%);border-color:rgb(114 125 133);border-style:solid;border-width:2px 2px 2px 2px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Contact Us </div>
@@ -529,7 +529,7 @@ s
 
                     <!-- LAYER NR. 3 -->
                     <div class="tp-caption   tp-resizeme" id="slide-4-layer-1" data-x="['left','left','left','center']" data-hoffset="['0','41','45','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-111','-143','-186','-36']" data-width="461" data-height="173" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1140,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; min-width: 461px; max-width: 461px; max-width: 173px; max-width: 173px; white-space: nowrap; font-size: 50px; line-height: 59px; font-weight: 400; color: #ffffff; letter-spacing: -4px;font-family:Poppins;">Making<br> Transportation
-                        <br> Fast & Savw </div>
+                        <br> Fast & Save </div>
 
                     <!-- LAYER NR. 4 -->
                     <div class="tp-caption rev-btn " id="slide-4-layer-2" data-x="['left','left','left','center']" data-hoffset="['0','41','45','0']" data-y="['top','top','top','top']" data-voffset="['453','372','435','471']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":640,"speed":1120,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:transparent;bc:rgb(255,255,255);"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 6; white-space: nowrap; font-size: 14px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Poppins;background-color:rgb(13 14 14 / 95%);border-color:rgb(114 125 133);border-style:solid;border-width:2px 2px 2px 2px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Contact Us </div>
@@ -566,12 +566,12 @@ s
            
 
 
-                        <div class="icon"><img src="assets/icons/Transport-Truck.png" alt=""></div>
+                        <div class="icon"><img src="assets/icons/Imagen3.png" alt=""></div>
                         <a href="#" class="title h2">Fast Delivery</a>
                         <div class="des">Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus lorem leo ultricies et vitae enim.</div>
                     </div>
                     <div class="service-icon-box">
-                        <div class="icon"><img src="assets/icons/Done-Shield-WF.png" alt=""></div>
+                        <div class="icon"><img src="assets/icons/Imagen1.png" alt=""></div>
                         <a href="#" class="title h2">Better service and Security</a>
                         <div class="des">Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus lorem leo ultricies et vitae enim.</div>
                     </div>
@@ -583,12 +583,12 @@ s
                 </div>
                 <div class="col-lg-4">
                     <div class="service-icon-box">
-                        <div class="icon"><img src="assets/icons/24SuppportF.png" alt=""></div>
+                        <div class="icon"><img src="assets/icons/Imagen2.png" alt=""></div>
                         <a href="#" class="title h2">24/7 Support</a>
                         <div class="des">Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus lorem leo ultricies et vitae enim.</div>
                     </div>
                     <div class="service-icon-box">
-                        <div class="icon"><img src="assets/icons/Contacts%20favourites.png" alt=""></div>
+                        <div class="icon" ><img src="assets/icons/Imagen6.png" alt=""></div>
                         <a href="#" class="title h2">Fully Licensed
                             and ensured  </a> 
                         <br/>
@@ -603,7 +603,7 @@ s
 
 
             <div class="text-center margin-top-35px">
-                <a href="#" class="nile-bottom md">Show all <i class="fa fa-arrow-right"></i> </a>
+                <a href="service.php" class="nile-bottom md">Show Services <i class="fa fa-arrow-right"></i> </a>
             </div>
 
         </div>
@@ -617,7 +617,7 @@ s
             <div class="row">
                 <div class="col-lg-7 padding-tb-15px">
                     <h2>THE FACTS SPEAKS FOR THEMSELVES </h2>
-                    <h3>-ANYWHERE, ANYTIME, ANYDAY- </h3>
+                    <h2>-ANYWHERE, ANYTIME, ANYDAY- </h2>
                     <div class="text">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
                 </div>
                 <div class="col-lg-5">
@@ -811,7 +811,7 @@ Motor transport</h3>
                         <div class="text">First time using a carrier to transport my car from Georgia to Alabama could not make a
 better choice. Thanks to this team for helping me move to my new hometown</div>
                         <div class="meta">
-                            <div class="testimonials-thum"><img src="assets/img/testimonials-1.jpg" alt=""></div>
+                            <div class="testimonials-thum"><img src="assets/img/" alt=""></div>
                             <div class="name">Rabie Elkheir</div>
                         </div>
                     </div>
@@ -824,7 +824,7 @@ better choice. Thanks to this team for helping me move to my new hometown</div>
                         <div class="text">Ez Auto Transportation has an excellent service they kept me updated along the way of
 the route, Delivery was quicker than expected</div>
                         <div class="meta">
-                            <div class="testimonials-thum"><img src="assets/img/testimonials-2.jpg" alt=""></div>
+                            <div class="testimonials-thum"><img src="assets/img/" alt=""></div>
                             <div class="name">Khalid Alnoor</div>
                         </div>
                     </div>
@@ -836,7 +836,7 @@ the route, Delivery was quicker than expected</div>
                         <div class="icon"></div>
                         <div class="text">Great service and incredible communication</div>
                         <div class="meta">
-                            <div class="testimonials-thum"><img src="assets/img/testimonials-3.jpg" alt=""></div>
+                            <div class="testimonials-thum"><img src="assets/img/" alt=""></div>
                             <div class="name">Amal Salman</div>
                         </div>
                     </div>
@@ -844,11 +844,26 @@ the route, Delivery was quicker than expected</div>
                 
             </div>
 
-
-
-            <div class="text-center">
-                <a href="#" class="nile-bottom md">Show all <i class="fa fa-arrow-right"></i> </a>
+        
+                       
+ <br>
+         <br>
+            
+                    <!-- Title -->
+            <div class="section-title margin-bottom-40px">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="icon text-main-color"><i class="fa fa-envelope-o "></i></div>
+                        <div class="h2">
+                                Get a quote now</div>
+                        <a data-toggle="modal" data-target="#myModal" href="#" style="background-color:#177AB7; padding: 8px; font-size: 13px; " class="btn btn-sm border-radius-30 margin-tb-20px text-white  box-shadow  padding-lr-20px   d-block">
+                            <i class="fa fa-hand-o-right"></i> &nbsp; Carry out
+                        </a>
+                    </div>
+                </div>
             </div>
+            <!-- // End Title -->
+            
 
         </div>
     </div>
@@ -1080,6 +1095,50 @@ $(document).ready(function(){
             );
         
             });
+    
+    
+        $("#search1").click(function(){
+           
+            $( "#pendiente" ).empty();
+            $( "#recojido" ).empty();
+            $( "#entregado" ).empty();
+          /*  $( "#TypeV" ).empty();*/
+                       
+        var data = $("#buscar").val();
+        var darkOrLight="";
+            
+    switch(data) {
+    case "pendiente":
+        
+      $("#pendiente").append( '<img src="assets/icons/validate3.png">' );
+     break;
+   
+    case "recojido":
+            
+         $("#pendiente").append( '<img src="assets/icons/validate3.png">' );
+         $("#recojido").append( '<img src="assets/icons/validate3.png">' );       
+    break;
+        
+    case "entregado":
+            
+         $("#pendiente").append( '<img src="assets/icons/validate3.png">' );
+         $("#recojido").append( '<img src="assets/icons/validate3.png">' );
+         $("#entregado").append( '<img src="assets/icons/validate3.png">' );
+    break;
+        
+    case "estado1":
+       
+          alert("es");
+        break;
+        
+    default:
+        darkOrLight = "Unknown";
+}     
+                        
+                        
+                        });
+    
+
 
 </script>
 
