@@ -69,8 +69,8 @@
                             <div class="col-xl-9 col-lg-12">
                                 <div class="row">
                                     <div class="col-md-3"><i class="fa fa-phone margin-right-10px"></i> 00222 123 333 019</div>
-                                    <div class="col-md-4"><i class="fa fa-envelope-o margin-right-10px"></i> Sales@ezaautotransportationusa.com</div>
-                                    <div class="col-md-5"><i class="fa fa-map-marker margin-right-10px"></i> 5951 NW 151ST MIAMI LAKES FL 33014 SUITE #207</div>
+                                    <div class="col-md-4"><i class="fa fa-envelope-o margin-right-10px"></i> Sales@ezautotransportationusa.com</div>
+                                    <div class="col-md-5"><i class="fa fa-map-marker margin-right-10px"></i> 5951 NW 151ST ST MIAMI LAKES FL 33014 SUITE #207</div>
                                 </div>
                             </div>
                             <div class="col-xl-3 d-none d-xl-block">
@@ -119,45 +119,11 @@
 
 
                                 <div class="d-none d-xl-block pull-right model-link margin-top-15px">
-                                    <a id="cart-link" class="model-link margin-right-25px text-white opacity-hover-8" href="#">
-                                    <span>3</span><i class="fa fa-shopping-cart"></i>
+                                    <a id="cart-link" class="model-link margin-right-25px text-white opacity-hover-8" href="http://ezautotransportationusa.com/sistema">
+                                    <i class="fa fa-laptop"></i>
+                                        
                                 </a>
-                                    <div class="cart-model">
-
-                                        <div class="media">
-                                            <a href="#">
-										<img class="d-flex align-self-start mr-3 width-50px" src="assets/img/cart-1.jpg" alt="Generic placeholder image">
-									  </a>
-                                            <div class="media-body">
-                                                <a href="#" class="close"><i class="fa fa-window-close"></i></a>
-                                                <h5 class="mt-0"><a href="#">Cargo Transportation</a></h5>
-                                                <h6 class="mt-0 font-2">1 X 250$</h6>
-                                            </div>
-                                        </div>
-
-                                        <div class="media">
-                                            <a href="#">
-										<img class="d-flex align-self-start mr-3 width-50px" src="assets/img/cart-2.jpg" alt="Generic placeholder image">
-									  </a>
-                                            <div class="media-body">
-                                                <a href="#" class="close"><i class="fa fa-window-close"></i></a>
-                                                <h5 class="mt-0"><a href="#">Air Freight</a></h5>
-                                                <h6 class="mt-0 font-2">1 X 250$</h6>
-                                            </div>
-                                        </div>
-                              
-
-                                        <div class="padding-0px">
-                                            <div class="cart-total background-main-color padding-lr-30px padding-tb-10px text-white">
-                                                <div class="desc">Subtotal:</div>
-                                                <div class="price"><strong>$71.00</strong></div>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                            <a href="#" class="btn btn-primary btn-lg btn-block">view cart</a>
-                                            <a href="#" class="btn btn-outline-primary btn-lg btn-block">Checkout</a>
-                                        </div>
-                                    </div>
-                                </div>
+                                      </div>
                                 <div class="d-none d-xl-block search-link pull-right model-link margin-top-15px">
                                     <a id="search-header" class="model-link margin-right-0px text-white opacity-hover-8" href="#search">
                                     <i class="fa fa-search"></i>
@@ -198,7 +164,7 @@
 
             
         </form>
-klk
+
 <div class="row" style="text-align: center; margin-top: 180px; margin-left: 65px;">
    <div style="display:inline-block;width:100%; margin-top: -150px;">
 					<ul class="timeline timeline-horizontal">
@@ -887,7 +853,7 @@ the route, Delivery was quicker than expected</div>
                                     <div class="icon margin-top-5px"><span class="icon_pin_alt"></span></div>
                                     <div class="text">
                                         <span class="title-in">Location :</span> <br>
-                                        <span class="font-weight-500 text-uppercase">US 5951 NW 151ST ST MIAMI LAKES FL 33014 SUITE #207</span>
+                                        <span class="font-weight-500 text-uppercase">5951 NW 151ST ST MIAMI LAKES FL 33014 SUITE#207</span>
                                     </div>
                                 </div>
                             </div>

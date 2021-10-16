@@ -31,7 +31,7 @@ communicate with us or you can email.</p>
                     <span class="d-block"><i class="fa fa-phone text-main-color margin-right-10px" aria-hidden="true"></i> +888-888-88888</span>
                     <span class="d-block sm-mb-30px"><i class="fa fa-mobile text-main-color margin-right-10px" aria-hidden="true"></i> +888-888-88888</span>
                     <h5 class="margin-top-20px">Address :</h5>
-                    <span class="d-block sm-mb-30px"><i class="fa fa-map text-main-color margin-right-10px" aria-hidden="true"></i>5951 NW 151ST ST MIAMI LAKES FL 33014 SUITE #207 </span>
+                    <span class="d-block sm-mb-30px"><i class="fa fa-map text-main-color margin-right-10px" aria-hidden="true"></i>5951 NW 151ST ST MIAMI LAKES FL 33014 SUITE#207 </span>
                     <h5 class="margin-top-20px">Email :</h5>
                     <span class="d-block sm-mb-30px"><i class="fa fa-envelope-open text-main-color margin-right-10px" aria-hidden="true"></i> sales@ezautotransportationusa.com </span>
                 </div>

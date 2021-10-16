@@ -86,68 +86,12 @@ Just give us a call and leave your transportation needs to us.</p>
 
 					<div class="margin-bottom-30px">
 						<div class="block-single">
-							<h4><i class="fa fa-comment margin-right-10px text-main-color"></i> Comments (3)</h4>
-							<hr>
-
-							<ul class="commentlist padding-0px margin-0px list-unstyled text-grey-3">
-								<li class="border-bottom-1 border-grey-1 margin-bottom-20px">
-									<img src="assets/img/testimonial-1.png" class="float-left margin-right-20px border-radius-60 margin-bottom-20px" alt="">
-									<div class="margin-left-85px">
-										<a class="d-inline-block text-dark text-medium margin-right-20px" href="#">Bakhita alrawi </a>
-										<span class="text-extra-small">Date :  <a href="#" class="text-main-color">July 15, 2016</a></span>
-										<p class="margin-top-15px text-grey-2">First time using a carrier to transport my car from Georgia to Alabama could not make a
-better choice. Thanks to this team for helping me move to my new hometown. </p>
-									</div>
-								</li>
-								<li class="border-bottom-1 border-grey-1 margin-left-55px margin-bottom-20px">
-									<img src="assets/img/testimonial-2.png" class="float-left margin-right-20px border-radius-60 margin-bottom-20px" alt="">
-									<div class="margin-left-85px">
-										<a class="d-inline-block text-dark text-medium margin-right-20px" href="#">Rabie Elkheir </a>
-										<span class="text-extra-small">Date :  <a href="#" class="text-main-color">July 15, 2016</a></span>
-										<p class="margin-top-15px text-grey-2">
-Ez Auto Transportation tiene un excelente servicio, me mantuvieron actualizado a lo largo del camino
-la ruta, la entrega fue más rápida de lo esperado. </p>
-									</div>
-								</li>
-								<li class="border-bottom-1 border-grey-1 margin-bottom-20px">
-									<img src="assets/img/testimonial-3.png" class="float-left margin-right-20px border-radius-60 margin-bottom-20px" alt="">
-									<div class="margin-left-85px">
-										<a class="d-inline-block text-dark text-medium margin-right-20px" href="#">Adel Alsaeed </a>
-										<span class="text-extra-small">Date :  <a href="#" class="text-main-color">July 15, 2016</a></span>
-										<p class="margin-top-15px text-grey-2">Estoy feliz con toda la experiencia, buenos chicos </p>
-									</div>
-								</li>
-							</ul>
+ <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v12.0&appId=154944716846931&autoLogAppEvents=1" nonce="2FqRgjNN"></script>
+		<div class="fb-comments" data-href="http://ezautotransportationusa.com/" data-width="100%" data-numposts="5"></div>
 						</div>
 					</div>
 
-					<div class="margin-bottom-30px">
-						<div class="block-single">
-							<h4><i class="fa fa-comment margin-right-10px text-main-color"></i> Add Comment</h4>
-							<hr>
-							<form>
-								<div class="form-row">
-									<div class="form-group col-md-6">
-										<label>Full Name</label>
-										<input type="text" class="form-control" id="inputName4" placeholder="Name">
-									</div>
-									<div class="form-group col-md-6">
-										<label>Email</label>
-										<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-									</div>
-								</div>
-								<div class="form-group">
-									<label>Comment :</label>
-									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comment"></textarea>
-								</div>
-
-								<div class="row">
-									<div class="col-md-6">
-										<a href="#" class="btn-sm btn-lg btn-block background-main-color text-white text-center font-weight-bold text-uppercase border-radius-10 padding-10px">Add Now !</a></div>
-								</div>
-							</form>
-						</div>
-					</div>
 
 				</div>
 				<div class="col-md-3">

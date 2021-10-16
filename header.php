@@ -44,12 +44,20 @@
     <link rel="stylesheet" type="text/css" href="assets/rslider/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
     <link rel="stylesheet" type="text/css" href="assets/rslider/fonts/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="assets/rslider/css/settings.css">
+    
+
 
 </head>
 
 <body>
+   
+    
     <!--  Header  -->
     <header class=" ColorAbout" class="header-output">
+        
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v12.0&appId=154944716846931&autoLogAppEvents=1" nonce="NGLFqyAn"></script>
+        
         <div class="header-output">
             <div class="header-output">
                 <div class="header-in">
@@ -81,46 +89,13 @@
 
 
 
-                                    <div class="d-none d-xl-block pull-right model-link margin-top-15px">
-                                        <a id="cart-link" class="model-link margin-right-25px text-dark opacity-hover-8" href="#">
-                                    <span>3</span><i class="fa fa-shopping-cart"></i>
+                                <div class="d-none d-xl-block pull-right model-link margin-top-15px">
+                                    <a id="cart-link" class="model-link margin-right-25px text-white opacity-hover-8" href="http://ezautotransportationusa.com/sistema">
+                                    <i class="fa fa-laptop"></i>
+                                        
                                 </a>
-                                        <div class="cart-model">
-
-                                            <div class="media">
-                                                <a href="#">
-										<img class="d-flex align-self-start mr-3 width-50px" src="assets/img/cart-1.jpg" alt="Generic placeholder image">
-									  </a>
-                                                <div class="media-body">
-                                                    <a href="#" class="close"><i class="fa fa-window-close"></i></a>
-                                                    <h5 class="mt-0"><a href="#">Cargo Transportation</a></h5>
-                                                    <h6 class="mt-0 font-2">1 X 250$</h6>
-                                                </div>
-                                            </div>
-
-                                            <div class="media">
-                                                <a href="#">
-										<img class="d-flex align-self-start mr-3 width-50px" src="assets/img/cart-2.jpg" alt="Generic placeholder image">
-									  </a>
-                                                <div class="media-body">
-                                                    <a href="#" class="close"><i class="fa fa-window-close"></i></a>
-                                                    <h5 class="mt-0"><a href="#">Air Freight</a></h5>
-                                                    <h6 class="mt-0 font-2">1 X 250$</h6>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="padding-0px">
-                                                <div class="cart-total background-main-color padding-lr-30px padding-tb-10px text-white">
-                                                    <div class="desc">Subtotal:</div>
-                                                    <div class="price"><strong>$71.00</strong></div>
-                                                    <div class="clearfix"></div>
-                                                </div>
-                                                <a href="#" class="btn btn-primary btn-lg btn-block">view cart</a>
-                                                <a href="#" class="btn btn-outline-primary btn-lg btn-block">Checkout</a>
-                                            </div>
-                                        </div>
-                                    </div>
+                                      </div>
+                               
                                     <div class="d-none d-xl-block search-link pull-right model-link margin-top-15px">
                                         <a id="search-header" class="model-link margin-right-0px text-dark opacity-hover-8" href="#search">
                                     <i class="fa fa-search"></i>
