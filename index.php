@@ -14,9 +14,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- google fonts -->
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800%7CPoppins:300i,300,400,500,600,700,400i,500%7CDancing+Script:700%7CDancing+Script:700%7CGreat+Vibes:400%7CPoppins:400%7CDosis:800%7CRaleway:400,700,800&amp;subset=latin-ext" rel="stylesheet">
+
+        <link href="assets/fonts/font-awesome/css/fonts.googleapis.css" rel="stylesheet">
     <!-- animate -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    
+     <link rel="stylesheet" type="text/css" h href="assets/fonts/font-awesome/css/fonts.googleapis.materialicons.css" rel="stylesheet">
 	   <link rel="stylesheet" href="assets/css/Maxfontawesome.css">
     <link rel="stylesheet" href="assets/css/animate.css" />
     <!-- owl Carousel assets -->
@@ -46,7 +48,8 @@
     <link rel="stylesheet" type="text/css" href="assets/rslider/fonts/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="assets/rslider/css/settings.css">
      
-        <link href="https://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
+  
+     <link rel="stylesheet" href="assets/fonts/font-awesome/css/FontAwesome4.4.0.css">
 	<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
  
 
@@ -165,9 +168,9 @@
             
         </form>
 
-<div class="row" style="text-align: center; margin-top: 180px; margin-left: 65px;">
-   <div style="display:inline-block;width:100%; margin-top: -150px;">
-					<ul class="timeline timeline-horizontal">
+
+    <div style="display:inline-block;width:100%; margin-top:65px; text-align: center;">
+					<ul style="left: 50px;" class="timeline timeline-horizontal">
 						
 						<li class="timeline-item">
 				<div class="timeline-badge primary">
@@ -196,7 +199,7 @@
                         	<li class="timeline-item">
 				<div class="timeline-badge primary">
                         <b><i class="fa fa-cog fa-spin fa-1x fa-fw"></i></b>
-                     <p id="estado1"><img src="assets/icons/validate3.png"></p>
+                     <p id="estado1"><img src="assets/icons/close.png"></p>
                      </div>
 				       <p><span id="lower-text">FINISHED OR<br>CANCELED</span></p>
 						</li>					
@@ -205,7 +208,7 @@
 				</div>
    </div>
 
-    </div>
+    
     <!-- // Search  -->
 
  <div class="modal fade" id="myModal" role="dialog">

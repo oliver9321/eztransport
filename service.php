@@ -88,7 +88,7 @@ Just give us a call and leave your transportation needs to us.</p>
 						<div class="block-single">
  <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v12.0&appId=154944716846931&autoLogAppEvents=1" nonce="2FqRgjNN"></script>
-		<div class="fb-comments" data-href="http://ezautotransportationusa.com/" data-width="100%" data-numposts="5"></div>
+		<div class="fb-comments" data-href="http://ezautotransportationusa.com/" data-width="100%" data-order-by="reverse_time" data-numposts="5"></div>
 						</div>
 					</div>
 
@@ -97,8 +97,8 @@ Just give us a call and leave your transportation needs to us.</p>
 				<div class="col-md-3">
 
 					<div class="widget sidebar-wideget">
-						<div class="sidebar-title">
-							<h2>Categories</h2>
+						<div  class="sidebar-title">
+							<h2 style="top: -32px; margin-bottom: 8px; ">Categories</h2>
 						</div>
 						<div class="last-post">
 							<div class="item">

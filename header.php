@@ -13,10 +13,11 @@
     <meta name="description" content="Transportation and Logistics Responsive HTML5 Template">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800%7CPoppins:300i,300,400,500,600,700,400i,500%7CDancing+Script:700%7CDancing+Script:700%7CGreat+Vibes:400%7CPoppins:400%7CDosis:800%7CRaleway:400,700,800&amp;subset=latin-ext" rel="stylesheet">
+ <link href="assets/fonts/font-awesome/css/fonts.googleapis.css" rel="stylesheet">>
     <!-- animate -->
-      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" h href="assets/fonts/font-awesome/css/fonts.googleapis.materialicons.css" rel="stylesheet">
+	
+    <link rel="stylesheet" href="assets/css/FontAwesome4.7.0.min.css">
     <link rel="stylesheet" href="assets/css/animate.css" />
     <!-- owl Carousel assets -->
     <link href="assets/css/owl.carousel.css" rel="stylesheet">
@@ -98,7 +99,7 @@
                                
                                     <div class="d-none d-xl-block search-link pull-right model-link margin-top-15px">
                                         <a id="search-header" class="model-link margin-right-0px text-dark opacity-hover-8" href="#search">
-                                    <i class="fa fa-search"></i>
+                                    <i style="color: #ffffff!important;" class="fa fa-search"></i>
                                 </a>
                                     </div>
 
