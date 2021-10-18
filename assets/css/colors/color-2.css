@@ -112,7 +112,7 @@ header ul.nav-menu > li.active > a {
   color: #0c3c8e;
 }
 header ul.nav-menu > li > a:hover {
-  color: #0c3c8e;
+ /* color: #0c3c8e;*/
 }
 
 .mega-links-4columns ul.sub-menu-columns > li > a {

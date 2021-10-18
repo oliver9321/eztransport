@@ -293,7 +293,7 @@ header ul.nav-menu > li.active > a {
   color: #e53935;
 }
 header ul.nav-menu > li > a:hover {
-  color: #e53935;
+  color: floralwhite;
 }
 header ul.nav-menu > li.mega-menu > a, header ul.nav-menu > li.has-dropdown > a {
   position: relative;
@@ -2408,11 +2408,11 @@ img {
 }
 
 a {
-  -webkit-transition: all 0.25s ease-in-out;
+ /* -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -ms-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;*/
   color: white;
 }
 
@@ -38411,7 +38411,7 @@ form.dark-form ::-ms-input-placeholder {
   }
 
   .service.layout-1 {
-    background-color: #e53935;
+   /* background-color: #e53935;*/
     margin-bottom: 30px;
   }
 }

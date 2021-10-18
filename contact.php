@@ -25,15 +25,14 @@ include("header.php");
 
                 <div class="col-lg-6 sm-mb-45px">
                     <p> As EZ Auto Transportation, we will work hard and give the extra
-mile to keep out clients satisfied. If you would like to
+mile to keep our clients satisfied. If you would like to
 communicate with us or you can email.</p>
                     <h5>Phone :</h5>
-                    <span class="d-block"><i class="fa fa-phone text-main-color margin-right-10px" aria-hidden="true"></i> +888-888-88888</span>
-                    <span class="d-block sm-mb-30px"><i class="fa fa-mobile text-main-color margin-right-10px" aria-hidden="true"></i> +888-888-88888</span>
+                    <span class="d-block"><i class="fa fa-phone text-main-color margin-right-10px" aria-hidden="true"></i> <a href="tel:(305) 381-5252"  style="color: #3C4858;" >Main Phone (305) 381-5252</a></span>
                     <h5 class="margin-top-20px">Address :</h5>
                     <span class="d-block sm-mb-30px"><i class="fa fa-map text-main-color margin-right-10px" aria-hidden="true"></i>5951 NW 151ST ST MIAMI LAKES FL 33014 SUITE#207 </span>
                     <h5 class="margin-top-20px">Email :</h5>
-                    <span class="d-block sm-mb-30px"><i class="fa fa-envelope-open text-main-color margin-right-10px" aria-hidden="true"></i> sales@ezautotransportationusa.com </span>
+                    <span class="d-block sm-mb-30px"><i class="fa fa-envelope-open text-main-color margin-right-10px" aria-hidden="true"></i> <a  href="mailto:Sales@ezautotransportationusa.com" style="color: #3C4858;" >Sales@ezautotransportationusa.com</a> </span>
                 </div>
 
                 <div class="col-lg-6">
@@ -72,7 +71,7 @@ communicate with us or you can email.</p>
 
     <div class="map-layout">
         <div class="map-embed">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20980.754338669292!2d-118.30289592578626!3d34.08843374094495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z2YTZiNizINij2YbYrNmE2YjYs9iMINmD2KfZhNmK2YHZiNix2YbZitin2Iwg2KfZhNmI2YTYp9mK2KfYqiDYp9mE2YXYqtit2K_YqQ!5e0!3m2!1sar!2ssa!4v1534382441818" width="100%" height="390" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3588.7300053841586!2d-80.29984868454196!3d25.91124480871755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDU0JzQwLjUiTiA4MMKwMTcnNTEuNiJX!5e0!3m2!1ses!2sdo!4v1634519876644!5m2!1ses!2sdo" width="100%" height="390" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
         
     </div>

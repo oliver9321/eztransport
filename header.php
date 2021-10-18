@@ -13,7 +13,7 @@
     <meta name="description" content="Transportation and Logistics Responsive HTML5 Template">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- google fonts -->
- <link href="assets/fonts/font-awesome/css/fonts.googleapis.css" rel="stylesheet">>
+ <link href="assets/fonts/font-awesome/css/fonts.googleapis.css" rel="stylesheet">
     <!-- animate -->
         <link rel="stylesheet" type="text/css" h href="assets/fonts/font-awesome/css/fonts.googleapis.materialicons.css" rel="stylesheet">
 	
@@ -90,16 +90,12 @@
 
 
 
-                                <div class="d-none d-xl-block pull-right model-link margin-top-15px">
-                                    <a id="cart-link" class="model-link margin-right-25px text-white opacity-hover-8" href="https://ezautotransportationusa.com/system/">
-                                    <i class="fa fa-laptop"></i>
-                                        
-                                </a>
-                                      </div>
+                              
+                             
                                
                                     <div class="d-none d-xl-block search-link pull-right model-link margin-top-15px">
-                                        <a id="search-header" class="model-link margin-right-0px text-dark opacity-hover-8" href="#search">
-                                    <i style="color: #ffffff!important;" class="fa fa-search"></i>
+                                        <a id="search-header" class="model-link margin-right-0px text-dark opacity-hover-8" href="#search"  style="width: 178px;">
+                                            <i style="color: #ffffff!important;" class="fa fa-search margin-right-10px"> &nbsp;Order Tracking</i>
                                 </a>
                                     </div>
 

@@ -71,8 +71,8 @@
                         <div class="row">
                             <div class="col-xl-9 col-lg-12">
                                 <div class="row">
-                                    <div class="col-md-3"><i class="fa fa-phone margin-right-10px"></i> 00222 123 333 019</div>
-                                    <div class="col-md-4"><i class="fa fa-envelope-o margin-right-10px"></i> Sales@ezautotransportationusa.com</div>
+                                    <div class="col-md-3"><i class="fa fa-phone margin-right-10px"></i> <a href="tel:(305) 381-5252">Main Phone (305) 381-5252</a></div>
+                                    <div class="col-md-4"><i class="fa fa-envelope-o margin-right-10px"></i> <a href="mailto:Sales@ezautotransportationusa.com" >Sales@ezautotransportationusa.com</a> </div>
                                     <div class="col-md-5"><i class="fa fa-map-marker margin-right-10px"></i> 5951 NW 151ST ST MIAMI LAKES FL 33014 SUITE #207</div>
                                 </div>
                             </div>
@@ -83,8 +83,8 @@
                                     <div class="col-lg-6">
                                         <!--  Social -->
                                         <ul class="social-media list-inline text-right margin-0px text-white">
-                                            <li class="list-inline-item"><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                            <li class="list-inline-item"><a class="instagram" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                            <li class="list-inline-item"><a class="facebook" href="https://m.facebook.com/ezautotransportation/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li class="list-inline-item"><a class="instagram" href="https://instagram.com/ezautotransportation?utm_medium=copy_link" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         
                                         </ul>
                                         <!-- // Social -->
@@ -121,16 +121,12 @@
 
 
 
-                                <div class="d-none d-xl-block pull-right model-link margin-top-15px">
-                                    <a id="cart-link" class="model-link margin-right-25px text-white opacity-hover-8" href="https://ezautotransportationusa.com/system/">
-                                    <i class="fa fa-laptop"></i>
-                                        
-                                </a>
-                                      </div>
                                 <div class="d-none d-xl-block search-link pull-right model-link margin-top-15px">
-                                    <a id="search-header" class="model-link margin-right-0px text-white opacity-hover-8" href="#search">
-                                    <i class="fa fa-search"></i>
+                                      
+                                    <a id="search-header" class="model-link margin-right-0px text-white opacity-hover-8" href="#search" style="width: 176px;">
+                                        <i class="fa fa-search margin-right-10px"></i>Order Tracking
                                 </a>
+                                 
                                 </div>
   
                             </div>
@@ -473,10 +469,11 @@
 
                     <!-- LAYER NR. 1 -->
                     <div class="tp-caption   tp-resizeme" id="slide-3-layer-1" data-x="['left','left','left','center']" data-hoffset="['0','41','45','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-111','-143','-186','-36']" data-width="461" data-height="173" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1140,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; min-width: 461px; max-width: 461px; max-width: 173px; max-width: 173px; white-space: nowrap; font-size: 50px; line-height: 59px; font-weight: 400; color: #ffffff; letter-spacing: -4px;font-family:Poppins;">WELCOME TO<br> EZ AUTO 
-                        <br> TRANSPORTATION </div>
+                        <br> TRANSPORTATION <br>
+                    ANYWHERE, ANYTIME, ANYDAY
+                    </div>
 
-                    <!-- LAYER NR. 2 -->
-                    <div class="tp-caption rev-btn " id="slide-3-layer-2" data-x="['left','left','left','center']" data-hoffset="['0','41','45','0']" data-y="['top','top','top','top']" data-voffset="['453','372','435','471']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":640,"speed":1120,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:transparent;bc:rgb(255,255,255);"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 6; white-space: nowrap; font-size: 14px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Poppins;background-color:rgb(13 14 14 / 95%);border-color:rgb(114 125 133);border-style:solid;border-width:2px 2px 2px 2px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Contact Us </div>
+                 
                 </li>
                 <!-- SLIDE  -->
                 <li data-index="rs-4" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
@@ -520,8 +517,8 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
                         <div class="icon text-main-color"><i class="fa fa-truck"></i></div>
-                        <div class="h2">WELCOME TO</div>
-                        <div class="des">In quis luctus dolor. Sed ac libero arcu. Phasellus vulputate ultrices augue, eget feugiat lectus efficitur in. Nulla non pharetra justo. Nunc viverra consectetur bibendum. </div>
+                        <div class="h2">Welcome to EZ Auto Transportation</div>
+                        <div class="des">Our mission is to be a safe transportation that ensures the mobility of automotive, and preserves the quality of our client needs understanding their expectations. </div>
                     </div>
                 </div>
             </div>
@@ -537,12 +534,12 @@
 
                         <div class="icon"><img src="assets/icons/Imagen3.png" alt=""></div>
                         <a href="#" class="title h2">Fast Delivery</a>
-                        <div class="des">Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus lorem leo ultricies et vitae enim.</div>
+                        <div class="des">We schedule your transportation on the right truck to fit your needs. Any offer a clients gets guarantees the price and also door-to-door service.</div>
                     </div>
                     <div class="service-icon-box">
                         <div class="icon"><img src="assets/icons/Imagen1.png" alt=""></div>
-                        <a href="#" class="title h2">Better service and Security</a>
-                        <div class="des">Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus lorem leo ultricies et vitae enim.</div>
+                        <a href="#" class="title h2">Better service and security </a>
+                        <div class="des">One agency, one team! Because it’s not about moving vehicles, it is about Auto Transport that you can trust. Our trust transparency is open and fair for each one of our clients.</div>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -554,15 +551,14 @@
                     <div class="service-icon-box">
                         <div class="icon"><img src="assets/icons/Imagen2.png" alt=""></div>
                         <a href="#" class="title h2">24/7 Support</a>
-                        <div class="des">Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus lorem leo ultricies et vitae enim.</div>
+                        <div class="des">Our company serve the people of all the States by providing 24/7 contact to our clients. A transportation network that is reliable, well planned, and has the goal of being an efficient and modern transportation system in the world.</div>
                     </div>
                     <div class="service-icon-box">
                         <div class="icon" ><img src="assets/icons/Imagen6.png" alt=""></div>
-                        <a href="#" class="title h2">Fully Licensed
-                            and ensured  </a> 
-                        <br/>
-                             <a class="title h5">*FMCSA*</a>
-                        <div class="des">Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus lorem leo ultricies et vitae enim.</div>
+                        <a href="#" class="title h2">  </a> 
+                       
+                             <a class="title h5"></a>
+                        <div class="des">EZ Auto Transportation is fully licensed, bonded and insured.</div>
                     </div>
                 </div>
 
@@ -824,9 +820,9 @@ the route, Delivery was quicker than expected</div>
                     <div class="col-lg-7">
                         <div class="icon text-main-color"><i class="fa fa-envelope-o "></i></div>
                         <div class="h2">
-                                Get a quote now</div>
+                                Ready to ship your vehicle ? </div>
                         <a data-toggle="modal" data-target="#myModal" href="#" style="background-color:#177AB7; padding: 8px; font-size: 13px; " class="btn btn-sm border-radius-30 margin-tb-20px text-white  box-shadow  padding-lr-20px   d-block">
-                            <i class="fa fa-hand-o-right"></i> &nbsp; Carry out
+                            <i class="fa fa-hand-o-right"></i> &nbsp; Get a quote
                         </a>
                     </div>
                 </div>
@@ -842,7 +838,8 @@ the route, Delivery was quicker than expected</div>
 
     <div class="map-layout">
         <div class="map-embed">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20980.754338669292!2d-118.30289592578626!3d34.08843374094495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z2YTZiNizINij2YbYrNmE2YjYs9iMINmD2KfZhNmK2YHZiNix2YbZitin2Iwg2KfZhNmI2YTYp9mK2KfYqiDYp9mE2YXYqtit2K_YqQ!5e0!3m2!1sar!2ssa!4v1534382441818" width="100%" height="390" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3588.7300053841586!2d-80.29984868454196!3d25.91124480871755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDU0JzQwLjUiTiA4MMKwMTcnNTEuNiJX!5e0!3m2!1ses!2sdo!4v1634519876644!5m2!1ses!2sdo" width="100%" height="390" frameborder="0" style="border:0" allowfullscreen></iframe>
+          
         </div>
         <div class="container">
             <div class="row">
@@ -867,7 +864,7 @@ the route, Delivery was quicker than expected</div>
                                     <div class="icon  margin-top-5px"><span class="icon_phone"></span></div>
                                     <div class="text">
                                         <span class="title-in">Call Us :</span><br>
-                                        <span class="font-weight-500 text-uppercase">888-888-88888</span>
+                                        <span class="font-weight-500 text-uppercase"><a href="tel:(305) 381-5252" >(305) 381-5252</a></span>
                                     </div>
                                 </div>
                             </div>
@@ -889,9 +886,9 @@ the route, Delivery was quicker than expected</div>
                     <div class="col-lg-6">
                         <!--  Social -->
                         <ul class="social-media list-inline text-lg-right text-center margin-0px text-dark">
-                            <li class="list-inline-item"><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li class="list-inline-item"><a class="instagram" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                            <li class="list-inline-item"><a class="google" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            <li class="list-inline-item"><a class="facebook" href="https://m.facebook.com/ezautotransportation/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li class="list-inline-item"><a class="instagram" href="https://instagram.com/ezautotransportation?utm_medium=copy_link" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                           
                         </ul>
                         <!-- // Social -->
                     </div>

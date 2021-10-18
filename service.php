@@ -61,7 +61,7 @@ Transportation is here to help.</p>
                         <hr>
                         <h5>How does EZ Auto Transportation process work?</h5>
                         	<div class="entry-content">
-							<p>• Call our experts
+							<p>• Call our experts,
 We will work with your auto shipping needs. Once you place
 order, we collect initial payment.  <br/>
                               

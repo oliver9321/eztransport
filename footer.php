@@ -8,10 +8,9 @@
 					<div class="col-lg-6">
 						<!--  Social -->
 						<ul class="social-media list-inline text-lg-right text-center margin-0px text-white">
-							<li class="list-inline-item"><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<li class="list-inline-item"><a class="facebook" href="https://m.facebook.com/ezautotransportation/"  target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 							</li>
-							<li class="list-inline-item"><a class="instagram" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-							<li class="list-inline-item"><a class="google" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+							<li class="list-inline-item"><a class="instagram" href="https://instagram.com/ezautotransportation?utm_medium=copy_link"  target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 						</ul>
 						<!-- // Social -->
 					</div>
