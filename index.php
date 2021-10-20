@@ -14,13 +14,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- google fonts -->
 
-
+ <link rel="stylesheet" href="assets/ThemaAlert/dist/sweetalert2.css">
         <link href="assets/fonts/font-awesome/css/fonts.googleapis.css" rel="stylesheet">
     <!-- animate -->
     
      <link rel="stylesheet" type="text/css" h href="assets/fonts/font-awesome/css/fonts.googleapis.materialicons.css" rel="stylesheet">
-	   <link rel="stylesheet" href="assets/css/Maxfontawesome.css">
-    <link rel="stylesheet" href="assets/css/animate.css" />
+	  <!-- <link rel="stylesheet" href="assets/css/Maxfontawesome.css">-->
+
     <!-- owl Carousel assets -->
     <link href="assets/css/owl.carousel.css" rel="stylesheet">
     <link href="assets/css/owl.theme.css" rel="stylesheet">
@@ -51,6 +51,7 @@
   
      <link rel="stylesheet" href="assets/fonts/font-awesome/css/FontAwesome4.4.0.css">
 	<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+   
  
 
 
@@ -157,7 +158,7 @@
         
         <form class="clearfix d-block">
             
-            <input type="search" value="" id="buscar" name="buscar" placeholder="Search for . . . ." />
+            <input type="search" value="" id="buscar" name="buscar" class="solo-numero" autocomplete="off" placeholder="Search for . . . ." />
             <button id="search1" type="submit" class="btn btn-primary ">Search</button>
             
 
@@ -195,7 +196,7 @@
                         	<li class="timeline-item">
 				<div class="timeline-badge primary">
                         <b><i class="fa fa-cog fa-spin fa-1x fa-fw"></i></b>
-                     <p id="estado1"><img src="assets/icons/close.png"></p>
+                     <p id="estado1"></p>
                      </div>
 				       <p><span id="lower-text">FINISHED OR<br>CANCELED</span></p>
 						</li>					
@@ -934,6 +935,7 @@ the route, Delivery was quicker than expected</div>
    
     <script src="assets/js/popper.min.js"></script>
 
+    <script src="assets/ThemaAlert/dist/sweetalert2.min.js"></script>
     
 </body>
 
@@ -943,6 +945,11 @@ the route, Delivery was quicker than expected</div>
 <script>
     
 $(document).ready(function(){
+    
+    
+    $('.solo-numero').on('input', function () { 
+    this.value = this.value.replace(/[^0-9]/g,'');
+});
     
       $("#next").prop('disabled', true); 
      $( ".BloquiarClick" ).prop('disabled', true);
@@ -1068,41 +1075,81 @@ $(document).ready(function(){
             $( "#pendiente" ).empty();
             $( "#recojido" ).empty();
             $( "#entregado" ).empty();
-          /*  $( "#TypeV" ).empty();*/
+            $( "#estado1" ).empty();
                        
-        var data = $("#buscar").val();
-        var darkOrLight="";
+        var OrderID = $("#buscar").val();
+            
+           
+    $.ajax({
+        type: 'POST',
+        dataType: "json",
+        crossDomain: true,
+        format: "json",
+        url: "http://www.ezautotransportationusa.com/system/index.php?c=Orders&a=GetStatusOrder",
+        data: {'OrderID': OrderID}
+        }).then(function(response) {
+        
+        
+            if(response != "" ){
+                
+                var data = response.Status;
+                
+                
+
             
     switch(data) {
-    case "pendiente":
+    case "Pending":
         
       $("#pendiente").append( '<img src="assets/icons/validate3.png">' );
      break;
    
-    case "recojido":
+    case "Picked up":
             
          $("#pendiente").append( '<img src="assets/icons/validate3.png">' );
          $("#recojido").append( '<img src="assets/icons/validate3.png">' );       
     break;
         
-    case "entregado":
+    case "Delivered":
             
          $("#pendiente").append( '<img src="assets/icons/validate3.png">' );
          $("#recojido").append( '<img src="assets/icons/validate3.png">' );
          $("#entregado").append( '<img src="assets/icons/validate3.png">' );
+         $("#estado1").append('<img src="assets/icons/validate3.png">');
     break;
         
-    case "estado1":
+    case "Cancelled":
        
-          alert("es");
+        $("#estado1").append('<img src="assets/icons/close.png">');
         break;
         
-    default:
-        darkOrLight = "Unknown";
 }     
-                        
-                        
-                        });
+                           Swal.fire({
+  icon: 'success',
+  title: 'Request found.',
+  text:  ''    ,                   
+  showConfirmButton: false,
+  timer:2200
+})
+   
+           
+           
+            }
+        else
+        {
+            Swal.fire({
+  icon: 'error',
+  title: 'Oops...',
+  text:  'This request is not registered.'
+})
+            
+ 
+           
+        }
+        
+        
+        });
+                          
+        });
     
 
 
