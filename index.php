@@ -54,7 +54,11 @@
    
  
 
-
+<style>
+    .pac-container {
+        z-index: 10000 !important;
+    }
+    </style>
 
 
 
@@ -165,7 +169,6 @@
             
         </form>
 
-klk
     <div style="display:inline-block;width:100%; margin-top:65px; text-align: center;">
 					<ul style="left: 50px;" class="timeline timeline-horizontal">
 						
@@ -246,14 +249,14 @@ klk
 		                                	<div class="col-sm-8 col-sm-offset-1">
                                                 <label class="">PICK UP LOCATION*</label>
 		                                    	<div class="form-group label-floating">
-		                                        	<label class="control-label">State, City &amp; Zip code</label>
+		                                        	<label class="control-label"></label>
 		                                        	<input type="text" class="form-control" name="PickUpLocation" id="PickUpLocation">
 		                                    	</div>
 		                                	</div>
                                             	<div class="col-sm-8 col-sm-offset-1">
                                                 <label class="">DELIVERY LOCATION*</label>
 		                                    	<div class="form-group label-floating">
-		                                        	<label class="control-label">State, City &amp; Zip code</label>
+		                                        	<label class="control-label"></label>
 		                                        	<input type="text" class="form-control" name="DeliveryLocation" id="DeliveryLocation" >
 		                                    	</div>
 		                                	</div>
@@ -937,6 +940,8 @@ the route, Delivery was quicker than expected</div>
 
     <script src="assets/ThemaAlert/dist/sweetalert2.min.js"></script>
     
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOHEjweqW61WAqGaXKZzuQS7sbOakgpT0&libraries=places"></script>
+
 </body>
 
 
@@ -1197,4 +1202,4 @@ $(document).ready(function(){
 
 
 </script>
-
+<script src="assets/js/GoogleConsulta.js"></script>
