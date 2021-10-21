@@ -165,13 +165,13 @@
             
         </form>
 
-
+klk
     <div style="display:inline-block;width:100%; margin-top:65px; text-align: center;">
 					<ul style="left: 50px;" class="timeline timeline-horizontal">
 						
 						<li class="timeline-item">
 				<div class="timeline-badge primary">
-                    <b> <i class="fa fa-road" aria-hidden="true"></i> </b>
+                    <b> <i id="pendiente1" class="fa fa-road" aria-hidden="true" ></i> </b>
                      <p id="pendiente"></p>
                      </div>            
                     <p><span id="lower-text">COLLECTION <br>PROCESS </span>
@@ -179,7 +179,7 @@
                         
 						<li class="timeline-item">
 				<div class="timeline-badge primary">
-                        <b><i class="fa fa-truck" aria-hidden="true"></i></b>
+                        <b><i id="recojido1" class="fa fa-truck " aria-hidden="true"></i></b>
                      <p id="recojido"> </p>
                      </div>
 							   <p><span id="lower-text">VEHICLE <br>PICKED UP</span></p>
@@ -187,7 +187,7 @@
                         
                         	<li class="timeline-item">
 				<div class="timeline-badge primary">
-                        <b><i class="fa fa-handshake-o" aria-hidden="true"></i></b>
+                        <b><i id="entregado1" class="fa fa-handshake-o" aria-hidden="true"></i></b>
                      <p id="entregado"> </p>
                      </div>
 							   <p><span id="lower-text">DELIVERED AT<br>DESTINATION</span></p>
@@ -195,7 +195,7 @@
                         
                         	<li class="timeline-item">
 				<div class="timeline-badge primary">
-                        <b><i class="fa fa-cog fa-spin fa-1x fa-fw"></i></b>
+                        <b><i id="estado11" class="fa fa-cog fa-spin fa-1x fa-fw"></i></b>
                      <p id="estado1"></p>
                      </div>
 				       <p><span id="lower-text">FINISHED OR<br>CANCELED</span></p>
@@ -1076,6 +1076,23 @@ $(document).ready(function(){
             $( "#recojido" ).empty();
             $( "#entregado" ).empty();
             $( "#estado1" ).empty();
+            
+                $("#pendiente1").removeClass("fa fa-road styleVerde"); 
+                $("#pendiente1").addClass("fa fa-road");
+                $("#recojido1").removeClass("fa fa-truck styleVerde"); 
+                $("#recojido1").addClass("fa fa-truck");
+                $("#entregado1").removeClass("fa fa-handshake-o styleVerde"); 
+                $("#entregado1").addClass("fa fa-handshake-o");
+            
+                $("#pendiente1").removeClass("fa fa-road styleRojo"); 
+                $("#pendiente1").addClass("fa fa-road");
+                $("#recojido1").removeClass("fa fa-truck styleRojo"); 
+                $("#recojido1").addClass("fa fa-truck");
+                $("#entregado1").removeClass("fa fa-handshake-o styleRojo"); 
+                $("#entregado1").addClass("fa fa-handshake-o");
+                $("#estado11").removeClass("fa fa-cog fa-spin fa-1x fa-fw styleRojo"); 
+                $("#estado11").addClass("fa fa-cog fa-spin fa-1x fa-fw");
+            
                        
         var OrderID = $("#buscar").val();
             
@@ -1101,12 +1118,21 @@ $(document).ready(function(){
     case "Pending":
         
       $("#pendiente").append( '<img src="assets/icons/validate3.png">' );
-     break;
+        
+            $("#pendiente1").removeClass("fa fa-road"); 
+            $("#pendiente1").addClass("fa fa-road styleVerde");
+        
+            break;
    
     case "Picked up":
             
          $("#pendiente").append( '<img src="assets/icons/validate3.png">' );
-         $("#recojido").append( '<img src="assets/icons/validate3.png">' );       
+         $("#recojido").append( '<img src="assets/icons/validate3.png">' ); 
+                 
+                $("#pendiente1").removeClass("fa fa-road"); 
+                $("#pendiente1").addClass("fa fa-road styleVerde");
+                $("#recojido1").removeClass("fa fa-truck"); 
+                $("#recojido1").addClass("fa fa-truck styleVerde");
     break;
         
     case "Delivered":
@@ -1115,11 +1141,28 @@ $(document).ready(function(){
          $("#recojido").append( '<img src="assets/icons/validate3.png">' );
          $("#entregado").append( '<img src="assets/icons/validate3.png">' );
          $("#estado1").append('<img src="assets/icons/validate3.png">');
+            
+                $("#pendiente1").removeClass("fa fa-road"); 
+                $("#pendiente1").addClass("fa fa-road styleVerde");
+                $("#recojido1").removeClass("fa fa-truck"); 
+                $("#recojido1").addClass("fa fa-truck styleVerde");
+                $("#entregado1").removeClass("fa fa-handshake-o"); 
+                $("#entregado1").addClass("fa fa-handshake-o styleVerde");
+              
     break;
         
     case "Cancelled":
        
         $("#estado1").append('<img src="assets/icons/close.png">');
+                
+                $("#pendiente1").removeClass("fa fa-road"); 
+                $("#pendiente1").addClass("fa fa-road styleRojo");
+                $("#recojido1").removeClass("fa fa-truck"); 
+                $("#recojido1").addClass("fa fa-truck styleRojo");
+                $("#entregado1").removeClass("fa fa-handshake-o"); 
+                $("#entregado1").addClass("fa fa-handshake-o styleRojo");
+               $("#estado11").removeClass("fa fa-cog fa-spin fa-1x fa-fw"); 
+                $("#estado11").addClass("fa fa-cog fa-spin fa-1x fa-fw styleRojo");
         break;
         
 }     

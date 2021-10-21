@@ -38415,7 +38415,12 @@ form.dark-form ::-ms-input-placeholder {
     margin-bottom: 30px;
   }
 }
-
+.styleVerde{
+    color: #28a745;
+}
+.styleRojo{
+    color: #dc3545;
+}
 /*# sourceMappingURL=style.css.map */
 
 
