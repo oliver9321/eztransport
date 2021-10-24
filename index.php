@@ -247,20 +247,80 @@
 		                                	</div>
                                         
 		                                	<div class="col-sm-8 col-sm-offset-1">
-                                                <label class="">PICK UP LOCATION*</label>
+                                                <label style="color: black;" class="">PICK UP LOCATION</label>
+                                                   </div>
+                                            <div class="col-sm-10 col-sm-offset-1">
+                                               
 		                                    	<div class="form-group label-floating">
 		                                        	<label class="control-label"></label>
-		                                        	<input type="text" class="form-control" name="PickUpLocation" id="PickUpLocation">
+		                                        	<input type="text" class="form-control" id="PickUpLocation" name="PickUpLocation" required="required">
 		                                    	</div>
 		                                	</div>
+                                            
+                                              <div class="col-sm-3 col-sm-offset-1">
+                                               
+		                                    	<div class="form-group label-floating originAdrees" style="margin: 27px -66px 0 0;">
+		                                        	<label class="control-label"> City*</label>
+		                                        	<input type="text" class="form-control" id="OriginCity1" name="OriginCity1" required="required">
+		                                    	</div>
+		                                	</div>
+                                            
+                                              <div class="col-sm-2 col-sm-offset-1">
+                                               
+		                                    	<div class="form-group label-floating originAdrees" style="margin: 27px -66px 0 0;">
+		                                        	<label class="control-label">State*</label>
+		                                        	<input type="text" class="form-control" id="OriginState2" name="OriginState2" required="required">
+		                                    	</div>
+		                                	</div>
+                                            
+                                              <div class="col-sm-2 col-sm-offset-1" >
+                                               
+		                                    	<div class=" form-group label-floating originAdrees" style=" margin: 27px -66px 0 0;">
+		                                        	<label class="control-label">Zip Code</label>
+		                                        	<input type="text" class="form-control" id="ZipCode" name="ZipCode" >
+		                                    	</div>
+		                                	</div>
+                                            
+                                            <div>
+                                             <br>
+                                            <br>
+                                            </div>
+                                           
+                                            
                                             	<div class="col-sm-8 col-sm-offset-1">
-                                                <label class="">DELIVERY LOCATION*</label>
+                                                <label style="color: black;" class="">DELIVERY LOCATION</label>
+		                                	</div>
+		                                <div class="col-sm-10 col-sm-offset-1">
+                                               
 		                                    	<div class="form-group label-floating">
 		                                        	<label class="control-label"></label>
-		                                        	<input type="text" class="form-control" name="DeliveryLocation" id="DeliveryLocation" >
+		                                        	<input type="text" class="form-control" id="DeliveryLocation" name="DeliveryLocation" required="required">
 		                                    	</div>
 		                                	</div>
-		                                
+                                            
+                                              <div class="col-sm-3 col-sm-offset-1">
+                                               
+		                                    	<div class="form-group label-floating destinoAddress" style="margin: 27px -66px 0 0;">
+		                                        	<label class="control-label"> City*</label>
+		                                        	<input type="text" class="form-control" id="DestinyCity" name="DestinyCity" required="required">
+		                                    	</div>
+		                                	</div>
+                                            
+                                              <div class="col-sm-2 col-sm-offset-1">
+                                               
+		                                    	<div class="form-group label-floating destinoAddress" style="margin: 27px -66px 0 0;">
+		                                        	<label class="control-label">State*</label>
+		                                        	<input type="text" class="form-control" id="DestinyState" name="DestinyState" required="required">
+		                                    	</div>
+		                                	</div>
+                                            
+                                              <div class="col-sm-2 col-sm-offset-1" >
+                                               
+		                                    	<div class=" form-group label-floating destinoAddress" style=" margin: 27px -66px 0 0;">
+		                                        	<label class="control-label">Zip Code</label>
+		                                        	<input type="text" class="form-control" id="ZipCode2" name="ZipCode2">
+		                                    	</div>
+		                                	</div>
 		                                	
 		                                
 		                            	</div>
@@ -1199,6 +1259,19 @@ $(document).ready(function(){
                           
         });
     
+    
+$("#PickUpLocation").change(function(){
+                   
+       $(".originAdrees").addClass("is-focused");            
+                   
+});    
+
+$("#DeliveryLocation").change(function(){
+                   
+       $(".destinoAddress").addClass("is-focused");            
+                   
+});
+
 
 
 </script>
