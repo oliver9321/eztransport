@@ -55,12 +55,14 @@
     <script src="assets/js/custom.js"></script>
    
     <script src="assets/js/popper.min.js"></script>
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOHEjweqW61WAqGaXKZzuQS7sbOakgpT0&libraries=places"></script>
 
 </body>
 
 
 <!-- Mirrored from nilethemes.com/html/nile-logistics/blog-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Sep 2021 20:22:05 GMT -->
 </html>
+
 <script>
     
 $(document).ready(function(){
@@ -183,5 +185,20 @@ $(document).ready(function(){
             );
         
             });
+    
+    $("#PickUpLocation").change(function(){
+                   
+       $(".originAdrees").addClass("is-focused");            
+                   
+});    
+
+$("#DeliveryLocation").change(function(){
+                   
+       $(".destinoAddress").addClass("is-focused");            
+                   
+});
+
 
 </script>
+
+<script src="assets/js/GoogleConsulta.js"></script>
