@@ -11,7 +11,7 @@
     <meta name="description" content="Transportation and Logistics">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- google fonts -->
-
+     <link rel="shortcut icon" href="assets/icons/Oficial%20sin%20fondo.png" />
     <link rel="stylesheet" href="assets/ThemaAlert/dist/sweetalert2.css">
     <link href="assets/fonts/font-awesome/css/fonts.googleapis.css" rel="stylesheet">
     <!-- animate -->
@@ -172,7 +172,7 @@
                         <b><i id="estado11" class="fa fa-ban fa-1x fa-fw"></i></b>
                         <p id="estado1"></p>
                     </div>
-                    <p><span id="lower-text">ORDER<br>CANCELED</span></p>
+                    <p><span id="lower-text">ORDER<br>CANCELLED</span></p>
                 </li>
 
             </ul>
@@ -242,7 +242,7 @@
 
                                         <div class=" form-group label-floating originAdrees" style=" margin: 27px -66px 0 0;">
                                             <label class="control-label">Zip Code</label>
-                                            <input type="text" class="form-control" id="ZipCode" name="ZipCode">
+                                            <input type="text" class="form-control solo-numero" id="ZipCode" name="ZipCode" required="required">
                                         </div>
                                     </div>
 
@@ -283,7 +283,7 @@
 
                                         <div class=" form-group label-floating destinoAddress" style=" margin: 27px -66px 0 0;">
                                             <label class="control-label">Zip Code</label>
-                                            <input type="text" class="form-control" id="ZipCode2" name="ZipCode2">
+                                            <input type="text" class="form-control solo-numero" id="ZipCode2" name="ZipCode2" required="required">
                                         </div>
                                     </div>
 
@@ -497,13 +497,13 @@
                 <!-- SLIDE  -->
                 <li data-index="rs-3" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="assets/img/NuevaCarpeta/Slider1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    <img src="assets/img/NuevaCarpeta/car.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 1 -->
                     <div class="tp-caption   tp-resizeme" id="slide-3-layer-1" data-x="['left','left','left','center']" data-hoffset="['0','41','45','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-111','-143','-186','-36']" data-width="461" data-height="173" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1140,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; min-width: 461px; max-width: 461px; max-width: 173px; max-width: 173px; white-space: nowrap; font-size: 50px; line-height: 59px; font-weight: 400; color: #ffffff; letter-spacing: -4px;font-family:Poppins;">WELCOME TO<br> EZ AUTO
                         <br> TRANSPORTATION <br>
-                        ANYWHERE, ANYTIME, ANYDAY
+                        <h1 class="subtitulo">  ANYWHERE, ANYTIME, ANYDAY</h1>
                     </div>
 
 
@@ -511,7 +511,7 @@
                 <!-- SLIDE  -->
                 <li data-index="rs-4" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="assets/img/NuevaCarpeta/Slider2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    <img src="assets/img/NuevaCarpeta/car5.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 3 -->
@@ -552,7 +552,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
                         <div class="icon text-main-color"><i class="fa fa-truck"></i></div>
-                        <div class="h2">Welcome to EZ Auto Transportation</div>
+                        <div class="h2">WELCOME TO EZ AUTO TRANSPORTATION</div>
                         <div class="des">Our mission is to be a safe transportation that ensures the mobility of automotive, and preserves the quality of our client needs understanding their expectations. </div>
                     </div>
                 </div>
@@ -666,10 +666,9 @@
                     </div>
                     <div class="about-text margin-tb-25px">
                         <h4>EZ Auto Transportation provides superior auto transport services because we are committed while understanding our customer’s needs.</h4>
-                        <h6> Get a quote from our Experts today!</h6>
-                        <br> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ...
+                        <h6>GET MORE INFORMATION FROM OUR EXPERTS TODAY!</h6>
                     </div>
-                    <a href="#" class="nile-bottom sm">Read More</a>
+                    <a href="about.php" class="nile-bottom sm">Read More</a>
 
                 </div>
                 <div class="col-lg-6 sm-mb-45px">
@@ -968,6 +967,7 @@
     <script src="assets/ThemaAlert/dist/sweetalert2.min.js"></script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOHEjweqW61WAqGaXKZzuQS7sbOakgpT0&libraries=places"></script>
+   
 
 </body>
 
@@ -1013,22 +1013,23 @@
     });
 
 
-    $("#PickUpLocation").keyup(function() {
+       
+    $("#ZipCode").keyup(function() {
 
-        if ($("#PickUpLocation").val() != "" & $("#DeliveryLocation").val() != "") {
+        if ($("#ZipCode").val() != "" & $("#ZipCode2").val() != "") {
             $("#next").prop('disabled', false);
         }
-        if ($("#exampleI").val() == "") {
+        if ($("#ZipCode").val() == "") {
             $("#next").prop('disabled', true);
         }
     });
 
-    $("#DeliveryLocation").keyup(function() {
+    $("#ZipCode2").keyup(function() {
 
-        if ($("#PickUpLocation").val() != "" & $("#DeliveryLocation").val() != "") {
+        if ($("#ZipCode2").val() != "" & $("#ZipCode").val() != "") {
             $("#next").prop('disabled', false);
         }
-        if ($("#DeliveryLocation").val() == "") {
+        if ($("#ZipCode2").val() == "") {
             $("#next").prop('disabled', true);
         }
     });

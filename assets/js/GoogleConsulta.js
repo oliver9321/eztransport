@@ -112,6 +112,10 @@ $(document).ready(function() {
             }
 
         }
+             if ( $("#ZipCode").val() != '' & $("#ZipCode2").val() != '' )
+                        {
+                             $("#next").prop('disabled', false);
+                        }
     }
     
     function fillInAddress2() {
@@ -173,6 +177,7 @@ $(document).ready(function() {
                         break;
 
                     }
+                   
 
             }
 
@@ -183,6 +188,11 @@ $(document).ready(function() {
             }
 
         }
+        
+         if ( $("#ZipCode").val() != '' & $("#ZipCode2").val() != '' )
+                        {
+                           $("#next").prop('disabled', false);
+                        }
     }
 
 

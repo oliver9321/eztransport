@@ -12,7 +12,9 @@
     <meta name="keywords" content="cargo, clean, contractor, corporate, freight, industry, localization, logistics, modern, shipment, transport, transportation, truck, trucking">
     <meta name="description" content="Transportation and Logistics Responsive HTML5 Template">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="shortcut icon" href="assets/icons/Oficial%20sin%20fondo.png" />
     <!-- google fonts -->
+    
  <link href="assets/fonts/font-awesome/css/fonts.googleapis.css" rel="stylesheet">
     <!-- animate -->
         <link rel="stylesheet" type="text/css" h href="assets/fonts/font-awesome/css/fonts.googleapis.materialicons.css" rel="stylesheet">
