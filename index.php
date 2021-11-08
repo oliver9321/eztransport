@@ -11,7 +11,7 @@
     <meta name="description" content="Transportation and Logistics">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- google fonts -->
-     <link rel="shortcut icon" href="assets/icons/Oficial%20sin%20fondo.png" />
+    <link rel="shortcut icon" href="assets/icons/Oficial%20sin%20fondo.png" />
     <link rel="stylesheet" href="assets/ThemaAlert/dist/sweetalert2.css">
     <link href="assets/fonts/font-awesome/css/fonts.googleapis.css" rel="stylesheet">
     <!-- animate -->
@@ -128,16 +128,19 @@
 
     <!-- Search  -->
     <div id="search">
-         <button type="button" class="close">×</button>
+        <button type="button" class="close">×</button>
 
         <form class="clearfix d-block" style="z-index: 99999 !important;">
-                <center>
+            <center>
                 <img src="assets/img/Oficial-logo.png" alt="" class="border-radius-500" height="200">
-                    <h2 class="title-text">Tracking your order here!</h2>
-                </center>
+                <h2 class="title-text">Tracking your order here!</h2>
+            </center>
             <input type="search" id="buscar" name="buscar" class="solo-numero" autocomplete="off" placeholder="Search by Order ID" />
             <button id="search1" type="submit" class="btn btn-primary ">Search</button>
-            <br><br><center><h4 class="title-text" id="StatusText"></h4></center> 
+            <br><br>
+            <center>
+                <h4 class="title-text" id="StatusText"></h4>
+            </center>
         </form>
 
         <div style="display:inline-block;width:100%;position: relative; top: 35%;text-align: center;">
@@ -207,9 +210,6 @@
                         <div class="tab-content">
                             <div class="tab-pane" id="location">
                                 <div class="row">
-                                    <div class="col-sm-12">
-                                        <h4 class="info-text"> shipping details</h4>
-                                    </div>
 
                                     <div class="col-sm-8 col-sm-offset-1">
                                         <label style="color: black;" class="">PICK UP LOCATION</label>
@@ -218,31 +218,31 @@
 
                                         <div class="form-group label-floating">
                                             <label class="control-label"></label>
-                                            <input type="text" class="form-control" id="PickUpLocation" name="PickUpLocation" required="required">
+                                            <input type="text" class="form-control" id="PickUpLocation" name="PickUpLocation" required="required" placeholder="Enter a pickup address" autocomplete="a">
                                         </div>
                                     </div>
 
                                     <div class="col-sm-3 col-sm-offset-1">
 
                                         <div class="form-group label-floating originAdrees" style="margin: 27px -66px 0 0;">
-                                            <label class="control-label"> City*</label>
-                                            <input type="text" class="form-control" id="OriginCity1" name="OriginCity1" required="required">
+                                            <label class="control-label"> City<b class="text-danger">*</b></label>
+                                            <input type="text" class="form-control" id="OriginCity1" name="OriginCity1" required="required" autocomplete="a">
                                         </div>
                                     </div>
 
                                     <div class="col-sm-2 col-sm-offset-1">
 
                                         <div class="form-group label-floating originAdrees" style="margin: 27px -66px 0 0;">
-                                            <label class="control-label">State*</label>
-                                            <input type="text" class="form-control" id="OriginState2" name="OriginState2" required="required">
+                                            <label class="control-label">State<b class="text-danger">*</b></label>
+                                            <input type="text" class="form-control" id="OriginState2" name="OriginState2" required="required" autocomplete="a">
                                         </div>
                                     </div>
 
                                     <div class="col-sm-2 col-sm-offset-1">
 
                                         <div class=" form-group label-floating originAdrees" style=" margin: 27px -66px 0 0;">
-                                            <label class="control-label">Zip Code</label>
-                                            <input type="text" class="form-control solo-numero" id="ZipCode" name="ZipCode" required="required">
+                                            <label class="control-label">Zip Code<b class="text-danger">*</b></label>
+                                            <input type="text" class="form-control solo-numero" id="ZipCode" name="ZipCode" required="required" autocomplete="a">
                                         </div>
                                     </div>
 
@@ -259,31 +259,31 @@
 
                                         <div class="form-group label-floating">
                                             <label class="control-label"></label>
-                                            <input type="text" class="form-control" id="DeliveryLocation" name="DeliveryLocation" required="required">
+                                            <input type="text" class="form-control" id="DeliveryLocation" name="DeliveryLocation" required="required" autocomplete="a">
                                         </div>
                                     </div>
 
                                     <div class="col-sm-3 col-sm-offset-1">
 
                                         <div class="form-group label-floating destinoAddress" style="margin: 27px -66px 0 0;">
-                                            <label class="control-label"> City*</label>
-                                            <input type="text" class="form-control" id="DestinyCity" name="DestinyCity" required="required">
+                                            <label class="control-label"> City<b class="text-danger">*</b></label>
+                                            <input type="text" class="form-control" id="DestinyCity" name="DestinyCity" required="required" autocomplete="a">
                                         </div>
                                     </div>
 
                                     <div class="col-sm-2 col-sm-offset-1">
 
                                         <div class="form-group label-floating destinoAddress" style="margin: 27px -66px 0 0;">
-                                            <label class="control-label">State*</label>
-                                            <input type="text" class="form-control" id="DestinyState" name="DestinyState" required="required">
+                                            <label class="control-label">State<b class="text-danger">*</b></label>
+                                            <input type="text" class="form-control" id="DestinyState" name="DestinyState" required="required" autocomplete="a">
                                         </div>
                                     </div>
 
                                     <div class="col-sm-2 col-sm-offset-1">
 
                                         <div class=" form-group label-floating destinoAddress" style=" margin: 27px -66px 0 0;">
-                                            <label class="control-label">Zip Code</label>
-                                            <input type="text" class="form-control solo-numero" id="ZipCode2" name="ZipCode2" required="required">
+                                            <label class="control-label">Zip Code<b class="text-danger">*</b></label>
+                                            <input type="text" class="form-control solo-numero" id="ZipCode2" name="ZipCode2" required="required" autocomplete="a">
                                         </div>
                                     </div>
 
@@ -293,25 +293,38 @@
                             <div class="tab-pane" id="type">
                                 <h4 class="info-text">What type of vehicle do you have? </h4>
                                 <div class="row">
-                                    <div class="col-sm-10 col-sm-offset-1">
-                                        <div class="col-sm-4 col-sm-offset-2" id="DivRadioAuto">
+                                    <div class="col-sm-12">
+
+                                        <div class="col-sm-4" id="DivRadioAuto">
                                             <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this option if you have auto.">
                                                 <input type="radio" id="RadioAuto" name="nameRadio" value="Auto" checked="">
                                                 <div class="icon">
                                                     <i class="material-icons">drive_eta</i>
                                                 </div>
-                                                <h6>Auto Shipping Quote</h6>
+                                                <h6>Auto</h6>
                                             </div>
                                         </div>
-                                        <div class="col-sm-4 " id="DivRadioMotorcycle">
+
+                                        <div class="col-sm-4" id="DivRadioMotorcycle">
                                             <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this option if you have Motorcycle.">
                                                 <input type="radio" id="RadioMotorcycle" name="nameRadio" value="Motocycle" checked="">
                                                 <div class="icon">
                                                     <i class="material-icons">two_wheeler</i>
                                                 </div>
-                                                <h6>Motorcycle Shipping Quote</h6>
+                                                <h6>Motorcycle</h6>
                                             </div>
                                         </div>
+
+                                        <div class="col-sm-4" id="DivRadioBoth">
+                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this option if you have both types">
+                                                <input type="radio" id="RadioBoth" name="nameRadio" value="Motocycle" checked="">
+                                                <div class="icon">
+                                                    <i class="material-icons">checklist</i>
+                                                </div>
+                                                <h6>Both types</h6>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -327,7 +340,7 @@
 
                                     <div class="col-sm-5 col-sm-offset-1">
                                         <div class="form-group label-floating">
-                                            <label class="control-label ">Freight Type*</label>
+                                            <label class="control-label ">Freight Type<b class="danger">*</b></label>
                                             <select class="form-control" id="FreightType" name="FreightType" required="required">
                                                 <option disabled="" selected=""></option>
                                                 <option>Open</option>
@@ -337,7 +350,7 @@
                                     </div>
                                     <div class="col-sm-5">
                                         <div class="form-group label-floating">
-                                            <label class="control-label ">Vehicle Condition*</label>
+                                            <label class="control-label ">Vehicle Condition<b class="danger">*</b></label>
                                             <select class="form-control" id="VehicleCondition" name="VehicleCondition" required="required">
                                                 <option disabled="" selected=""></option>
                                                 <option>Running</option>
@@ -354,7 +367,7 @@
                                                     <div class="table-title">
                                                         <div class="row">
                                                             <div class="col-sm-8">
-                                                                <h5>Vehicle <b style="color:#177AB7">Details*</b></h5>
+                                                                <h5>Vehicle <b style="color:#177AB7">Details<b class="danger">*</b></b></h5>
                                                             </div>
                                                             <div class="col-sm-4" style="text-align: right; ">
                                                                 <button type="button" class="btn btn-success " id="add-new" style="font-size: 8px;"><i style="font-size: 15px;
@@ -503,7 +516,7 @@
                     <!-- LAYER NR. 1 -->
                     <div class="tp-caption   tp-resizeme" id="slide-3-layer-1" data-x="['left','left','left','center']" data-hoffset="['0','41','45','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-111','-143','-186','-36']" data-width="461" data-height="173" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1140,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; min-width: 461px; max-width: 461px; max-width: 173px; max-width: 173px; white-space: nowrap; font-size: 50px; line-height: 59px; font-weight: 400; color: #ffffff; letter-spacing: -4px;font-family:Poppins;">WELCOME TO<br> EZ AUTO
                         <br> TRANSPORTATION <br>
-                        <h1 class="subtitulo">  ANYWHERE, ANYTIME, ANYDAY</h1>
+                        <h1 class="subtitulo"> ANYWHERE, ANYTIME, ANYDAY</h1>
                     </div>
 
 
@@ -617,7 +630,7 @@
             <div class="row">
                 <div class="col-lg-7 padding-tb-15px">
                     <h2>THE FACTS SPEAKS FOR THEMSELVES </h2>
-                    <h2>-ANYWHERE, ANYTIME, ANYDAY- </h2>
+                    <h4>-ANYWHERE, ANYTIME, ANYDAY- </h4>
                 </div>
                 <div class="col-lg-5">
 
@@ -967,7 +980,7 @@
     <script src="assets/ThemaAlert/dist/sweetalert2.min.js"></script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOHEjweqW61WAqGaXKZzuQS7sbOakgpT0&libraries=places"></script>
-   
+
 
 </body>
 
@@ -1013,7 +1026,7 @@
     });
 
 
-       
+
     $("#ZipCode").keyup(function() {
 
         if ($("#ZipCode").val() != "" & $("#ZipCode2").val() != "") {
@@ -1042,6 +1055,10 @@
         $("#next").prop('disabled', false);
     });
 
+    $("#DivRadioBoth").click(function() {
+        $("#next").prop('disabled', false);
+    });
+
 
     $("#previous").click(function() {
         $("#next").prop('disabled', false);
@@ -1053,11 +1070,11 @@
         if ($("#exapleI").val() == "") {
 
             Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Please complete all fields'
-                })
-           
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Please complete all fields'
+            })
+
 
         } else {
             if ($("#RadioAuto").prop('checked') || $("#RadioMotorcycle").prop('checked')) {
@@ -1142,7 +1159,7 @@
 
                 var data = response.Status;
 
-                $("#StatusText").html("Hello <b>"+response.CustomerOrigin+"</b>, the status of your order is <b>"+data+"</b>");
+                $("#StatusText").html("Hello <b>" + response.CustomerOrigin + "</b>, the status of your order is <b>" + data + "</b>");
 
                 switch (data) {
 
