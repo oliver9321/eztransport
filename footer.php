@@ -195,6 +195,116 @@
 	    $(".destinoAddress").addClass("is-focused");
 
 	  });
+        
+        
+          $("#search1").click(function() {
+
+        $("#pendiente").empty();
+        $("#recojido").empty();
+        $("#entregado").empty();
+        $("#estado1").empty();
+
+        $("#pendiente1").removeClass("fa fa-road styleVerde");
+        $("#pendiente1").addClass("fa fa-road");
+        $("#recojido1").removeClass("fa fa-truck styleVerde");
+        $("#recojido1").addClass("fa fa-truck");
+        $("#entregado1").removeClass("fa fa-handshake-o styleVerde");
+        $("#entregado1").addClass("fa fa-handshake-o");
+
+        $("#pendiente1").removeClass("fa fa-road styleRojo");
+        $("#pendiente1").addClass("fa fa-road");
+        $("#recojido1").removeClass("fa fa-truck styleRojo");
+        $("#recojido1").addClass("fa fa-truck");
+        $("#entregado1").removeClass("fa fa-handshake-o styleRojo");
+        $("#entregado1").addClass("fa fa-handshake-o");
+        $("#estado11").removeClass("fa fa-ban fa-1x fa-fw styleRojo");
+        $("#estado11").addClass("fa fa-ban fa-1x fa-fw");
+
+        var OrderID = $("#buscar").val();
+        $("#StatusText").html("");
+        $.ajax({
+            type: 'POST',
+            dataType: "json",
+            crossDomain: true,
+            format: "json",
+            url: "http://www.ezautotransportationusa.com/system/index.php?c=Orders&a=GetStatusOrder",
+            data: {
+                'OrderID': OrderID
+            }
+        }).then(function(response) {
+
+            if (response != "") {
+
+                var data = response.Status;
+
+                $("#StatusText").html("Hello <b>" + response.CustomerOrigin + "</b>, the status of your order is <b>" + data + "</b>");
+
+                switch (data) {
+
+                    case "Pending":
+
+                        $("#pendiente").append('<img src="assets/icons/validate3.png">');
+                        $("#pendiente1").removeClass("fa fa-road");
+                        $("#pendiente1").addClass("fa fa-road styleVerde");
+
+                        break;
+
+                    case "Picked up":
+
+                        $("#pendiente").append('<img src="assets/icons/validate3.png">');
+                        $("#recojido").append('<img src="assets/icons/validate3.png">');
+
+                        $("#pendiente1").removeClass("fa fa-road");
+                        $("#pendiente1").addClass("fa fa-road styleVerde");
+                        $("#recojido1").removeClass("fa fa-truck");
+                        $("#recojido1").addClass("fa fa-truck styleVerde");
+                        break;
+
+                    case "Delivered":
+
+                        $("#pendiente").append('<img src="assets/icons/validate3.png">');
+                        $("#recojido").append('<img src="assets/icons/validate3.png">');
+                        $("#entregado").append('<img src="assets/icons/validate3.png">');
+
+                        $("#pendiente1").removeClass("fa fa-road");
+                        $("#pendiente1").addClass("fa fa-road styleVerde");
+                        $("#recojido1").removeClass("fa fa-truck");
+                        $("#recojido1").addClass("fa fa-truck styleVerde");
+                        $("#entregado1").removeClass("fa fa-handshake-o");
+                        $("#entregado1").addClass("fa fa-handshake-o styleVerde");
+
+                        break;
+
+                    case "Cancelled":
+
+                        $("#estado1").append('<img src="assets/icons/close.png">');
+
+                        $("#pendiente1").removeClass("fa fa-road");
+                        $("#pendiente1").addClass("fa fa-road styleRojo");
+                        $("#recojido1").removeClass("fa fa-truck");
+                        $("#recojido1").addClass("fa fa-truck styleRojo");
+                        $("#entregado1").removeClass("fa fa-handshake-o");
+                        $("#entregado1").addClass("fa fa-handshake-o styleRojo");
+                        $("#estado11").removeClass("fa fa-cog fa-spin fa-1x fa-fw");
+                        $("#estado11").addClass("fa fa-cog fa-spin fa-1x fa-fw styleRojo");
+                        break;
+
+                }
+
+            } else {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'This request is not registered.'
+                })
+            }
+
+
+        });
+
+    });
+
+        
 	</script>
 
 	<script src="assets/js/GoogleConsulta.js"></script>
