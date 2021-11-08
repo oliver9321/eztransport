@@ -51,14 +51,12 @@
             z-index: 10000 !important;
         }
 
-        @media (min-width: 992px){
+        @media (min-width: 992px) {
             .modal-lg {
                 max-width: 65% !important;
             }
-            
-        }
 
-     
+        }
     </style>
 
 </head>
@@ -346,25 +344,6 @@
 
                                     <div id="TypeV" class="col-sm-10 col-sm-offset-1">
                                     </div>
-                                   
-                                    <div class="col-sm-5 col-sm-offset-1 ">
-                                        <div class="form-group  label-floating">
-                                            <label class="control-label">Vehicles Quantity<b class="text-danger">*</b>*</label>
-                                            <input type="number" class="form-control" id="VehiclesQuantity" name="VehiclesQuantity" required="required">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-5">
-                                    <div class="form-group label-floating">
-                                            <label class="control-label ">Stock or Modifications<b class="text-danger">*</b></label>
-                                            <select class="form-control" id="StockModifications" name="StockModifications" required="required">
-                                                <option disabled="" selected=""></option>
-                                                <option value="Stock">Stock</option>
-                                                <option value="Modification">Modifications </option>
-                                            </select>
-                                        </div>
-                                    </div>
-
 
                                     <div class="col-sm-12">
                                         <div class="container-lg">
@@ -382,60 +361,78 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="form-group row d-flex align-items-end">
+
                                                     <div class="row">
 
-                                                    <div class="row registroVehiculo" id="templateVehiculo" style="padding-bottom:20px !important" hidden>
+                                                        <div class="row registroVehiculo" id="templateVehiculo" style="padding-bottom:20px !important" hidden>
 
-                                                        <div class="col-sm-2">
-                                                            <label class="mb-1 text-danger"><b>Brand</b></label>
-                                                            <select  name="Brand" onchange="GetModelsByBrand(this)" class="select2 form-control mb-3 custom-select BrandVehicle vehicleList">
-                                                                <option value="">Select brand</option>
-                                                            </select>
-                                                        </div>
+                                                            <div class="col-sm-2">
+                                                                <label class="mb-1 "><b>Brand</b></label>
+                                                                <select name="Brand" onchange="GetModelsByBrand(this)" class="select2 form-control mb-3 custom-select BrandVehicle vehicleList">
+                                                                    <option value="">Select brand</option>
+                                                                </select>
+                                                            </div>
 
-                                                        <div class="col-sm-2">
-                                                            <label class="mb-1 text-danger"><b>Model</b></label>
-                                                            <select  name="Model" class="select2 form-control mb-3 custom-select ModelVehicle vehicleList">
-                                                                <option value="">Select model</option>
-                                                            </select>
-                                                        </div>
+                                                            <div class="col-sm-2">
+                                                                <label class="mb-1 "><b>Model</b></label>
+                                                                <select name="Model" class="select2 form-control mb-3 custom-select ModelVehicle vehicleList">
+                                                                    <option value="">Select model</option>
+                                                                </select>
+                                                            </div>
 
                                                             <!--end col-->
-                                                         <div class="col-sm-2">
-                                                            <label class="mb-1 text-danger"><b>Year</b></label>
-                                                            <input type="text"  name="Year"  minlength="4" maxlength="5" class="form-control YearVehicle vehicleList" placeholder="">
+                                                            <div class="col-sm-2">
+                                                                <label class="mb-1 "><b>Year</b></label>
+                                                                <input type="text" name="Year" minlength="4" maxlength="5" class="form-control YearVehicle vehicleList" placeholder="">
+                                                            </div>
+
+                                                            <div class="col-sm-2">
+                                                                <label class="mb-1 "><b>Freight Type</b></label>
+                                                                <select name="FreightType" class="form-control FreightType Vehicle vehicleList">
+                                                                    <option value=""></option>
+                                                                    <option value="Open">Open</option>
+                                                                    <option value="Enclosed">Enclosed</option>
+                                                                </select>
+                                                            </div>
+
+
+
+                                                            <div class="col-sm-2">
+                                                                <label class="mb-1 "><b>Condition</b></label>
+                                                                <select name="ConditionVehicle" class="form-control ConditionVehicle vehicleList">
+                                                                    <option value=""></option>
+                                                                    <option value="Running">Running</option>
+                                                                    <option value="Non-running">Non-running</option>
+                                                                </select>
+                                                            </div>
+
                                                         </div>
 
-                                                        <div class="col-sm-2" >
-                                                            <label class="mb-1 text-danger"><b>Carrier</b></label>
-                                                            <select  name="CarrierType" class="form-control CarrierTypeVehicle vehicleList">
-                                                            <option value=""></option>
-                                                                <option value="Open">Open</option>
-                                                                <option value="Enclosed">Enclosed</option>
-                                                            </select>
-                                                        </div>
-
-                                                
-
-                                                        <div class="col-sm-2" >
-                                                            <label class="mb-1 text-danger"><b>Condition</b></label>
-                                                            <select  name="ConditionVehicle" class="form-control ConditionVehicle vehicleList">
-                                                                <option value=""></option>
-                                                                <option value="Running">Running</option>
-                                                                <option value="Non-running">Non-running</option>
-                                                            </select>
-                                                        </div>
-
-                                                        </div>
-                                                 
                                                         <!--- HASTA AQUI-->
                                                         <div class="col-md-12" id="contentVehicle" style="overflow-y: auto; height:210px"></div>
-                                                   
+
+                                                    </div>
+
+                                                    <div class="col-sm-5 col-sm-offset-1 ">
+                                                        <div class="form-group  label-floating">
+                                                            <label class="control-label">Vehicles Quantity<b class="text-danger">*</b></label>
+                                                            <input type="number" class="form-control" id="VehiclesQuantity" name="VehiclesQuantity" required="required">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-sm-5">
+                                                        <div class="form-group label-floating">
+                                                            <label class="control-label ">Stock or Modifications<b class="text-danger">*</b></label>
+                                                            <select class="form-control" id="StockModifications" name="StockModifications" required="required">
+                                                                <option disabled="" selected=""></option>
+                                                                <option value="Stock">Stock</option>
+                                                                <option value="Modification">Modifications </option>
+                                                            </select>
+                                                        </div>
                                                     </div>
                                                     <!--end col-->
-                                                </div>
-                                                   <!-- <table class="table table-bordered">
+
+                                                    <!-- <table class="table table-bordered">
                                                         <thead>
                                                             <tr>
                                                                 <th>Brands</th>
@@ -456,7 +453,7 @@
                                         </div>
                                     </div>
 
-                                   
+
 
                                     <div class="col-sm-10 col-sm-offset-1">
 
