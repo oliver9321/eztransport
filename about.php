@@ -49,15 +49,8 @@ Work with EZ AUTO TRANSPORTATION nobody understands doing business online, effic
                         <h3 class="title-text">WHO WE ARE</h3>
                     </div>
 				
-					<p>EZ Auto Transportation is a family own business that services the entire continental of the United States providing solutions for every customer shipping their vehicle with reliable and affordable prices.
-					</p>
-                    <p>Our experienced staff is entitled to work with every customer on a particular basis providing a unique experience. We will work with your vehicle like it is our own. We are committed to keep the client well informed regarding every step of the vehicle’s process therefore you can communicate with us via telephone or email in any time during the day.
-Experience a relax shipping when you choose EZ Auto Transportation and enjoy an easy process. Insurance is included in your shipping.
-As for the distance traveled, we manage to keep our prices lower as possible keeping them affordable and reliable.
-Our office works dedicated to our clients 365 days so is easier to have a better communication with us. We are always ready to answer our customers questions. Our exceptional client service means we have everything ready to get the job done.
-As EZ Auto Transportation, we will work hard and give the extra mile to keep our clients satisfied. If you would like to communicate with us or you can email us to <B>sales@ezautotransportationusa.com</B>
-
-					</p>
+					<p>EZ Auto Transportation is a family own business that services the entire continental of the United States providing solutions for every customer shipping their vehicle at reliable and affordable prices.</p>
+                    <p>Our experienced staff is entitled to work with every customer on a particular basis providing a unique experience. We will work with your vehicle like it is our own. We are committed to keeping the client well informed regarding every step of the vehicle’s process therefore you can communicate with us via telephone or email at any time during the day. Experience relaxing shipping when you choose EZ Auto Transportation and enjoy an easy process. Insurance is included in your shipping. As for the distance traveled, we manage to keep our prices lower as possible keeping them affordable and reliable. Our office works dedicated to our clients 365 days so is easier to have better communication with us. We are always ready to answer our customer's questions. Our exceptional client service means we have everything ready to get the job done. As EZ Auto Transportation, we will work hard and give the extra mile to keep our clients satisfied. If you would like to communicate with us or you can email us at<a href="mailto:sales@ezautotransportationusa.com">sales@ezautotransportationusa.com</a></p>
 
 				</div>
 
@@ -78,7 +71,7 @@ As EZ Auto Transportation, we will work hard and give the extra mile to keep our
                         factor it may encounter.</p>
                             <p>• With a click of a button, you can deliver your car with professionals and safe travel.</p>
                         </div>
-                        <a href="#" class="nile-bottom sm">Read More</a>
+                        <a href="index.php" class="nile-bottom sm">Read More</a>
                     </div>
                                         
                                         

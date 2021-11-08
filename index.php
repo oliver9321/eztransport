@@ -569,7 +569,7 @@
 
                         <div class="icon"><img src="assets/icons/Imagen3.png" alt=""></div>
                         <a href="#" class="title h2">Fast Delivery</a>
-                        <div class="des">We schedule your transportation on the right truck to fit your needs. Any offer a clients gets guarantees the price and also door-to-door service.</div>
+                        <div class="des">We schedule your transportation with the right truck to fit your needs. Any offer a client gets guarantees the price and also door-to-door service.</div>
                     </div>
                     <div class="service-icon-box">
                         <div class="icon"><img src="assets/icons/Imagen1.png" alt=""></div>
@@ -586,7 +586,7 @@
                     <div class="service-icon-box">
                         <div class="icon"><img src="assets/icons/Imagen2.png" alt=""></div>
                         <a href="#" class="title h2">24/7 Support</a>
-                        <div class="des">Our company serve the people of all the States by providing 24/7 contact to our clients. A transportation network that is reliable, well planned, and has the goal of being an efficient and modern transportation system in the world.</div>
+                        <div class="des">Our company serves the people of all the States by providing 24/7 contact to our clients. A transportation network that is reliable, well planned, and has the goal of being an efficient and modern transportation system.</div>
                     </div>
                     <div class="service-icon-box">
                         <div class="icon"><img src="assets/icons/Imagen6.png" alt=""></div>
