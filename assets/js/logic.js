@@ -43,3 +43,23 @@ function GetListVehicles() {
 }
 
 GetListVehicles();
+
+function AddVehicleList() {
+
+    $('#templateVehiculo').find(".select2").each(function(index) {
+        if ($(this).data('select2')) {
+            $(this).select2('destroy');
+        }
+    });
+
+   var clonado =  $('#templateVehiculo').clone().val('');
+   clonado.removeAttr('hidden');
+   clonado.appendTo("#contentVehicle");
+   $(clonado).find(".select2").select2({ width:'100%'});
+
+}
+
+
+function EliminarVehiculo(e) {
+    $(e).parent().parent().parent().remove();
+}
