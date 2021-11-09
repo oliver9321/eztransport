@@ -227,7 +227,7 @@
             dataType: "json",
             crossDomain: true,
             format: "json",
-            url: "http://www.ezautotransportationusa.com/system/index.php?c=Orders&a=GetStatusOrder",
+            url: "./system/index.php?c=Orders&a=GetStatusOrder",
             data: {
                 'OrderID': OrderID
             }
