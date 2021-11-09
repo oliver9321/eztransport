@@ -96,3 +96,52 @@ function GetModelsByBrand(e) {
 function EliminarVehiculo(e) {
     $(e).parent().parent().remove();
 }
+
+function saveQuote(){
+
+    vehiclesArray = new Array();
+    var Brand, StatusVehicle, Model, Year, ConditionVehicle, CarrierType;
+    $(".registroVehiculo").each(function(){
+       
+       Brand       = $(this).find("select[name='Brand']").val();
+       StatusVehicle       = $(this).find("select[name='StatusVehicle']").val();
+       Model       = $(this).find("select[name='Model']").val();
+       Year        = $(this).find("input[name='Year']").val();
+       ConditionVehicle   = $(this).find("select[name='ConditionVehicle']").val();
+       CarrierType = $(this).find("select[name='CarrierType']").val();
+       
+       if(Brand!=""){
+           vehiclesArray.push({'Brand':Brand, 'Model':Model, 'Year':Year, 'ConditionVehicle':ConditionVehicle,'CarrierType':CarrierType, 'StatusVehicle':StatusVehicle  });
+       }
+});
+
+
+    $.ajax({
+        type: 'POST',
+        url: "http://localhost/ezautotransportation/index.php?c=orders&a=saveQuote",
+        data: {'quote': $("#formQuote").serialize(), 'vehicles': vehiclesArray},
+        success: function(data) {
+
+               if(data){
+
+                    var response = JSON.parse(data);
+                               
+                    if(response.Error == false){
+                        Swal.fire('The quote was sent',response.Message,'success');
+                        $(".btn-finish").hide();
+                        $("#myModal").modal('hide');
+
+                    }else{
+                        Swal.fire('Error',response.Message,'error' );
+                    }   
+                  
+                }else{
+                    Swal.fire('Error',response.Message,'error' );
+                }
+            }
+        })
+    }
+
+    $(".btn-finish").click(function(){
+        saveQuote();
+    });

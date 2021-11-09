@@ -9,7 +9,7 @@
         <!-- Modal content-->
         <div class="modal-content">
             <div class="card wizard-card" data-color="purple" id="wizard">
-                <form action="" method="">
+                <form id="formQuote" autocomplete="off">
                     <div class="wizard-header">
                         <h3 class="wizard-title">
                             REQUEST A QUICK QUOTE
@@ -209,7 +209,7 @@
 
                                                         <div class="col-sm-2">
                                                             <label class="mb-1 "><b>Status of vehicle</b></label>
-                                                            <select class="form-control" id="StockModifications" name="StockModifications" required="required">
+                                                            <select class="form-control" id="StatusVehicle" name="StatusVehicle" required="required">
                                                                  <option value="">Select</option>
                                                                 <option value="Stock">Stock</option>
                                                                 <option value="Modification">Modifications </option>
@@ -264,7 +264,7 @@
 
                                     <div class="form-group">
                                         <label class="control-label">SHIPPING DATE</label>
-                                        <input type="date" class="form-control" id="ShippingDate" name="ShippingDate" placeholder="00/00/0000" required="required">
+                                        <input type="text" class="form-control inputDate" id="ShippingDate" name="ShippingDate" placeholder="MM/DD/YYYY" required="required">
                                     </div>
                                 </div>
 
@@ -272,14 +272,14 @@
 
                                     <div class="form-group label-floating">
                                         <label class="control-label">First Name</label>
-                                        <input type="text" class="form-control" id="FirstName" name="FirstName" required="required">
+                                        <input type="text" class="form-control" id="FirstName" name="FirstName" required="required" maxlength="60">
                                     </div>
                                 </div>
                                 <div class="col-sm-5 col-sm-offset-1">
 
                                     <div class="form-group label-floating">
                                         <label class="control-label">Last Name</label>
-                                        <input type="text" class="form-control" id="LastName" name="LastName" required="required">
+                                        <input type="text" class="form-control" id="LastName" name="LastName" required="required" maxlength="60">
                                     </div>
                                 </div>
 
@@ -287,14 +287,14 @@
 
                                     <div class="form-group label-floating">
                                         <label class="control-label">Phone</label>
-                                        <input type="text" class="form-control" id="Phone" name="Phone" required="required">
+                                        <input type="text" class="form-control phone" id="Phone" name="Phone" required="required" maxlength="18">
                                     </div>
                                 </div>
                                 <div class="col-sm-5 col-sm-offset-1">
 
                                     <div class="form-group label-floating">
                                         <label class="control-label">Email</label>
-                                        <input type="text" class="form-control" id="Email" name="Email" required="required">
+                                        <input type="text" class="form-control" id="Email" name="Email" required="required" maxlength="50">
                                     </div>
                                 </div>
 

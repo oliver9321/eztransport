@@ -575,8 +575,7 @@
 
     <!-- <script src="assets/js/bootstrap1.min.js"></script>-->
     <script src="assets/js/jquery.min.js"></script>
-
-
+    <script src="assets/js/jquery.mask.js"></script>
     <script src="assets/js/jquery.bootstrap.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/material-bootstrap-wizard.js"></script>
@@ -598,7 +597,7 @@
     <script src="assets/rslider/js/extensions/revolution.extension.parallax.min.js"></script>
     <script src="assets/rslider/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script src="assets/rslider/js/extensions/revolution.extension.video.min.js"></script>
-    <script src="assets/js/YouTubePopUp.jquery.js"></script>
+
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/imagesloaded.min.js"></script>
     <script src="assets/js/custom.js"></script>
@@ -619,7 +618,8 @@
 <script>
     $(document).ready(function() {
 
-
+        $('.phone').mask("(000) 000-0000");
+        $('.inputDate').mask("00/00/0000");
         $('.solo-numero').on('input', function() {
             this.value = this.value.replace(/[^0-9]/g, '');
         });

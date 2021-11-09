@@ -139,7 +139,7 @@
 
 	    if ($("#exapleI").val() == "") {
 
-	      alert("llene los campos");
+	      alert("Complete all fields(*)");
 
 	    } else {
 	      if ($("#RadioAuto").prop('checked') || $("#RadioMotorcycle").prop('checked')) {
