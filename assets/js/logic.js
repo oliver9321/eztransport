@@ -2,14 +2,11 @@ function GetListVehicles() {
 
     $.ajax({
         type: 'POST',
-        type: 'json',
-        url: "../system/index.php?c=vehicles&a=GetListVehicles",
+        url: "http://ezautotransportationusa.com/system/index.php?c=vehicles&a=GetListVehicles",
         beforeSend: function() {
     }}).then(function(response) {
 
-        console.log(response);
-
-        //$('.BrandVehicle, .ModelVehicle').empty();
+        $('.BrandVehicle, .ModelVehicle').empty();
 
         var data = JSON.parse(response);
 
@@ -59,7 +56,43 @@ function AddVehicleList() {
 
 }
 
+function GetModelsByBrand(e) {
+
+    let Brand = $(e).val();
+    
+    if (Brand != "") {
+    
+        $.ajax({
+            type: 'POST',
+            url: "http://ezautotransportationusa.com/system/index.php?c=vehicles&a=GetModelsByBrand",
+            data: {
+                'Brand': Brand
+            }
+        }).then(function(response) {
+    
+            if (response) {
+    
+                var newOptions = JSON.parse(response);
+                var count = $('.BrandVehicle:not(:hidden)').closest('div').next().find('.ModelVehicle:not(:hidden)').length - 1;
+                var htmlSelect = $('.BrandVehicle:not(:hidden)').closest('div').next().find('.ModelVehicle:not(:hidden)')[count];
+                $(htmlSelect).empty();
+    
+                var optionDefault = new Option("Select the model", "", true, true);
+                $(htmlSelect).append(optionDefault);
+    
+                newOptions.forEach(element => {
+                    var optionBucle = new Option(element.Model, element.Model, true, true);
+                    $(htmlSelect).append(optionBucle);
+                });
+    
+            }
+    
+        })
+    }
+    }
+
+
 
 function EliminarVehiculo(e) {
-    $(e).parent().parent().parent().remove();
+    $(e).parent().parent().remove();
 }
