@@ -88,7 +88,7 @@ $(document).ready(function(){
             if($current >= $total) {
                 $($wizard).find('.btn-next').hide();
                 $($wizard).find('.btn-finish').show();
-                saveQuote();
+               
             } else {
                 $($wizard).find('.btn-next').show();
                 $($wizard).find('.btn-finish').hide();

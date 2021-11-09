@@ -2,7 +2,7 @@ function GetListVehicles() {
 
     $.ajax({
         type: 'POST',
-        url: "http://ezautotransportationusa.com/system/index.php?c=vehicles&a=GetListVehicles",
+        url: "./system/index.php?c=vehicles&a=GetListVehicles",
         beforeSend: function() {
     }}).then(function(response) {
 
@@ -64,7 +64,7 @@ function GetModelsByBrand(e) {
     
         $.ajax({
             type: 'POST',
-            url: "http://ezautotransportationusa.com/system/index.php?c=vehicles&a=GetModelsByBrand",
+            url: "./system/index.php?c=vehicles&a=GetModelsByBrand",
             data: {
                 'Brand': Brand
             }
@@ -118,7 +118,7 @@ function saveQuote(){
 
     $.ajax({
         type: 'POST',
-        url: "http://localhost/ezautotransportation/index.php?c=orders&a=saveQuote",
+        url: "./system/index.php?c=orders&a=saveQuote",
         data: {'quote': $("#formQuote").serialize(), 'vehicles': vehiclesArray},
         success: function(data) {
 

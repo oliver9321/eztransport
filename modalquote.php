@@ -36,7 +36,7 @@
 
                                     <div class="form-group label-floating">
                                         <label class="control-label"></label>
-                                        <input type="text" class="form-control" id="PickUpLocation" name="PickUpLocation" required="required" placeholder="Enter a pickup address" autocomplete="a" value="909 Fulton Street Southeast, Minneapolis, Minnesota, EE. UU.">
+                                        <input type="text" class="form-control" id="PickUpLocation" name="PickUpLocation" required="required" placeholder="Enter a pickup address" autocomplete="a" >
                                     </div>
                                 </div>
 
@@ -44,7 +44,7 @@
 
                                     <div class="form-group label-floating originAdrees" style="margin: 27px -66px 0 0;">
                                         <label class="control-label"> City<b class="text-danger">*</b></label>
-                                        <input type="text" class="form-control" id="OriginCity1" name="OriginCity1" required="required" autocomplete="a" value="Minneapolis">
+                                        <input type="text" class="form-control" id="OriginCity1" name="OriginCity1" required="required" autocomplete="a" >
                                     </div>
                                 </div>
 
@@ -52,7 +52,7 @@
 
                                     <div class="form-group label-floating originAdrees" style="margin: 27px -66px 0 0;">
                                         <label class="control-label">State<b class="text-danger">*</b></label>
-                                        <input type="text" class="form-control" id="OriginState2" name="OriginState2" required="required" autocomplete="a" value="MN">
+                                        <input type="text" class="form-control" id="OriginState2" name="OriginState2" required="required" autocomplete="a" >
                                     </div>
                                 </div>
 
@@ -60,7 +60,7 @@
 
                                     <div class=" form-group label-floating originAdrees" style=" margin: 27px -66px 0 0;">
                                         <label class="control-label">Zip Code<b class="text-danger">*</b></label>
-                                        <input type="text" class="form-control solo-numero" id="ZipCode" name="ZipCode" required="required" autocomplete="a" value="55455-4800">
+                                        <input type="text" class="form-control solo-numero" id="ZipCode" name="ZipCode" required="required" autocomplete="a" >
                                     </div>
                                 </div>
 
@@ -77,7 +77,7 @@
 
                                     <div class="form-group label-floating">
                                         <label class="control-label"></label>
-                                        <input type="text" class="form-control" id="DeliveryLocation" name="DeliveryLocation" required="required" autocomplete="a" value="909 Fulton Street Southeast, Minneapolis, Minnesota, EE. UU.">
+                                        <input type="text" class="form-control" id="DeliveryLocation" name="DeliveryLocation" required="required" autocomplete="a">
                                     </div>
                                 </div>
 
@@ -85,7 +85,7 @@
 
                                     <div class="form-group label-floating destinoAddress" style="margin: 27px -66px 0 0;">
                                         <label class="control-label"> City<b class="text-danger">*</b></label>
-                                        <input type="text" class="form-control" id="DestinyCity" name="DestinyCity" required="required" autocomplete="a" value="Minneapolis">
+                                        <input type="text" class="form-control" id="DestinyCity" name="DestinyCity" required="required" autocomplete="a" >
                                     </div>
                                 </div>
 
@@ -93,7 +93,7 @@
 
                                     <div class="form-group label-floating destinoAddress" style="margin: 27px -66px 0 0;">
                                         <label class="control-label">State<b class="text-danger">*</b></label>
-                                        <input type="text" class="form-control" id="DestinyState" name="DestinyState" required="required" autocomplete="a" value="MN">
+                                        <input type="text" class="form-control" id="DestinyState" name="DestinyState" required="required" autocomplete="a" >
                                     </div>
                                 </div>
 
@@ -101,7 +101,7 @@
 
                                     <div class=" form-group label-floating destinoAddress" style=" margin: 27px -66px 0 0;">
                                         <label class="control-label">Zip Code<b class="text-danger">*</b></label>
-                                        <input type="text" class="form-control solo-numero" id="ZipCode2" name="ZipCode2" required="required" autocomplete="a" value="55455-4800">
+                                        <input type="text" class="form-control solo-numero" id="ZipCode2" name="ZipCode2" required="required" autocomplete="a" >
                                     </div>
                                 </div>
 
