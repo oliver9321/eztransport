@@ -102,12 +102,32 @@ function SendEmail(){
                 'email':  email,
                 'message': message
             }, success: function(response){
-                console.log(response);
+                if(response){
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Message sent',
+                        text: 'Thank you for trusting EZ AUTO TRANSPORTATION, We will be in contact with you soon'
+                    })
+
+                        $("#fullname").val("");
+                    $("#email").val("");
+                        $("#message").val("");
+                }else{
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'Error to send message'
+                    })
+                }
             }
         });
 
     }else{
-        alert("Complete all fields");
+        Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'Please complete all fields'
+                    })
     }
 
 }

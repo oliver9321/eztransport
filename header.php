@@ -27,7 +27,7 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/maxcdn.bootstrapcdn.css">
     <link rel="stylesheet" href="assets/css/material-bootstrap-wizard.css">
-
+    <link rel="stylesheet" href="assets/ThemaAlert/dist/sweetalert2.css">
 
     <!-- hover anmation -->
     <link rel="stylesheet" href="assets/css/hover-min.css">
