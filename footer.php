@@ -1,22 +1,26 @@
 	<footer class="layout-dark">
-	  <div class="copy-right">
-	    <div class="container padding-tb-15px">
-	      <div class="row">
-	        <div class="col-lg-6">
-	          <div class="copy-right-text text-lg-left text-center sm-mb-15px">© 2021 EZ AUTO TRANSPORTATION <a href="#"></a> - All rights reserved</div>
+	    <div class="copy-right">
+	        <div class="container padding-tb-15px">
+	            <div class="row">
+	                <div class="col-lg-6">
+	                    <div class="copy-right-text text-lg-left text-center sm-mb-15px">© 2021 EZ AUTO TRANSPORTATION <a
+	                            href="#"></a> - All rights reserved</div>
+	                </div>
+	                <div class="col-lg-6">
+	                    <!--  Social -->
+	                    <ul class="social-media list-inline text-lg-right text-center margin-0px text-white">
+	                        <li class="list-inline-item"><a class="facebook" href="<?=FACEBOOK?>" target="_blank"><i
+	                                    class="fa fa-facebook" aria-hidden="true"></i></a>
+	                        </li>
+	                        <li class="list-inline-item"><a class="instagram"
+	                                href="https://instagram.com/ezautotransportation?utm_medium=copy_link"
+	                                target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+	                    </ul>
+	                    <!-- // Social -->
+	                </div>
+	            </div>
 	        </div>
-	        <div class="col-lg-6">
-	          <!--  Social -->
-	          <ul class="social-media list-inline text-lg-right text-center margin-0px text-white">
-	            <li class="list-inline-item"><a class="facebook" href="https://m.facebook.com/ezautotransportation/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-	            </li>
-	            <li class="list-inline-item"><a class="instagram" href="https://instagram.com/ezautotransportation?utm_medium=copy_link" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-	          </ul>
-	          <!-- // Social -->
-	        </div>
-	      </div>
 	    </div>
-	  </div>
 	</footer>
 	<!-- jquery library  -->
 
@@ -55,7 +59,8 @@
 	<script src="assets/js/custom.js"></script>
 
 	<script src="assets/js/popper.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOHEjweqW61WAqGaXKZzuQS7sbOakgpT0&libraries=places"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOHEjweqW61WAqGaXKZzuQS7sbOakgpT0&libraries=places">
+	</script>
 
 	</body>
 
@@ -65,246 +70,247 @@
 	</html>
 
 	<script>
-	  $(document).ready(function() {
+$(document).ready(function() {
 
-	    $("#next").prop('disabled', true);
-	    $(".BloquiarClick").prop('disabled', true);
+    $("#next").prop('disabled', true);
+    $(".BloquiarClick").prop('disabled', true);
 
 
-	    $("#add-new").click(function() {
+    $("#add-new").click(function() {
 
-	      //Add row
-	      row = '';
-	      row += '<tr><td><select class="cssbordertable" required="required"><option disabled="" selected=""></option>' +
-	        '<option value="Open">Open</option>' +
-	        '<option value="Enclosed">Enclosed </option>' +
-	        '</select></td>' +
-	        '<td><select class="cssbordertable" required="required"><option disabled="" selected=""></option>' +
-	        '<option>Open</option>' +
-	        '<option>Enclosed </option></select></td>' +
-	        '<td><input type="number" class="cssbordertable"style="text-align: center;" ></td>';
+        //Add row
+        row = '';
+        row +=
+            '<tr><td><select class="cssbordertable" required="required"><option disabled="" selected=""></option>' +
+            '<option value="Open">Open</option>' +
+            '<option value="Enclosed">Enclosed </option>' +
+            '</select></td>' +
+            '<td><select class="cssbordertable" required="required"><option disabled="" selected=""></option>' +
+            '<option>Open</option>' +
+            '<option>Enclosed </option></select></td>' +
+            '<td><input type="number" class="cssbordertable"style="text-align: center;" ></td>';
 
-	      row += '<td style="text-align: center;"><a class="delete" title="Delete" data-toggle="tooltip"><i class="fa fa-trash fa-2x" aria-hidden="true"></i></a></td></tr>';
+        row +=
+            '<td style="text-align: center;"><a class="delete" title="Delete" data-toggle="tooltip"><i class="fa fa-trash fa-2x" aria-hidden="true"></i></a></td></tr>';
 
-	      $("tbody").append(row);
+        $("tbody").append(row);
 
-	    });
-	    // Delete row on delete button click
-	    $(document).on("click", ".delete", function() {
-	      $(this).parents("tr").remove();
-	      $(".add-new").removeAttr("disabled");
-	    });
+    });
+    // Delete row on delete button click
+    $(document).on("click", ".delete", function() {
+        $(this).parents("tr").remove();
+        $(".add-new").removeAttr("disabled");
+    });
 
-	  });
+});
 
 
-	  $("#PickUpLocation").keyup(function() {
+$("#PickUpLocation").keyup(function() {
 
-	    if ($("#PickUpLocation").val() != "" & $("#DeliveryLocation").val() != "") {
-	      $("#next").prop('disabled', false);
-	    }
-	    if ($("#exampleI").val() == "") {
-	      $("#next").prop('disabled', true);
-	    }
-	  });
+    if ($("#PickUpLocation").val() != "" & $("#DeliveryLocation").val() != "") {
+        $("#next").prop('disabled', false);
+    }
+    if ($("#exampleI").val() == "") {
+        $("#next").prop('disabled', true);
+    }
+});
 
-	  $("#DeliveryLocation").keyup(function() {
+$("#DeliveryLocation").keyup(function() {
 
-	    if ($("#PickUpLocation").val() != "" & $("#DeliveryLocation").val() != "") {
-	      $("#next").prop('disabled', false);
-	    }
-	    if ($("#DeliveryLocation").val() == "") {
-	      $("#next").prop('disabled', true);
-	    }
-	  });
+    if ($("#PickUpLocation").val() != "" & $("#DeliveryLocation").val() != "") {
+        $("#next").prop('disabled', false);
+    }
+    if ($("#DeliveryLocation").val() == "") {
+        $("#next").prop('disabled', true);
+    }
+});
 
 
 
 
 
-	  $("#DivRadioAuto").click(function() {
-	    $("#next").prop('disabled', false);
-	  });
-	  $("#DivRadioMotorcycle").click(function() {
-	    $("#next").prop('disabled', false);
-	  });
+$("#DivRadioAuto").click(function() {
+    $("#next").prop('disabled', false);
+});
+$("#DivRadioMotorcycle").click(function() {
+    $("#next").prop('disabled', false);
+});
 
 
-	  $("#previous").click(function() {
-	    $("#next").prop('disabled', false);
-	  });
+$("#previous").click(function() {
+    $("#next").prop('disabled', false);
+});
 
 
-	  $("#next").click(function() {
+$("#next").click(function() {
 
-	    if ($("#exapleI").val() == "") {
+    if ($("#exapleI").val() == "") {
 
-	      alert("Complete all fields(*)");
+        alert("Complete all fields(*)");
 
-	    } else {
-	      if ($("#RadioAuto").prop('checked') || $("#RadioMotorcycle").prop('checked')) {
+    } else {
+        if ($("#RadioAuto").prop('checked') || $("#RadioMotorcycle").prop('checked')) {
 
-	        $("#next").prop('disabled', true);
-	      };
-	    }
-	  });
+            $("#next").prop('disabled', true);
+        };
+    }
+});
 
-	  $("#DivRadioAuto").click(function() {
-	    $("#TypeV").empty();
-	    $("#TypeV").append(
+$("#DivRadioAuto").click(function() {
+    $("#TypeV").empty();
+    $("#TypeV").append(
 
-	      '<div class="col-sm-10 col-sm-offset-1 "> ' +
-	      '<div class="form-group label-floating"> ' +
-	      '<input type="text" class="form-control" id="TypeVehicle" name="TypeVehicle"  value="Auto" > ' +
-	      '</div> ' +
-	      '</div> '
+        '<div class="col-sm-10 col-sm-offset-1 "> ' +
+        '<div class="form-group label-floating"> ' +
+        '<input type="text" class="form-control" id="TypeVehicle" name="TypeVehicle"  value="Auto" > ' +
+        '</div> ' +
+        '</div> '
 
-	    );
+    );
 
-	    $("#TypeV").hide();
-	  });
-	  $("#DivRadioMotorcycle").click(function() {
-	    $("#TypeV").empty();
-	    $("#TypeV").show();
-	    $("#TypeV").append(
+    $("#TypeV").hide();
+});
+$("#DivRadioMotorcycle").click(function() {
+    $("#TypeV").empty();
+    $("#TypeV").show();
+    $("#TypeV").append(
 
 
-	      '  <div class="form-group label-floating">' +
-	      ' 	<label class="control-label">Select Vehicle*</label>' +
-	      ' 	<select class="form-control" id="TypeVehicle" name="TypeVehicle" required="required">' +
-	      '    	<option disabled="" selected=""></option>' +
-	      '    	<option>Motorcycle</option>' +
-	      '   	<option>ATV/UTV </option>' +
-	      '       <option>Other </option>' +
-	      ' 	</select>' +
-	      ' </div>'
+        '  <div class="form-group label-floating">' +
+        ' 	<label class="control-label">Select Vehicle*</label>' +
+        ' 	<select class="form-control" id="TypeVehicle" name="TypeVehicle" required="required">' +
+        '    	<option disabled="" selected=""></option>' +
+        '    	<option>Motorcycle</option>' +
+        '   	<option>ATV/UTV </option>' +
+        '       <option>Other </option>' +
+        ' 	</select>' +
+        ' </div>'
 
 
-	    );
+    );
 
-	  });
+});
 
-	  $("#PickUpLocation").change(function() {
+$("#PickUpLocation").change(function() {
 
-	    $(".originAdrees").addClass("is-focused");
+    $(".originAdrees").addClass("is-focused");
 
-	  });
+});
 
-	  $("#DeliveryLocation").change(function() {
+$("#DeliveryLocation").change(function() {
 
-	    $(".destinoAddress").addClass("is-focused");
+    $(".destinoAddress").addClass("is-focused");
 
-	  });
-        
-        
-          $("#search1").click(function() {
+});
 
-        $("#pendiente").empty();
-        $("#recojido").empty();
-        $("#entregado").empty();
-        $("#estado1").empty();
 
-        $("#pendiente1").removeClass("fa fa-road styleVerde");
-        $("#pendiente1").addClass("fa fa-road");
-        $("#recojido1").removeClass("fa fa-truck styleVerde");
-        $("#recojido1").addClass("fa fa-truck");
-        $("#entregado1").removeClass("fa fa-handshake-o styleVerde");
-        $("#entregado1").addClass("fa fa-handshake-o");
+$("#search1").click(function() {
 
-        $("#pendiente1").removeClass("fa fa-road styleRojo");
-        $("#pendiente1").addClass("fa fa-road");
-        $("#recojido1").removeClass("fa fa-truck styleRojo");
-        $("#recojido1").addClass("fa fa-truck");
-        $("#entregado1").removeClass("fa fa-handshake-o styleRojo");
-        $("#entregado1").addClass("fa fa-handshake-o");
-        $("#estado11").removeClass("fa fa-ban fa-1x fa-fw styleRojo");
-        $("#estado11").addClass("fa fa-ban fa-1x fa-fw");
+    $("#pendiente").empty();
+    $("#recojido").empty();
+    $("#entregado").empty();
+    $("#estado1").empty();
 
-        var OrderID = $("#buscar").val();
-        $("#StatusText").html("");
-        $.ajax({
-            type: 'POST',
-            dataType: "json",
-            crossDomain: true,
-            format: "json",
-            url: "./system/index.php?c=Orders&a=GetStatusOrder",
-            data: {
-                'OrderID': OrderID
-            }
-        }).then(function(response) {
+    $("#pendiente1").removeClass("fa fa-road styleVerde");
+    $("#pendiente1").addClass("fa fa-road");
+    $("#recojido1").removeClass("fa fa-truck styleVerde");
+    $("#recojido1").addClass("fa fa-truck");
+    $("#entregado1").removeClass("fa fa-handshake-o styleVerde");
+    $("#entregado1").addClass("fa fa-handshake-o");
 
-            if (response != "") {
+    $("#pendiente1").removeClass("fa fa-road styleRojo");
+    $("#pendiente1").addClass("fa fa-road");
+    $("#recojido1").removeClass("fa fa-truck styleRojo");
+    $("#recojido1").addClass("fa fa-truck");
+    $("#entregado1").removeClass("fa fa-handshake-o styleRojo");
+    $("#entregado1").addClass("fa fa-handshake-o");
+    $("#estado11").removeClass("fa fa-ban fa-1x fa-fw styleRojo");
+    $("#estado11").addClass("fa fa-ban fa-1x fa-fw");
 
-                var data = response.Status;
+    var OrderID = $("#buscar").val();
+    $("#StatusText").html("");
+    $.ajax({
+        type: 'POST',
+        dataType: "json",
+        crossDomain: true,
+        format: "json",
+        url: "http://localhost/ezautotransportation/index.php?c=Orders&a=GetStatusOrder",
+        data: {
+            'OrderID': OrderID
+        }
+    }).then(function(response) {
 
-                $("#StatusText").html("Hello <b>" + response.CustomerOrigin + "</b>, the status of your order is <b>" + data + "</b>");
+        if (response != "") {
 
-                switch (data) {
+            var data = response.Status;
 
-                    case "Pending":
+            $("#StatusText").html("Hello <b>" + response.CustomerOrigin +
+                "</b>, the status of your order is <b>" + data + "</b>");
 
-                        $("#pendiente").append('<img src="assets/icons/validate3.png">');
-                        $("#pendiente1").removeClass("fa fa-road");
-                        $("#pendiente1").addClass("fa fa-road styleVerde");
+            switch (data) {
 
-                        break;
+                case "Pending":
 
-                    case "Picked up":
+                    $("#pendiente").append('<img src="assets/icons/validate3.png">');
+                    $("#pendiente1").removeClass("fa fa-road");
+                    $("#pendiente1").addClass("fa fa-road styleVerde");
 
-                        $("#pendiente").append('<img src="assets/icons/validate3.png">');
-                        $("#recojido").append('<img src="assets/icons/validate3.png">');
+                    break;
 
-                        $("#pendiente1").removeClass("fa fa-road");
-                        $("#pendiente1").addClass("fa fa-road styleVerde");
-                        $("#recojido1").removeClass("fa fa-truck");
-                        $("#recojido1").addClass("fa fa-truck styleVerde");
-                        break;
+                case "Picked up":
 
-                    case "Delivered":
+                    $("#pendiente").append('<img src="assets/icons/validate3.png">');
+                    $("#recojido").append('<img src="assets/icons/validate3.png">');
 
-                        $("#pendiente").append('<img src="assets/icons/validate3.png">');
-                        $("#recojido").append('<img src="assets/icons/validate3.png">');
-                        $("#entregado").append('<img src="assets/icons/validate3.png">');
+                    $("#pendiente1").removeClass("fa fa-road");
+                    $("#pendiente1").addClass("fa fa-road styleVerde");
+                    $("#recojido1").removeClass("fa fa-truck");
+                    $("#recojido1").addClass("fa fa-truck styleVerde");
+                    break;
 
-                        $("#pendiente1").removeClass("fa fa-road");
-                        $("#pendiente1").addClass("fa fa-road styleVerde");
-                        $("#recojido1").removeClass("fa fa-truck");
-                        $("#recojido1").addClass("fa fa-truck styleVerde");
-                        $("#entregado1").removeClass("fa fa-handshake-o");
-                        $("#entregado1").addClass("fa fa-handshake-o styleVerde");
+                case "Delivered":
 
-                        break;
+                    $("#pendiente").append('<img src="assets/icons/validate3.png">');
+                    $("#recojido").append('<img src="assets/icons/validate3.png">');
+                    $("#entregado").append('<img src="assets/icons/validate3.png">');
 
-                    case "Cancelled":
+                    $("#pendiente1").removeClass("fa fa-road");
+                    $("#pendiente1").addClass("fa fa-road styleVerde");
+                    $("#recojido1").removeClass("fa fa-truck");
+                    $("#recojido1").addClass("fa fa-truck styleVerde");
+                    $("#entregado1").removeClass("fa fa-handshake-o");
+                    $("#entregado1").addClass("fa fa-handshake-o styleVerde");
 
-                        $("#estado1").append('<img src="assets/icons/close.png">');
+                    break;
 
-                        $("#pendiente1").removeClass("fa fa-road");
-                        $("#pendiente1").addClass("fa fa-road styleRojo");
-                        $("#recojido1").removeClass("fa fa-truck");
-                        $("#recojido1").addClass("fa fa-truck styleRojo");
-                        $("#entregado1").removeClass("fa fa-handshake-o");
-                        $("#entregado1").addClass("fa fa-handshake-o styleRojo");
-                        $("#estado11").removeClass("fa fa-cog fa-spin fa-1x fa-fw");
-                        $("#estado11").addClass("fa fa-cog fa-spin fa-1x fa-fw styleRojo");
-                        break;
+                case "Cancelled":
 
-                }
+                    $("#estado1").append('<img src="assets/icons/close.png">');
 
-            } else {
-                Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'This request is not registered.'
-                })
+                    $("#pendiente1").removeClass("fa fa-road");
+                    $("#pendiente1").addClass("fa fa-road styleRojo");
+                    $("#recojido1").removeClass("fa fa-truck");
+                    $("#recojido1").addClass("fa fa-truck styleRojo");
+                    $("#entregado1").removeClass("fa fa-handshake-o");
+                    $("#entregado1").addClass("fa fa-handshake-o styleRojo");
+                    $("#estado11").removeClass("fa fa-cog fa-spin fa-1x fa-fw");
+                    $("#estado11").addClass("fa fa-cog fa-spin fa-1x fa-fw styleRojo");
+                    break;
+
             }
 
+        } else {
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'This request is not registered.'
+            })
+        }
 
-        });
 
     });
 
-        
+});
 	</script>
 
 	<script src="assets/js/GoogleConsulta.js"></script>
