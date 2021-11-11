@@ -2,7 +2,6 @@
 <html lang="en-US">
 <head>
     <title>EZ Auto Transportation</title>
-    <meta name="author" content="Nile-Theme">
     <meta name="robots" content="index follow">
     <meta name="googlebot" content="index follow">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">

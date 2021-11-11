@@ -6,7 +6,6 @@ include 'core.php';
 
 <head>
     <title><?=NAME_PAGE.' - Home' ?></title>
-    <meta name="author" content="Nile-Theme">
     <meta name="robots" content="index follow">
     <meta name="googlebot" content="index follow">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -372,11 +371,6 @@ include 'core.php';
     </div>
 
 
-
-
-
-
-    <!--============= About Us =============-->
     <div class="nile-about-section">
         <div class="container">
             <div class="row">
