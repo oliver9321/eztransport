@@ -1,6 +1,6 @@
     <!-- Search  -->
     <div id="search">
-        <button type="button" class="close">×</button>
+        <button type="button"  id="closeModal" class="close">×</button>
 
         <form class="clearfix d-block" style="z-index: 99999 !important;">
             <center>

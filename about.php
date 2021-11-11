@@ -2,8 +2,6 @@
 include 'core.php';
 include("header.php");
 ?>
-<!-- // Get A Quote  -->
-
 
 <div class="page-title">
     <div class="container">
