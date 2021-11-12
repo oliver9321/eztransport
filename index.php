@@ -9,7 +9,7 @@ include 'core.php';
     <meta name="robots" content="index follow">
     <meta name="googlebot" content="index follow">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="keywords" content="cargo, clean, contractor, corporate, freight, industry, localization, logistics, modern, shipment, transport, transportation, truck, trucking">
+    <meta name="keywords" content="ez auto transportation, ez, ezautotransportation, ez auto, ez auto transportation usa, usa, transport, auto transportation, cargo, clean, contractor, corporate, freight, industry, localization, logistics, modern, shipment, transport, transportation, truck, trucking">
     <meta name="description" content="Transportation and Logistics">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- google fonts -->
