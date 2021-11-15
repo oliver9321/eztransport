@@ -100,7 +100,7 @@ include("header.php");
                         <div class="item">
                             <div class="img"><a href="#"><img style="  max-width:58%"
                                         src="assets/img/transportClose.jpg" alt=""></a></div>
-                            <b class="title" style="font-size:13px">Closed transport</b>
+                            <b class="title" style="font-size:13px">Enclosed transport</b>
 
                         </div>
                         <div class="item">

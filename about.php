@@ -42,7 +42,7 @@ include("header.php");
                         competitors and you will be pleased to find that our prices are fair and affordable.</b></p>
                 <p>
                     Work with <b>EZ Auto Transportation</b> nobody understands doing business online, efficient and fast
-                    like <b>EZ Auto Transportation</b>, we will work for you auto transportation between point A to
+                    like <b>EZ Auto Transportation</b>, we will work for your auto transportation between point A to
                     point B.</p>
                 <div class="section-title-right text-main-color clearfix">
                     <h3 class="title-text">WHO WE ARE</h3>
