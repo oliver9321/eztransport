@@ -362,6 +362,23 @@ $("#closeModal").click(function(){
 					$("#entregado1").addClass("fa fa-handshake-o");
 					$("#estado11").removeClass("fa fa-ban fa-1x fa-fw styleRojo");
 					$("#estado11").addClass("fa fa-ban fa-1x fa-fw");
+
+
+                    $("#PickUpLocation").val('');
+                     $("#OriginCity1").val('');
+                     $("#OriginState2").val('');
+                     $("#ZipCode").val('');  
+                     $("#DeliveryLocation").val('');
+                     $("#DestinyCity").val('');
+                     $("#DestinyState").val('');
+                     $("#ZipCode2").val('');
+                     $("#ShippingDate").val('');
+                     $("#FirstName").val('');
+                     $("#LastName").val('');
+                     $("#Phone").val('');
+                     $("#Email").val('');
+
+                    
 });
 
 </script>

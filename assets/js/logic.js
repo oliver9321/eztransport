@@ -50,13 +50,29 @@ function saveQuote(){
         },
         success: function(data) {
             $("#LoadingButton").hide();
-               if(data){
+             
+            if(data){
 
                     var response = JSON.parse(data);
                                
                     if(response.Error == false){
                         Swal.fire('The quote was sent',response.Message,'success');
                         $("#myModal").modal('hide');
+
+                       $("#PickUpLocation").val('');
+                     $("#OriginCity1").val('');
+                     $("#OriginState2").val('');
+                     $("#ZipCode").val('');  
+                     $("#DeliveryLocation").val('');
+                     $("#DestinyCity").val('');
+                     $("#DestinyState").val('');
+                     $("#ZipCode2").val('');
+                     $("#ShippingDate").val('');
+                     $("#FirstName").val('');
+                     $("#LastName").val('');
+                     $("#Phone").val('');
+                     $("#Email").val('');
+                   
 
                     }else{
                         Swal.fire('Error',response.Message,'error' );

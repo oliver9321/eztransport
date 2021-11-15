@@ -1,4 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="EN">
 
 <head>
@@ -30,8 +31,19 @@
                 margin-bottom: 69px;
                 margin-left: auto;
                 margin-right: auto;
-                width: 600px;
-                height: 1003px;
+                width: 70%;
+                height: auto;
+            }
+
+            .contentMainTable2 {
+                border: 1px solid #EEEEFF;
+                margin-top: 98px;
+                margin-bottom: 69px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+                height: auto;
+                text-align: center;
             }
 
             .ExternalClass,
@@ -152,74 +164,54 @@
             <tr>
                 <td align="center" valign="top">
                     <table border="0" cellpadding="20" cellspacing="0" width="100%" class="contentMainTable">
+
                         <tbody>
+
                             <tr>
                                 <td align="center" valign="top">
-
-                                    <img class="logoImage" height="200px" src="http://ezautotransportationusa.com/assets/img/Logo_Oficial.png" alt="#">
+                                    <center> <span class="isDesktop">
+                                            <h1>Quote #1</h1>
+                                        </span></center>
+                                    <div class="greyLine"></div>
+                                    <center>
+                                        <h3 style="padding-top: 1.5%;"><b>Customer: </b>'.$customer.' | <b>Shipping
+                                                Date:</b> '.$Quote->ShippingDate.'| <b>Phone:</b> '.$Quote->Phone.' |
+                                            <b>Email:</b> '.$Quote->Email.'</h3>
+                                    </center>
 
                                     <table border="0" cellpadding="20" cellspacing="0" width="100%" id="content">
+
                                         <tbody>
                                             <tr>
-                                                <td align="center" valign="top">
+                                                <td align="left" valign="top">
                                                     <span class="isDesktop">
-                                                        <h1 style="margin-bottom: 32px">EZ AUTO TRANSPORTATION</h1>
-                                                        <p style="margin-top:0px">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.X</p>
+                                                        <h2 class="font-weight-bold mb-4">Origin Location</h2>
+                                                        <p class="mb-1">'.$Quote->PickUpLocation.'</p>
+                                                        <p class="mb-1">'.$Quote->OriginState.'</p>
+                                                        <p class="mb-1">'.$Quote->OriginCity.'</p>
+                                                        <p class="mb-1">'.$Quote->OriginZipCode.'</p>
                                                     </span>
-                                                    <div class="greyLine">
-                                                    </div>
                                                 </td>
-                                            </tr>
-                                            <tr>
-                                                <td align="center" valign="top">
-                                                    <img src="https://api.elasticemail.com/userfile/a18de9fc-4724-42f2-b203-4992ceddc1de/security_illu.png"
-                                                        alt="#">
-                                                    <h2>Security </h2>
-                                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td align="center" valign="top">
-                                                    <img src="https://api.elasticemail.com/userfile/a18de9fc-4724-42f2-b203-4992ceddc1de/Mask_Group_2.png"
-                                                        alt="#">
-                                                    <h2>Settings
-                                                    </h2>
-                                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-                                                    </p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td align="center" valign="top">
-                                                    <a target="_blank"><button class="blueButton">See more</button></a>
-                                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                                                        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                                                        aliquyam erat.
-                                                    </p>
-                                                    <div class="greyLine">
-                                                    </div>
-                                                    <div class="footer">
-                                                        If you no longer wish to receive mail from us 2, you can
-                                                        <a href="{unsubscribe}" target="_blank">Unsubscribe</a>
-                                                        <br>
-                                                        {accountaddress}
-                                                    </div>
-                                                    <div class="footerIcons">
-                                                        <a href="http://facebook.com" target="_blank"><img
-                                                                src="https://api.elasticemail.com/userfile/a18de9fc-4724-42f2-b203-4992ceddc1de/facebook.png"
-                                                                alt="#"></a>
-                                                        <a href="http://twitter.com" target="_blank"><img
-                                                                src="https://api.elasticemail.com/userfile/a18de9fc-4724-42f2-b203-4992ceddc1de/twitter.png"
-                                                                alt="#"></a>
-                                                        <a href="http://youtube.com" target="_blank"><img
-                                                                src="https://api.elasticemail.com/userfile/a18de9fc-4724-42f2-b203-4992ceddc1de/youtube.png"
-                                                                alt="#"></a>
-                                                        <a href="http://linkedin.com" target="_blank"><img
-                                                                src="https://api.elasticemail.com/userfile/a18de9fc-4724-42f2-b203-4992ceddc1de/linkedin.png"
-                                                                alt="#"></a></div>
+
+                                                <td align="right" valign="top">
+                                                    <span class="isDesktop">
+                                                        <h2 class="font-weight-bold mb-4">Destination Location</h2>
+                                                        <p class="mb-1">'.$Quote->DeliveryLocation.'</p>
+                                                        <p class="mb-1">'.$Quote->DestinyState.'</p>
+                                                        <p class="mb-1">'.$Quote->DestinyCity.'</p>
+                                                        <p class="mb-1">'.$Quote->DestinyZipCode.'</p>
+                                                    </span>
                                                 </td>
                                             </tr>
                                         </tbody>
+
+                                      
+                                        <div class="greyLine"></div><br>
                                     </table>
+
+                                    <div class="greyLine"></div><br>
+                                    <center> <a target="_blank"><button class="blueButton">See quote</button></a>
+                                    </center>
                                 </td>
                             </tr>
                         </tbody>
