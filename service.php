@@ -32,7 +32,7 @@ include("header.php");
 
                 <div class="post-standard">
                     <div class="thum-img">
-                        <a href="#"><img src="assets/img/blog-7.jpg" alt=""></a>
+                        <a href="#"><img src="assets/img/patana.JPG" alt=""></a>
                     </div>
 
                     <div class="section-title-right text-main-color clearfix">
@@ -127,7 +127,7 @@ include("header.php");
                         <div class="row">
                             <div class="col-6 margin-bottom-20px"><a
                                     href="https://instagram.com/ezautotransportation?utm_medium=copy_link"><img
-                                        src="assets/img/IntagramFeed/Insta6.jpg" alt=""></a></div>
+                                        src="assets/img/IntagramFeed/Insta12.jpg" alt=""></a></div>
                             <div class="col-6 margin-bottom-20px"><a
                                     href="https://instagram.com/ezautotransportation?utm_medium=copy_link"><img
                                         src="assets/img/IntagramFeed/Insta1.jpg" alt=""></a></div>
@@ -136,7 +136,7 @@ include("header.php");
                                         src="assets/img/IntagramFeed/insta2.jpg" alt=""></a></div>
                             <div class="col-6 margin-bottom-20px"><a
                                     href="https://instagram.com/ezautotransportation?utm_medium=copy_link"><img
-                                        src="assets/img/IntagramFeed/Insta5.jpg" alt=""></a></div>
+                                        src="assets/img/IntagramFeed/Insta11.jpg" alt=""></a></div>
                         </div>
                     </div>
                 </div>

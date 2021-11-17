@@ -132,7 +132,7 @@ include("header.php");
 
 
                 <div class="margin-bottom-40px" style="background:#363535">
-                    <img src="assets/img/Truck.jpg" alt="">
+                    <img src="assets/img/Truck1.jpg" alt="">
 
                     <p style="color:white; padding: 20px; text-align: justify">When moving your vehicle, you need to
                         choose what type of transportation you would
